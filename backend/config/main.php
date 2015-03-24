@@ -29,6 +29,24 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+		'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'suffix' => '.php',
+            'rules' => [
+                '' => 'site/index',
+                
+                
+                '<action>'=>'site/<action>',
+            ],
+        ],  
+        'request' => [
+            'baseUrl' => '/admin'
+        ], 
+         'assetManager' => [
+             'basePath' => '@webroot/assets',
+             'baseUrl' => '@web/assets'
+        ],
     ],
     'params' => $params,
 ];

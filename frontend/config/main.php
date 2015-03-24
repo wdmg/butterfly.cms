@@ -28,6 +28,22 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'suffix'=>'/',
+            'rules' => [
+                '' => 'site/index',
+                '<action>'=>'site/<action>',
+            ],
+        ], 
+         'assetManager' => [
+             'basePath' => '@webroot/assets',
+             'baseUrl' => '@web/assets',
+        ],  
+        'request' => [
+            'baseUrl' => ''
+        ],
     ],
     'params' => $params,
 ];
