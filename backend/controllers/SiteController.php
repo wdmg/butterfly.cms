@@ -15,6 +15,7 @@ class SiteController extends Controller
     /**
      * @inheritdoc
      */
+    public $layout = 'main';
     public function behaviors()
     {
         return [
@@ -68,6 +69,7 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
             return $this->goBack();
         } else {
+            $this->layout = 'login'; // Set custom layout for login page (views/layouts/login.php)
             return $this->render('login', [
                 'model' => $model,
             ]);
