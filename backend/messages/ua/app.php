@@ -8,12 +8,24 @@
  *
  * NOTE, this file must be saved in UTF-8 encoding.
  *
- * @version $Id: $
+ * @language Ukrainian
+ * @version 1.01
  */
+
 return array (
-    'Authorization'=>'Авторизація',
-    'User authorization'=>'Авторизація користувача',
-    'Login'=>'Логін',
+    // Navbar and page translations
+    "Home"=>"Головна",
+    "Login"=>"Увійти",
+    "Logout ({username})"=>"Вийти ({username})",
+    "Authorization"=>"Авторизація",
+    "User authorization"=>"Авторизація користувача",
+    "Please fill out the following fields to login"=>"Будь ласка, заповніть наступні поля для входу",
+    "Username"=>"Логін",
+    "Password"=>"Пароль",
+    "Remember Me"=>"Запам'ятати мене",
+    // Input exception translations
+    "Field '{attribute}' cannot be blank"=>"Поле '{attribute}' не повинно бути порожнім",
+    "Incorrect username or password"=>"Некоректний логін або пароль",
 );
 
 ?>

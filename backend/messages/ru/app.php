@@ -8,12 +8,24 @@
  *
  * NOTE, this file must be saved in UTF-8 encoding.
  *
- * @version $Id: $
+ * @language Russian
+ * @version 1.01
  */
+
 return array (
-    'Authorization'=>'Авторизация',
-    'User authorization'=>'Авторизация пользователя',
-    'Login'=>'Логин',
+    // Navbar and page translations
+    "Home"=>"Главная",
+    "Login"=>"Войти",
+    "Logout ({username})"=>"Выйти ({username})",
+    "Authorization"=>"Авторизация",
+    "User authorization"=>"Авторизация пользователя",
+    "Please fill out the following fields to login"=>"Пожалуйста, заполните следующие поля для входа",
+    "Username"=>"Логин",
+    "Password"=>"Пароль",
+    "Remember Me"=>"Запомнить меня",
+    // Input exception translations
+    "Field '{attribute}' cannot be blank"=>"Поле '{attribute}' не должно быть пустым",
+    "Incorrect username or password"=>"Некорректный логин или пароль",
 );
 
 ?>
