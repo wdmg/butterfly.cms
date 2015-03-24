@@ -10,6 +10,10 @@
  *
  * @language Russian
  * @version 1.01
+ * @company W.D.M.Group, Ukraine <wdmg.com.ua@gmail.com>
+ * @author Alexsander Vyshnyvetskyy <alex.vyshnyvetskyy@gmail.com>
+ * @release 24/03/2015
+ * 
  */
 
 return array (
