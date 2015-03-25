@@ -17,16 +17,23 @@
  */
 
 return array (
+    // Base text translations
+    "Innovation Content Management System"=>"Інноваційна система управління контентом",
     // Navbar and page translations
     "Home"=>"Головна",
     "Login"=>"Увійти",
     "Logout ({username})"=>"Вийти ({username})",
     "Authorization"=>"Авторизація",
     "User authorization"=>"Авторизація користувача",
-    "Please fill out the following fields to login"=>"Будь ласка, заповніть наступні поля для входу",
+    "Please fill out the following fields to login"=>"Будь ласка, заповніть наступні поля для авторизації в адміністративному інтерфейсі",
     "Username"=>"Логін",
     "Password"=>"Пароль",
-    "Remember Me"=>"Запам'ятати мене",
+    "remember me"=>"запам'ятати мене",
+    "back to frontend"=>"повернутися до frontend`у",
+    "Select language"=>"Оберіть мову",
+    "English"=>"Англійська",
+    "Russian"=>"Російська",
+    "Ukrainian"=>"Український",
     // Input exception translations
     "Field '{attribute}' cannot be blank"=>"Поле '{attribute}' не повинно бути порожнім",
     "Incorrect username or password"=>"Некоректний логін або пароль",

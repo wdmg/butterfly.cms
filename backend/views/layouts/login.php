@@ -9,6 +9,9 @@ use yii\widgets\Breadcrumbs;
 /* @var $content string */
 
 AppAsset::register($this);
+$this->registerCssFile('@web/css/login.css');
+$this->registerJsFile('@web/js/login.js');
+
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -22,15 +25,9 @@ AppAsset::register($this);
 </head>
 <body>
     <?php $this->beginBody() ?>
-    <div class="wrap">
+    <div class="container">
         <?= $content ?>
-    </div>    
-    <footer class="footer">
-        <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
-        <p class="pull-right"><?= Yii::powered() ?></p>
-        </div>
-    </footer>
+    </div>
     <?php $this->endBody() ?>
 </body>
 </html>
