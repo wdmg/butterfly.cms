@@ -17,12 +17,13 @@
  */
 
 return array (
+    // Base text translations
     "Powered by"=>"Работает на",
     "Ukraine"=>"Украина",
     "Created by"=>"Разработано в",
-    "All Rights Reserved"=>"Все права защищены",
-    // Base text translations
+    "All Rights Reserved"=>"Все права защищены",    
     "Innovation Content Management System"=>"Инновационная система управления контентом",
+    
     // Navbar and page translations
     "Home"=>"Главная",
     "Login"=>"Войти",
@@ -33,11 +34,12 @@ return array (
     "Username"=>"Логин",
     "Password"=>"Пароль",
     "remember me"=>"запомнить меня",
-    "back to frontend"=>"вернуться в frontend",
+    "back to frontend"=>"вернуться к frontend`у",
     "Select language"=>"Выберите язык",
     "English"=>"Английский",
     "Russian"=>"Русский",
     "Ukrainian"=>"Украинский",
+    
     // Input exception translations
     "Field '{attribute}' cannot be blank"=>"Поле '{attribute}' не должно быть пустым",
     "Incorrect username or password"=>"Некорректный логин или пароль",

@@ -23,6 +23,7 @@ return array (
     "Created by"=>"Розроблено в",
     "All Rights Reserved"=>"Всі права застережено",
     "Innovation Content Management System"=>"Інноваційна система управління контентом",
+    
     // Navbar and page translations
     "Home"=>"Головна",
     "Login"=>"Увійти",
@@ -38,6 +39,7 @@ return array (
     "English"=>"Англійська",
     "Russian"=>"Російська",
     "Ukrainian"=>"Український",
+    
     // Input exception translations
     "Field '{attribute}' cannot be blank"=>"Поле '{attribute}' не повинно бути порожнім",
     "Incorrect username or password"=>"Некоректний логін або пароль",
