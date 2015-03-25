@@ -4,7 +4,8 @@ namespace backend\controllers;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
-use common\models\LoginForm;
+/*use common\models\LoginForm;*/
+use backend\models\LoginForm;
 use yii\filters\VerbFilter;
 
 /**
@@ -25,11 +26,12 @@ class SiteController extends Controller
                     [
                         'actions' => ['login', 'error'],
                         'allow' => true,
+                        'roles' => ['?'], // Guests will have access only to the shooter login and error
                     ],
                     [
-                        'actions' => ['logout', 'index'],
+                        /*'actions' => ['logout', 'index'],*/
                         'allow' => true,
-                        'roles' => ['@'],
+                        'roles' => ['moderator'], // Moderator and administrator have full access
                     ],
                 ],
             ],
