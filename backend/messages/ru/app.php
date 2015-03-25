@@ -17,6 +17,10 @@
  */
 
 return array (
+    "Powered by"=>"Работает на",
+    "Ukraine"=>"Украина",
+    "Created by"=>"Разработано в",
+    "All Rights Reserved"=>"Все права защищены",
     // Base text translations
     "Innovation Content Management System"=>"Инновационная система управления контентом",
     // Navbar and page translations

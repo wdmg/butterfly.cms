@@ -18,6 +18,10 @@
 
 return array (
     // Base text translations
+    "Powered by"=>"Працює на",
+    "Ukraine"=>"Україна",
+    "Created by"=>"Розроблено в",
+    "All Rights Reserved"=>"Всі права застережено",
     "Innovation Content Management System"=>"Інноваційна система управління контентом",
     // Navbar and page translations
     "Home"=>"Головна",

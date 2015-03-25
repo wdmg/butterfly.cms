@@ -13,6 +13,15 @@ Part: Main stylesheets
     margin: 0 auto;
     width: 100%;
 }
+.pull-left {
+    text-align: left;
+}
+.pull-center {
+    text-align: center;
+}
+.pull-right {
+    text-align: right;
+}
 
 /* Color and themes rules */
 .color-gray {

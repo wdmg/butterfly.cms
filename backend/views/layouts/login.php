@@ -28,6 +28,13 @@ $this->registerJsFile('@web/js/login.js');
     <div class="container">
         <?= $content ?>
     </div>
+    <footer class="footer navbar-fixed-bottom">
+        <div class="container">
+            <p class="col-md-4 pull-left"><?= Yii::t('app', 'Created by') ?> <a href="http://wdmg.com.ua/" target="_blank">W.D.M.Group</a>, <?= Yii::t('app', 'Ukraine') ?></p>
+            <p class="col-md-4 pull-center">&copy; <a href="<?= Yii::$app->urlManagerFrontEnd->createUrl('/') ?>">Butterfly.CMS</a>, <?= date('Y') ?></p>
+            <p class="col-md-4 pull-right"><?= Yii::t('app', 'Powered by') ?> <a href="http://www.yiiframework.com/" target="_blank">Yii Framework</a></p>
+        </div>
+    </footer>
     <?php $this->endBody() ?>
 </body>
 </html>

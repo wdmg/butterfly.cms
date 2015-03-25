@@ -35,7 +35,7 @@ $this->title = Yii::t('app', 'User authorization');
         <div id="auth-area" class="panel panel-default">
             <div class="panel-heading">
                 <img id="profile-img" class="user-img" src="/admin/img/logotypes/cms-logo-md.jpg" alt="Butterfly.CMS" title="Butterfly.CMS - <?= Yii::t('app', 'Innovation Content Management System') ?>" />
-                <p id="profile-name" class="user-name"><h3 class="centered"><img src="/admin/img/logotypes/cms-slogan-lg.png" alt="Butterfly.CMS" title="Butterfly.CMS - <?= Yii::t('app', 'Innovation Content Management System') ?>" /></h3></p>
+                <h3 id="profile-name" class="user-name centered"><img src="/admin/img/logotypes/cms-slogan-lg.png" alt="Butterfly.CMS" title="Butterfly.CMS - <?= Yii::t('app', 'Innovation Content Management System') ?>" /></h3>
             </div>
             <div class="panel-body">
                 <span id="reauth-email" class="reauth-email"></span>
