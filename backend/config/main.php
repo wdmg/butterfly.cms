@@ -35,11 +35,15 @@ return [
             'suffix' => '.php',
             'rules' => [
                 '' => 'site/index',
-                
-                
                 '<action>'=>'site/<action>',
             ],
-        ],  
+        ],
+        'urlManagerFrontEnd' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'class' => 'yii\web\urlManager',
+            'baseUrl' => '/',
+        ],
         'request' => [
             'baseUrl' => '/admin'
         ], 

@@ -1,0 +1,140 @@
+/*
+ * Product: Butterfly.CMS Admin Bootstrap Template
+ * URL: http://wdmg.com.ua/
+ * Designer: Alexsander Vyshnyvetskyy
+ * Version: 1.0
+ * Description: Specific styles of signin component
+ */
+
+body, html {
+    height: 100%;
+    background: url(../img/backgrounds/winter-bg-01.jpg) center center no-repeat;
+	/*-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+}
+.panel.panel-default {
+    background: #ffffff;
+    margin: 0 auto 25px;
+    width: 360px;
+    margin-top: 10% !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    -o-border-radius: 12px !important;
+    border-radius: 12px !important;
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4) !important;
+    -moz-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.47) !important;
+    -o-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4) !important;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4) !important;
+}
+.panel .panel-heading {
+    border: none !important;
+    background: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: -67px !important;
+}
+.panel .panel-body {
+    border: none !important;
+    background: none !important;
+    padding: 20px 20px;
+    padding-bottom: 10px;
+    margin: 0 !important;
+    
+}
+.panel .panel-footer {
+    padding: 20px 20px;
+    padding-bottom: 10px;
+    -webkit-border-radius: 0 0 12px 12px !important;
+    -moz-border-radius: 0 0 12px 12px !important;
+    -o-border-radius: 0 0 12px 12px !important;
+    border-radius: 0 0 12px 12px !important;
+    
+}
+.panel .panel-footer .link {
+    display: inline-block;
+    line-height: 32px;
+    width: 100%;
+}
+.panel .user-img {
+    width: 132px;
+    height: 132px;
+    margin: 0 auto 10px;
+    padding: 6px;
+    background: #ffffff;
+    outline: 0;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.045),0 0 8px rgb(104, 145, 162);
+    -mozo-box-shadow: inset 0 1px 1px rgba(0,0,0,.045),0 0 8px rgb(104, 145, 162);
+    -o-box-shadow: inset 0 1px 1px rgba(0,0,0,.045),0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.045),0 0 8px rgb(104, 145, 162);
+}
+.panel .user-name {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+/* Form Input Styles */
+.form-signin input[type=text],
+.form-signin input[type=password] {
+    direction: ltr;
+    height: 44px;
+    font-size: 16px;
+}
+.form-signin input[type=text],
+.form-signin input[type=password],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin input[type=text]:focus,
+.form-signin input[type=password]:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    -mozo-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    -o-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+.form-signin .checkbox {
+    line-height: 36px;
+}
+.form-signin .checkbox .control-label {
+    padding-right: 0px;
+}
+.form-signin .checkbox input[type=checkbox] {
+    margin-top: 12px;
+}
+.btn {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+.reauth-email {
+    display: block;
+    color: #404040;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}

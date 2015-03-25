@@ -12,6 +12,7 @@ class LoginForm extends Model
     public $username;
     public $password;
     public $rememberMe = true;
+    public $language;
 
     private $_user = false;
 
@@ -22,17 +23,23 @@ class LoginForm extends Model
     public function rules()
     {
         return [
-            // username are both required
+            // Username are both required
             [['username'], 'required',
                 'message'=>Yii::t('app', "Field '{attribute}' cannot be blank", ['attribute' => Yii::t('app', 'Username')]),
             ],
-            // password are both required
+            
+            // Password are both required
             [['password'], 'required',
                 'message'=>Yii::t('app', "Field '{attribute}' cannot be blank", ['attribute' => Yii::t('app', 'Password')]),
             ],
-            // rememberMe must be a boolean value
+            
+            // RememberMe must be a boolean value
             ['rememberMe', 'boolean'],
-            // password is validated by validatePassword()
+            
+            // Select language
+            ['language', 'string'],
+            
+            // Password is validated by validatePassword()
             ['password', 'validatePassword'],
         ];
     }
