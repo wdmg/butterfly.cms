@@ -40,7 +40,7 @@ $this->title = Yii::t('app', 'User authorization');
             <div class="panel-body">
                 <span id="reauth-email" class="reauth-email"></span>
                 <?= $form->field($model, 'username')->input('text',['value'=>'','placeholder'=>Yii::t('app', 'Username')]) ?>
-                <?= $form->field($model, 'password')->input('text',['value'=>'','placeholder'=>Yii::t('app', 'Password')]) ?>
+                <?= $form->field($model, 'password')->input('password',['value'=>'','placeholder'=>Yii::t('app', 'Password')]) ?>
                 <?= $form->field($model, 'rememberMe')->checkbox()->label('- '.Yii::t('app', 'remember me'), ['class' => 'control-label col-sm-6']) ?>
                 <?= ButtonDropdown::widget([
                     'label' => Yii::t('app', 'Select language'),
