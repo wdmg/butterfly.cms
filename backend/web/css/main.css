@@ -180,6 +180,34 @@ fieldset[disabled] .btn-danger.active {
 	background-color: #f9243f;
 	border-color: #f9243f;
 }
+.form-group .help-block {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+/* Tooltips styles */
+.tooltip.top .tooltip-arrow {
+    border-top-color: #30bbf6 !important;
+}
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #30bbf6 !important;
+}
+.tooltip.left .tooltip-arrow {
+    border-left-color: #30bbf6 !important;
+}
+.tooltip.right .tooltip-arrow {
+    border-right-color: #30bbf6 !important;
+}
+.tooltip .tooltip-inner {
+    background-color: #30bbf6 !important;
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2) !important;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2) !important;
+    -o-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2) !important;
+}
+.tooltip.in { 
+    opacity: 1 !important;
+}
 
 /* Add stripped animation to submit button on click */
 .btn-striped {
@@ -204,6 +232,9 @@ fieldset[disabled] .btn-danger.active {
 @keyframes btn-stripes{from{background-position:0 0;} to{background-position:40px 0;}}
 
 /* Dropdown buttons */
+.btn-group .dropdown-toggle {
+    background: #f1f1f1 !important;
+}
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
     color: #fff;
     text-decoration: none;

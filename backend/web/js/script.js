@@ -7,4 +7,6 @@ $(document).ready(function() {
             $button.removeClass('btn-striped').removeClass('btn-active'); 
         },1000);
     });
+    
+    $('[rel=tooltip]').tooltip() 
 });

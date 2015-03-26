@@ -14,11 +14,24 @@ body, html {
 	-o-background-size: cover;
 	background-size: cover;*/
 }
+.container {
+    display: table !important;
+    width: 100% !important;
+    height: 100% !important;
+    vertical-align: middle !important;
+}
+.vertical-center {
+    display: table-cell;
+    float: none;
+    margin: 0 auto;
+}
+
+
 .panel.panel-default {
     background: #ffffff;
     margin: 0 auto 25px;
     width: 360px;
-    margin-top: 10% !important;
+    margin-top: 8% !important;
     -webkit-border-radius: 12px !important;
     -moz-border-radius: 12px !important;
     -o-border-radius: 12px !important;
@@ -28,12 +41,23 @@ body, html {
     -o-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4) !important;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4) !important;
 }
+.panel .panel-helper {
+    float: right;
+    margin-top: 5px;
+    margin-right: 8px;
+    font-size: 22px;
+    color: #cccccc;
+}
+.panel .panel-helper:hover, .panel .panel-helper:focus {
+    color: #30bbf6;    
+}
 .panel .panel-heading {
     border: none !important;
     background: none !important;
     padding: 0 !important;
     margin: 0 !important;
     margin-top: -67px !important;
+    margin-bottom: -10px !important;
 }
 .panel .panel-body {
     border: none !important;
