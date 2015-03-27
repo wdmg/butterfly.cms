@@ -1,3 +1,13 @@
+
+/* Init butterfly preloader */
+$(window).load(function() {
+    $('.preloader').animate({'opacity':0},1000,
+        function (){
+            $(this).css('display','none');
+            $(this).remove();
+        });
+});
+    
 $(document).ready(function() {
     /* Add stripped animation to button on submit */
     $("button[type='submit']").click(function(e){
@@ -8,5 +18,7 @@ $(document).ready(function() {
         },1000);
     });
     
-    $('[rel=tooltip]').tooltip() 
+    /* Init tooltips */
+    $('[rel=tooltip]').tooltip();
+    
 });

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 180 160" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+	<mask id="canvasMask"><rect x="0" y="0" width="180px" height="160px" fill="#FFFFFF" stroke="none" /></mask>
+    <filter id="dropShadow" style="color-interpolation-filters:sRGB;">
+      <feFlood flood-opacity="0.24" flood-color="rgb(0,0,0)" result="flood" />
+      <feComposite in2="SourceGraphic" in="flood" operator="in" result="composite1" />
+      <feOffset dx="32" dy="32" result="offset" />
+      <feComposite in2="offset" in="SourceGraphic" operator="over" result="composite2" />
+    </filter>
+</defs>
+<rect fill="rgba(255,255,255,0.0)" stroke="none" x="0" y="0" width="180px" height="160px" />
+<g id="idae8dbfd3c6aa3c5e1fe69c02" mask="url(#canvasMask)">
+	<g id="idc86a51321998665c75e07280" visibility="hidden">
+		<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+		<animateTransform attributeName="transform" type="translate" additive="replace" begin="0s; loop.end" dur="5s" repeatCount="1" fill="none" from="0.0 0.0" to="0.0 0.0" calcMode="discrete" />
+		<animateTransform attributeName="transform" type="translate" additive="sum" begin="0s; loop.end" dur="5s" repeatCount="1" fill="none" from="-0.0 -0.0" to="-0.0 -0.0" calcMode="discrete" />
+		<g id="id8df4a4d048f193941402159f" visibility="hidden" style="filter:url(#dropShadow)">
+			<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="0s; loop.end" dur="1s" repeatCount="1" fill="none" from="91.155 115.441" to="91.155 115.441" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="1s; loop.end + 1s" dur="0.7s" repeatCount="1" fill="none" from="91.155 115.441" to="91.155 115.441" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="1.7s; loop.end + 1.7s" dur="0.8s" repeatCount="1" fill="none" from="91.155 115.441" to="90.64 115.437" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="2.5s; loop.end + 2.5s" dur="0.5s" repeatCount="1" fill="none" from="90.64 115.437" to="91.155 115.441" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="3s; loop.end + 3s" dur="0.7999999999999998s" repeatCount="1" fill="none" from="91.155 115.441" to="91.155 115.441" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="3.8s; loop.end + 3.8s" dur="0.7000000000000002s" repeatCount="1" fill="none" from="91.155 115.441" to="91.155 115.441" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="4.5s; loop.end + 4.5s" dur="0.5s" repeatCount="1" fill="none" from="91.155 115.441" to="91.155 115.441" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="5s; loop.end + 5s" dur="0s" repeatCount="1" fill="none" from="91.155 115.441" to="91.155 115.441" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="0s; loop.end" dur="1s" repeatCount="1" fill="none" from="0.03668883283650539 0.036688810156480664" to="0.0245384832268087 0.036688810156480664" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="1s; loop.end + 1s" dur="0.7s" repeatCount="1" fill="none" from="0.0245384832268087 0.036688810156480664" to="0.03668883283650539 0.036688810156480664" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="1.7s; loop.end + 1.7s" dur="0.8s" repeatCount="1" fill="none" from="0.03668883283650539 0.036688810156480664" to="0.04284834238173829 0.036688810156480664" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="2.5s; loop.end + 2.5s" dur="0.5s" repeatCount="1" fill="none" from="0.04284834238173829 0.036688810156480664" to="0.03668883283650539 0.036688810156480664" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="3s; loop.end + 3s" dur="0.7999999999999998s" repeatCount="1" fill="none" from="0.03668883283650539 0.036688810156480664" to="0.02982017336765377 0.036688810156480664" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="3.8s; loop.end + 3.8s" dur="0.7000000000000002s" repeatCount="1" fill="none" from="0.02982017336765377 0.036688810156480664" to="0.031932849423991785 0.036688810156480664" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="4.5s; loop.end + 4.5s" dur="0.5s" repeatCount="1" fill="none" from="0.031932849423991785 0.036688810156480664" to="0.03668883283650539 0.036688810156480664" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="5s; loop.end + 5s" dur="0s" repeatCount="1" fill="none" from="0.03668883283650539 0.03668883283650539" to="0.03668883283650539 0.03668883283650539" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="0s; loop.end" dur="1s" repeatCount="1" fill="none" from="-10149.0 -17564.5" to="-10149.0 -17564.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="1s; loop.end + 1s" dur="0.7s" repeatCount="1" fill="none" from="-10149.0 -17564.5" to="-10149.0 -17564.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="1.7s; loop.end + 1.7s" dur="0.8s" repeatCount="1" fill="none" from="-10149.0 -17564.5" to="-10149.0 -17564.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="2.5s; loop.end + 2.5s" dur="0.5s" repeatCount="1" fill="none" from="-10149.0 -17564.5" to="-10149.0 -17564.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="3s; loop.end + 3s" dur="0.7999999999999998s" repeatCount="1" fill="none" from="-10149.0 -17564.5" to="-10149.0 -17564.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="3.8s; loop.end + 3.8s" dur="0.7000000000000002s" repeatCount="1" fill="none" from="-10149.0 -17564.5" to="-10149.0 -17564.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="4.5s; loop.end + 4.5s" dur="0.5s" repeatCount="1" fill="none" from="-10149.0 -17564.5" to="-10149.0 -17564.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="5s; loop.end + 5s" dur="0s" repeatCount="1" fill="none" from="-10149.0 -17564.5" to="-10149.0 -17564.5" calcMode="discrete" />		
+			<path id="id1968f1f7f41410bee7a047dc" d="M 10149,17204 L 11356,17963 L 10243,16837 L 10243,16837 L 10149,17204 M 10149,17204 Z" style="fill: #2ebbf7; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id1a0c561a0b495a037eb4bb41" d="M 11316,17233 L 10894,16940 L 11356,17963 L 10149,17204 L 11053,18292 L 11356,17963 L 11316,17233 M 11316,17233 Z" style="fill: #27a6e1; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id2ba72eb888f2db3eab6fba9d" d="M 10894,16940 L 10243,16837 L 11356,17963 L 10894,16940 M 10894,16940 Z" style="fill: #73d3fb; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id7c274061e59d3b1b28df3a46" d="M 11053,18292 L 10149,17204 L 10434,17990 L 11053,18292 M 11053,18292 Z" style="fill: #1b7eb5; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="idb4d72a3476a25b2e4467815f" d="M 11569,17963 L 11316,17233 L 11356,17963 L 11569,17963 M 11569,17963 Z" style="fill: #1b7eb5; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+		</g>
+		<g id="id525427e92e359e2cfcbc954d" visibility="hidden" style="filter:url(#dropShadow)">
+			<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="0s; loop.end" dur="1s" repeatCount="1" fill="none" from="91.412 59.527" to="91.412 59.527" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="1s; loop.end + 1s" dur="0.7s" repeatCount="1" fill="none" from="91.412 59.527" to="91.412 59.527" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="1.7s; loop.end + 1.7s" dur="0.8s" repeatCount="1" fill="none" from="91.412 59.527" to="91.0 59.527" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="2.5s; loop.end + 2.5s" dur="0.5s" repeatCount="1" fill="none" from="91.0 59.527" to="91.412 59.527" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="3s; loop.end + 3s" dur="1s" repeatCount="1" fill="none" from="91.412 59.527" to="91.412 59.527" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="4s; loop.end + 4s" dur="0.5s" repeatCount="1" fill="none" from="91.412 59.527" to="91.412 59.527" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="4.5s; loop.end + 4.5s" dur="0.5s" repeatCount="1" fill="none" from="91.412 59.527" to="91.412 59.527" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="5s; loop.end + 5s" dur="0s" repeatCount="1" fill="none" from="91.412 59.527" to="91.412 59.527" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="0s; loop.end" dur="1s" repeatCount="1" fill="none" from="0.03668883283650539 0.03668883283650539" to="0.028985912395991045 0.03668883283650539" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="1s; loop.end + 1s" dur="0.7s" repeatCount="1" fill="none" from="0.028985912395991045 0.03668883283650539" to="0.03668883283650539 0.03668883283650539" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="1.7s; loop.end + 1.7s" dur="0.8s" repeatCount="1" fill="none" from="0.03668883283650539 0.03668883283650539" to="0.03855640726060355 0.03668883283650539" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="2.5s; loop.end + 2.5s" dur="0.5s" repeatCount="1" fill="none" from="0.03855640726060355 0.03668883283650539" to="0.03668883283650539 0.03668883283650539" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="3s; loop.end + 3s" dur="1s" repeatCount="1" fill="none" from="0.03668883283650539 0.03668883283650539" to="0.025484511835766943 0.03668883283650539" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="4s; loop.end + 4s" dur="0.5s" repeatCount="1" fill="none" from="0.025484511835766943 0.03668883283650539" to="0.032954166364245016 0.03668883283650539" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="4.5s; loop.end + 4.5s" dur="0.5s" repeatCount="1" fill="none" from="0.032954166364245016 0.03668883283650539" to="0.03668883283650539 0.03668883283650539" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="5s; loop.end + 5s" dur="0s" repeatCount="1" fill="none" from="0.03668883283650539 0.03668883283650539" to="0.03668883283650539 0.03668883283650539" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="0s; loop.end" dur="1s" repeatCount="1" fill="none" from="-10156.0 -16040.5" to="-10156.0 -16040.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="1s; loop.end + 1s" dur="0.7s" repeatCount="1" fill="none" from="-10156.0 -16040.5" to="-10156.0 -16040.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="1.7s; loop.end + 1.7s" dur="0.8s" repeatCount="1" fill="none" from="-10156.0 -16040.5" to="-10156.0 -16040.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="2.5s; loop.end + 2.5s" dur="0.5s" repeatCount="1" fill="none" from="-10156.0 -16040.5" to="-10156.0 -16040.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="3s; loop.end + 3s" dur="1s" repeatCount="1" fill="none" from="-10156.0 -16040.5" to="-10156.0 -16040.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="4s; loop.end + 4s" dur="0.5s" repeatCount="1" fill="none" from="-10156.0 -16040.5" to="-10156.0 -16040.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="4.5s; loop.end + 4.5s" dur="0.5s" repeatCount="1" fill="none" from="-10156.0 -16040.5" to="-10156.0 -16040.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="5s; loop.end + 5s" dur="0s" repeatCount="1" fill="none" from="-10156.0 -16040.5" to="-10156.0 -16040.5" calcMode="discrete" />
+			<path id="idb249d6894ec2f31f89ca17d8" d="M 11933,15158 C 11594,15698 11234,16268 10895,16807 L 11315,16923 L 11933,15158 L 11933,15158 M 11933,15158 Z" style="fill: #2ebbf7; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id5ce787a7d62e0e1f6879bf62" d="M 11315,16923 L 12298,15533 L 11933,15158 L 11315,16923 M 11315,16923 Z" style="fill: #27a6e1; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id0c689f5fa08f3995687cd9e2" d="M 10894,15365 L 10275,15899 L 10156,16016 L 11933,15158 L 10894,15365 M 10894,15365 Z" style="fill: #73d3fb; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id64d792c9f19dfc2baa5d6cea" d="M 10895,16807 L 11933,15158 L 10243,16837 L 10895,16807 M 10895,16807 Z" style="fill: #1b7eb5; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id71e38e3e26f672b414129f4f" d="M 10156,16016 L 10156,16016 L 10243,16837 L 11933,15158 L 10156,16016 M 10156,16016 Z" style="fill: #2ebbf7; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+		</g>
+		<g id="idb67373b9f8da4bc04d979d55" visibility="hidden" style="filter:url(#dropShadow)">
+			<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="0s; loop.end" dur="1.2s" repeatCount="1" fill="none" from="88.843 115.441" to="88.843 115.441" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="1.2s; loop.end + 1.2s" dur="0.5s" repeatCount="1" fill="none" from="88.843 115.441" to="88.843 115.441" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="1.7s; loop.end + 1.7s" dur="0.8s" repeatCount="1" fill="none" from="88.843 115.441" to="89.233 115.49900000000001" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="2.5s; loop.end + 2.5s" dur="0.5s" repeatCount="1" fill="none" from="89.234 115.5" to="88.844 115.442" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="3s; loop.end + 3s" dur="0.6000000000000001s" repeatCount="1" fill="none" from="88.843 115.441" to="88.843 115.441" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="3.6s; loop.end + 3.6s" dur="0.8999999999999999s" repeatCount="1" fill="none" from="88.843 115.441" to="88.843 115.441" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="4.5s; loop.end + 4.5s" dur="0.5s" repeatCount="1" fill="none" from="88.843 115.441" to="88.843 115.441" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="5s; loop.end + 5s" dur="0s" repeatCount="1" fill="none" from="88.843 115.441" to="88.843 115.441" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="0s; loop.end" dur="1.2s" repeatCount="1" fill="none" from="0.03668883283650539 0.036688810156480664" to="0.021721096724811217 0.036688810156480664" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="1.2s; loop.end + 1.2s" dur="0.5s" repeatCount="1" fill="none" from="0.021721096724811217 0.036688810156480664" to="0.03668883283650539 0.036688810156480664" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="1.7s; loop.end + 1.7s" dur="0.8s" repeatCount="1" fill="none" from="0.03668883283650539 0.036688810156480664" to="0.0410872939079098 0.036688810156480664" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="2.5s; loop.end + 2.5s" dur="0.5s" repeatCount="1" fill="none" from="0.0410872939079098 0.036688810156480664" to="0.03668883283650539 0.036688810156480664" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="3s; loop.end + 3s" dur="0.6000000000000001s" repeatCount="1" fill="none" from="0.03668883283650539 0.036688810156480664" to="0.0262985615135436 0.036688810156480664" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="3.6s; loop.end + 3.6s" dur="0.8999999999999999s" repeatCount="1" fill="none" from="0.0262985615135436 0.036688810156480664" to="0.030523913626219656 0.036688810156480664" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="4.5s; loop.end + 4.5s" dur="0.5s" repeatCount="1" fill="none" from="0.030523913626219656 0.036688810156480664" to="0.03668883283650539 0.036688810156480664" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="5s; loop.end + 5s" dur="0s" repeatCount="1" fill="none" from="0.03668883283650539 0.03668883283650539" to="0.03668883283650539 0.03668883283650539" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="0s; loop.end" dur="1.2s" repeatCount="1" fill="none" from="-10086.0 -17564.5" to="-10086.0 -17564.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="1.2s; loop.end + 1.2s" dur="0.5s" repeatCount="1" fill="none" from="-10086.0 -17564.5" to="-10086.0 -17564.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="1.7s; loop.end + 1.7s" dur="0.8s" repeatCount="1" fill="none" from="-10086.0 -17564.5" to="-10086.0 -17564.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="2.5s; loop.end + 2.5s" dur="0.5s" repeatCount="1" fill="none" from="-10086.0 -17564.5" to="-10086.0 -17564.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="3s; loop.end + 3s" dur="0.6000000000000001s" repeatCount="1" fill="none" from="-10086.0 -17564.5" to="-10086.0 -17564.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="3.6s; loop.end + 3.6s" dur="0.8999999999999999s" repeatCount="1" fill="none" from="-10086.0 -17564.5" to="-10086.0 -17564.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="4.5s; loop.end + 4.5s" dur="0.5s" repeatCount="1" fill="none" from="-10086.0 -17564.5" to="-10086.0 -17564.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="5s; loop.end + 5s" dur="0s" repeatCount="1" fill="none" from="-10086.0 -17564.5" to="-10086.0 -17564.5" calcMode="discrete" />
+			<path id="idcd02585e90745b5cddda641b" d="M 9992,16837 L 10086,17204 L 8880,17963 L 9992,16837 M 9992,16837 Z" style="fill: #2ebbf7; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id6b675b88a504c055836b220c" d="M 8919,17233 L 9341,16940 L 8880,17963 L 10086,17204 L 9183,18292 L 8880,17963 L 8919,17233 M 8919,17233 Z" style="fill: #27a6e1; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="idde9769e8a9cef28023bf69bd" d="M 9341,16940 L 9992,16837 L 8880,17963 L 9341,16940 M 9341,16940 Z" style="fill: #73d3fb; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="idb7b2953a872933f6d80eab69" d="M 9183,18292 L 10086,17204 L 9802,17990 L 9183,18292 M 9183,18292 Z" style="fill: #1b7eb5; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id4a49aca6aa7a72b8ac4d2e54" d="M 8666,17963 L 8919,17233 L 8880,17963 L 8666,17963 M 8666,17963 Z" style="fill: #1b7eb5; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+		</g>
+		<g id="id108beca8c46f275e2d3bdd34" visibility="hidden" style="filter:url(#dropShadow)">
+			<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="0s; loop.end" dur="1s" repeatCount="1" fill="none" from="88.623 59.527" to="88.623 59.527" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="1s; loop.end + 1s" dur="0.6000000000000001s" repeatCount="1" fill="none" from="88.623 59.527" to="88.623 59.527" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="1.6s; loop.end + 1.6s" dur="0.8999999999999999s" repeatCount="1" fill="none" from="88.623 59.527" to="88.99900000000001 59.527" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="2.5s; loop.end + 2.5s" dur="0.7000000000000002s" repeatCount="1" fill="none" from="89.0 59.527" to="88.624 59.527" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="3.2s; loop.end + 3.2s" dur="0.5999999999999996s" repeatCount="1" fill="none" from="88.623 59.527" to="88.623 59.527" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="3.8s; loop.end + 3.8s" dur="0.7000000000000002s" repeatCount="1" fill="none" from="88.623 59.527" to="88.623 59.527" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="4.5s; loop.end + 4.5s" dur="0.5s" repeatCount="1" fill="none" from="88.623 59.527" to="88.623 59.527" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="5s; loop.end + 5s" dur="0s" repeatCount="1" fill="none" from="88.623 59.527" to="88.623 59.527" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="0s; loop.end" dur="1s" repeatCount="1" fill="none" from="0.03668883283650539 0.03668883283650539" to="0.027355960966968143 0.03668883283650539" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="1s; loop.end + 1s" dur="0.6000000000000001s" repeatCount="1" fill="none" from="0.027355960966968143 0.03668883283650539" to="0.036864209052729816 0.03668895184135977" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="1.6s; loop.end + 1.6s" dur="0.8999999999999999s" repeatCount="1" fill="none" from="0.036864209052729816 0.03668895184135977" to="0.04065507435940864 0.03668895184135977" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="2.5s; loop.end + 2.5s" dur="0.7000000000000002s" repeatCount="1" fill="none" from="0.04065507435940864 0.03668895184135977" to="0.036864209052729816 0.03668895184135977" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="3.2s; loop.end + 3.2s" dur="0.5999999999999996s" repeatCount="1" fill="none" from="0.036864209052729816 0.03668895184135977" to="0.027064862342510498 0.03668895184135977" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="3.8s; loop.end + 3.8s" dur="0.7000000000000002s" repeatCount="1" fill="none" from="0.027064862342510498 0.03668895184135977" to="0.03155568098563358 0.03668895184135977" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="4.5s; loop.end + 4.5s" dur="0.5s" repeatCount="1" fill="none" from="0.03155568098563358 0.03668895184135977" to="0.036864209052729816 0.03668895184135977" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="5s; loop.end + 5s" dur="0s" repeatCount="1" fill="none" from="0.036864209052729816 0.036864209052729816" to="0.036864209052729816 0.036864209052729816" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="0s; loop.end" dur="1s" repeatCount="1" fill="none" from="-10080.0 -16040.5" to="-10080.0 -16040.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="1s; loop.end + 1s" dur="0.6000000000000001s" repeatCount="1" fill="none" from="-10080.0 -16040.5" to="-10080.0 -16040.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="1.6s; loop.end + 1.6s" dur="0.8999999999999999s" repeatCount="1" fill="none" from="-10080.0 -16040.5" to="-10080.0 -16040.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="2.5s; loop.end + 2.5s" dur="0.7000000000000002s" repeatCount="1" fill="none" from="-10080.0 -16040.5" to="-10080.0 -16040.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="3.2s; loop.end + 3.2s" dur="0.5999999999999996s" repeatCount="1" fill="none" from="-10080.0 -16040.5" to="-10080.0 -16040.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="3.8s; loop.end + 3.8s" dur="0.7000000000000002s" repeatCount="1" fill="none" from="-10080.0 -16040.5" to="-10080.0 -16040.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="4.5s; loop.end + 4.5s" dur="0.5s" repeatCount="1" fill="none" from="-10080.0 -16040.5" to="-10080.0 -16040.5" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="5s; loop.end + 5s" dur="0s" repeatCount="1" fill="none" from="-10080.0 -16040.5" to="-10080.0 -16040.5" calcMode="discrete" />
+			<path id="idf977f540234fea475c615397" d="M 8303,15158 C 8641,15698 9001,16268 9341,16807 L 8920,16923 L 8303,15158 L 8303,15158 M 8303,15158 Z" style="fill: #2ebbf7; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id43fe0664a70e4b192ded9b55" d="M 8920,16923 L 7937,15533 L 8303,15158 L 8920,16923 M 8920,16923 Z" style="fill: #27a6e1; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="idb4ce08d2682323674e61f487" d="M 9341,15365 L 9961,15899 L 10080,16016 L 8303,15158 L 9341,15365 M 9341,15365 Z" style="fill: #73d3fb; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id3874f821b6360b86a20ffab7" d="M 9341,16807 L 8303,15158 L 9992,16837 L 9341,16807 M 9341,16807 Z" style="fill: #1b7eb5; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id2da82c6d6194a16e23531a58" d="M 9992,16837 L 8303,15158 L 10080,16016 L 9992,16837 M 9992,16837 Z" style="fill: #2ebbf7; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+		</g>
+		<g id="id1fcf61e69cdb8b5bcf1e3739" visibility="hidden" style="filter:url(#dropShadow)">
+			<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			<animateTransform attributeName="transform" type="translate" additive="replace" begin="0s; loop.end" dur="5s" repeatCount="1" fill="none" from="89.981 75.652" to="89.981 75.652" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="scale" additive="sum" begin="0s; loop.end" dur="5s" repeatCount="1" fill="none" from="0.03668883283650539 0.03668883283650539" to="0.03668883283650539 0.03668883283650539" calcMode="discrete" />
+			<animateTransform attributeName="transform" type="translate" additive="sum" begin="0s; loop.end" dur="5s" repeatCount="1" fill="none" from="-10117.0 -16480.0" to="-10117.0 -16480.0" calcMode="discrete" />
+			<path id="id548bc878cb68e3c2073d9444" d="M 9961,15899 L 9339,14905 L 10004,15842 L 9961,15899 M 9961,15899 Z" style="fill: #2ebbf7; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id8bfae31d23e75a0216e5f830" d="M 10080,16016 L 10004,15842 L 10117,15786 L 10232,15842 L 10156,16016 L 10118,15785 L 10080,16016 M 10080,16016 Z" style="fill: #27a6e1; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="idaf81de8076b26363dd6d879e" d="M 10036,17343 L 10086,17204 L 10117,17173 L 10149,17203 L 10199,17343 L 10116,18055 L 10036,17343 M 10036,17343 Z" style="fill: #27a6e1; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="idc8cc92f313f400ddd3c5e909" d="M 10117,15976 L 10156,16016 L 10243,16837 L 10149,17204 L 10117,17173 L 10086,17204 L 9992,16837 L 10080,16016 L 10117,15976 M 10117,15976 Z" style="fill: #73d3fb; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="idd15303c697e4c8e2e613fd02" d="M 10004,15842 L 10080,16016 L 10080,16016 C 10042,15978 9997,15938 9961,15899 L 10004,15842 L 10004,15842 M 10004,15842 Z" style="fill: #1b7eb5; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id9ca2a5320fd277e35653ae03" d="M 10275,15899 L 10895,14907 L 10232,15842 L 10275,15899 M 10275,15899 Z" style="fill: #2ebbf7; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id965bac44e05a22b98c093a74" d="M 10275,15899 L 10232,15842 L 10156,16016 L 10275,15899 M 10275,15899 Z" style="fill: #1b7eb5; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="id33b51a93225144a4e9a5acaf" d="M 10232,15842 L 10156,16016 L 10156,16016 C 10194,15978 10238,15938 10275,15899 L 10232,15842 L 10232,15842 M 10232,15842 Z" style="fill: #1b7eb5; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="idf0d46f7e8de25b82cf23914b" d="M 10156,16016 L 10117,15976 L 10080,16016 L 10118,15785 L 10156,16016 M 10156,16016 Z" style="fill: #2ebbf7; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+			<path id="idec67da318da5f54de4e4a82f" d="M 10117,16712 L 10242,16837 L 10117,16963 L 9992,16837 L 10117,16712 M 10117,16712 Z" style="fill: #2ebbf7; fill-opacity: 1.0; stroke: none" visibility="hidden">
+				<set attributeName="visibility" attributeType="CSS" to="visible" begin="0s; loop.end" fill="none" />
+			</path>
+		</g>
+	</g>
+</g>
+<rect id="looper" x="0" y="0" width="1" height="1" style="fill: none; stroke: none">
+	<set id="loop" attributeName="x" to="0" begin="0s; loop.end" dur="5.001s" fill="none" />
+</rect>
+<script><![CDATA[
+      var document = null;
+      var root = null;
+      var scheduler = null;
+      var schedulerEnabled = (navigator.userAgent.indexOf('Safari') != -1) && (navigator.userAgent.indexOf('Chrome') == -1);
+      var currentEvent = 0;
+      var previousTime = 0;
+      var nextTime = 0;
+
+      function initialize(event)
+      {
+         document = event.target.ownerDocument;
+         root = document.documentElement;
+         if (schedulerEnabled && events.length > 0) {
+             var event = events[currentEvent];
+             while (currentEvent < events.length && events[currentEvent]["time"] == 0) { 
+                 processEvent();
+                 currentEvent += 1;
+             }
+             if (currentEvent < events.length) {
+                 var time = events[currentEvent]["time"];
+                 nextTime = time;
+                 scheduler = setTimeout(processSchedule, time - previousTime);
+             }
+         }
+      };
+
+      function freeze()
+      {
+         root.pauseAnimations();
+      };
+
+      function processSchedule()
+      {
+         if (currentEvent < events.length) {
+             var event = events[currentEvent];
+             previousTime = nextTime;
+             while (currentEvent < events.length && events[currentEvent]["time"] == nextTime) { 
+                 processEvent();
+                 currentEvent += 1;
+             }
+             if (currentEvent < events.length) {
+                 var time = events[currentEvent]["time"];
+                 nextTime = time;
+                 scheduler = setTimeout(processSchedule, time - previousTime);
+             }
+         }
+      };
+
+      function processEvent()
+      {
+         var event = events[currentEvent];
+         if ("audio_start" in event) { 
+             event = event["audio_start"];
+             var id = event["id"];
+             var audio = document.getElementById(id);
+             if (audio != undefined)
+                 audio.play();
+         }
+         else if ("audio_stop" in event) { 
+             event = event["audio_stop"];
+             var id = event["id"];
+             var audio = document.getElementById(id);
+             if (audio != undefined) {
+                 audio.pause();
+                 audio.currentTime = 0;
+             }
+         }
+         else if ("pause" in event) { 
+             event = event["pause"];
+             freeze();
+         }
+      };
+
+    var events = [{"time": 4650,"pause": {}}]
+]]></script></svg>

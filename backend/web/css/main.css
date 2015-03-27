@@ -6,6 +6,26 @@ Version: 1.0
 Part: Main stylesheets
 */
 
+/* Preloader */
+.preloader {
+    display: block;
+    background: rgba(255,255,255,0.6);
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+    overflow: hidden;
+}
+.preloader img {
+    display: inline-block;
+    margin-top: 20%;
+    width: 20%;
+    height: 20%; 
+}
+
 /* Text and aligment rules */
 .centered {
     display: inline-block;

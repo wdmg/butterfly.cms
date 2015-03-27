@@ -21,6 +21,7 @@ AppAsset::register($this);
     <?php $this->head() ?>
 </head>
 <body>
+    <div class="preloader"><img id="preloader" alt="Loading..." src="<?= Yii::$app->homeUrl.'/img/loading.svg' ?>" /></div>
     <?php $this->beginBody() ?>
     <div class="wrap">
         <?php
@@ -65,7 +66,6 @@ AppAsset::register($this);
         <p class="pull-right"><?= Yii::powered() ?></p>
         </div>
     </footer>
-
     <?php $this->endBody() ?>
 </body>
 </html>
