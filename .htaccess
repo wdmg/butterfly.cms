@@ -13,6 +13,8 @@ IndexIgnore */*
     RewriteRule ^admin/css/(.*)$ backend/web/css/$1 [L]
     RewriteRule ^admin/js/(.*)$ backend/web/js/$1 [L]
 
+    RewriteRule ^gii/ index.php?r=gii [QSA,L]
+    
     RewriteCond %{REQUEST_URI} !^/backend/web/(assets|css|js|img)/
     RewriteCond %{REQUEST_URI} ^/(admin)
     RewriteRule ^.*$ backend/web/index.php [L]
@@ -23,6 +25,8 @@ IndexIgnore */*
     RewriteRule ^js/(.*)$ frontend/web/js/$1 [L]
     RewriteRule ^img/(.*)$ frontend/web/img/$1 [L]
     RewriteRule ^(.*)$ frontend/web/$1 [L]
+    
+    RewriteRule ^gii/ index.php?r=gii [QSA,L]
 
     RewriteCond %{REQUEST_URI} !^/(frontend|backend)/web/(assets|css|js|img)/
     RewriteCond %{REQUEST_URI} !index.php

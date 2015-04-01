@@ -3,7 +3,7 @@ namespace backend\models;
 
 use Yii;
 use yii\base\Model;
-use common\models\User;
+use common\models\Users;
 
 /**
  * Login form
@@ -85,7 +85,7 @@ class LoginForm extends Model
     {
         if ($this->_user === false) {
             //Находим пользователя в БД по логину или эл.почте
-            $this->_user = User::find()->andWhere(
+            $this->_user = Users::find()->andWhere(
                 ['or', ['username' => $this->username],
                 ['email' => $this->username]]
             )->one();

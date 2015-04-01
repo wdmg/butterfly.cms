@@ -27,9 +27,9 @@ $this->title = Yii::t('app', 'User authorization');
             'fieldConfig' => ['template' => '{beginWrapper}{input}<div class="col-sm-12 centered">{error}</div>{endWrapper}'],
         ]); ?>
         <div id="auth-area" class="panel panel-default">
-            <a href="#" class="panel-helper" rel="tooltip" data-placement="bottom" data-original-title="<?= Html::encode(Yii::t('app', 'Please fill out the following fields to login')) ?>">
+            <!--a href="#" class="panel-helper" rel="tooltip" data-placement="bottom" data-original-title="<?= Html::encode(Yii::t('app', 'Please fill out the following fields to login')) ?>">
                 <span class="glyphicon glyphicon-question-sign"></span>
-            </a>
+            </a-->
             <div class="panel-heading">
                 <img id="profile-img" class="user-img" src="/admin/img/logotypes/cms-logo-md.jpg" alt="Butterfly.CMS" title="Butterfly.CMS - <?= Yii::t('app', 'Innovation Content Management System') ?>" />
                 <h3 id="profile-name" class="user-name centered"><img src="/admin/img/logotypes/cms-slogan-lg.png" alt="Butterfly.CMS" title="Butterfly.CMS - <?= Yii::t('app', 'Innovation Content Management System') ?>" /></h3>

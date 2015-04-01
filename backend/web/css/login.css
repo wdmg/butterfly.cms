@@ -8,7 +8,7 @@
 
 body, html {
     height: 100%;
-    background: url(../img/backgrounds/winter-bg-01.jpg) center center no-repeat;
+    background: url('../img/backgrounds/winter-bg-01.jpg') center center no-repeat #f1f4f7 !important;
 	/*-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -31,7 +31,7 @@ body, html {
     background: #ffffff;
     margin: 0 auto 25px;
     width: 360px;
-    margin-top: 8% !important;
+    margin-top: 4% !important;
     -webkit-border-radius: 12px !important;
     -moz-border-radius: 12px !important;
     -o-border-radius: 12px !important;

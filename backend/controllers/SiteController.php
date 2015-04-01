@@ -58,6 +58,7 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
+        $this->layout = 'dashboard'; // Set custom layout for dashboard (views/layouts/dashboard.php)
         return $this->render('index');
     }
 

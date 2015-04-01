@@ -8,9 +8,9 @@ use yii\widgets\Breadcrumbs;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
+$this->registerCssFile('@web/css/login.css', ['position'=>'POS_END'], 'login-css');
+$this->registerJsFile('@web/js/login.js', ['position'=>'POS_END'], 'login-js');
 AppAsset::register($this);
-$this->registerCssFile('@web/css/login.css');
-$this->registerJsFile('@web/js/login.js');
 
 ?>
 <?php $this->beginPage() ?>
