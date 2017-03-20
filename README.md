@@ -1,99 +1,208 @@
-Yii 2 Advanced Application Template
-===================================
+Yii 2 Basic Project Template
+============================
 
-Yii 2 Advanced Application Template is a skeleton Yii 2 application best for
-developing complex Web applications with multiple tiers.
+Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
+rapidly creating small projects.
 
-The template includes three tiers: front end, back end, and console, each of which
-is a separate Yii application.
+The template contains the basic features including user login/logout and a contact page.
+It includes all commonly used configurations that would allow you to focus on adding new
+features to your application.
 
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
-
+[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-basic/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-basic)
+[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-app-basic/downloads.png)](https://packagist.org/packages/yiisoft/yii2-app-basic)
+[![Build Status](https://travis-ci.org/yiisoft/yii2-app-basic.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-app-basic)
 
 DIRECTORY STRUCTURE
 -------------------
 
-```
-common
-    config/              contains shared configurations
-    mail/                contains view files for e-mails
-    models/              contains model classes used in both backend and frontend
-console
-    config/              contains console configurations
-    controllers/         contains console controllers (commands)
-    migrations/          contains database migrations
-    models/              contains console-specific model classes
-    runtime/             contains files generated during runtime
-backend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains backend configurations
-    controllers/         contains Web controller classes
-    models/              contains backend-specific model classes
-    runtime/             contains files generated during runtime
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-frontend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains frontend configurations
-    controllers/         contains Web controller classes
-    models/              contains frontend-specific model classes
-    runtime/             contains files generated during runtime
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-    widgets/             contains frontend widgets
-vendor/                  contains dependent 3rd-party packages
-environments/            contains environment-based overrides
-tests                    contains various tests for the advanced application
-    codeception/         contains tests developed with Codeception PHP Testing Framework
-```
+      assets/             contains assets definition
+      commands/           contains console commands (controllers)
+      config/             contains application configurations
+      controllers/        contains Web controller classes
+      mail/               contains view files for e-mails
+      models/             contains model classes
+      runtime/            contains files generated during runtime
+      tests/              contains various tests for the basic application
+      vendor/             contains dependent 3rd-party packages
+      views/              contains view files for the Web application
+      web/                contains the entry script and Web resources
+
 
 
 REQUIREMENTS
 ------------
 
-The minimum requirement by this application template that your Web server supports PHP 5.4.0.
+The minimum requirement by this project template that your Web server supports PHP 5.4.0.
 
 
 INSTALLATION
 ------------
-
-### Install from an Archive File
-
-Extract the archive file downloaded from [yiiframework.com](http://www.yiiframework.com/download/) to
-a directory named `advanced` that is directly under the Web root.
-
-Then follow the instructions given in "GETTING STARTED".
-
 
 ### Install via Composer
 
 If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
 at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 
-You can then install the application using the following command:
+You can then install this project template using the following command:
 
 ~~~
-php composer.phar global require "fxp/composer-asset-plugin:1.0.0"
-php composer.phar create-project --prefer-dist --stability=dev yiisoft/yii2-app-advanced advanced
+php composer.phar global require "fxp/composer-asset-plugin:^1.2.0"
+php composer.phar create-project --prefer-dist --stability=dev yiisoft/yii2-app-basic basic
+~~~
+
+Now you should be able to access the application through the following URL, assuming `basic` is the directory
+directly under the Web root.
+
+~~~
+http://localhost/basic/web/
 ~~~
 
 
-GETTING STARTED
----------------
+### Install from an Archive File
 
-After you install the application, you have to conduct the following steps to initialize
-the installed application. You only need to do these once for all.
+Extract the archive file downloaded from [yiiframework.com](http://www.yiiframework.com/download/) to
+a directory named `basic` that is directly under the Web root.
 
-1. Run command `init` to initialize the application with a specific environment.
-2. Create a new database and adjust the `components['db']` configuration in `common/config/main-local.php` accordingly.
-3. Apply migrations with console command `yii migrate`. This will create tables needed for the application to work.
-4. Set document roots of your Web server:
+Set cookie validation key in `config/web.php` file to some random secret string:
 
-- for frontend `/path/to/yii-application/frontend/web/` and using the URL `http://frontend/`
-- for backend `/path/to/yii-application/backend/web/` and using the URL `http://backend/`
+```php
+'request' => [
+    // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
+    'cookieValidationKey' => '<secret random string goes here>',
+],
+```
 
-To login into the application, you need to first sign up, with any of your email address, username and password.
-Then, you can login into the application with same email address and password at any time.
+You can then access the application through the following URL:
 
-[![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
+~~~
+http://localhost/basic/web/
+~~~
+
+
+CONFIGURATION
+-------------
+
+### Database
+
+Edit the file `config/db.php` with real data, for example:
+
+```php
+return [
+    'class' => 'yii\db\Connection',
+    'dsn' => 'mysql:host=localhost;dbname=yii2basic',
+    'username' => 'root',
+    'password' => '1234',
+    'charset' => 'utf8',
+];
+```
+
+**NOTES:**
+- Yii won't create the database for you, this has to be done manually before you can access it.
+- Check and edit the other files in the `config/` directory to customize your application as required.
+- Refer to the README in the `tests` directory for information specific to basic application tests.
+
+
+
+TESTING
+-------
+
+Tests are located in `tests` directory. They are developed with [Codeception PHP Testing Framework](http://codeception.com/).
+By default there are 3 test suites:
+
+- `unit`
+- `functional`
+- `acceptance`
+
+Tests can be executed by running
+
+```
+vendor/bin/codecept run
+``` 
+
+The command above will execute unit and functional tests. Unit tests are testing the system components, while functional
+tests are for testing user interaction. Acceptance tests are disabled by default as they require additional setup since
+they perform testing in real browser. 
+
+
+### Running  acceptance tests
+
+To execute acceptance tests do the following:  
+
+1. Rename `tests/acceptance.suite.yml.example` to `tests/acceptance.suite.yml` to enable suite configuration
+
+2. Replace `codeception/base` package in `composer.json` with `codeception/codeception` to install full featured
+   version of Codeception
+
+3. Update dependencies with Composer 
+
+    ```
+    composer update  
+    ```
+
+4. Download [Selenium Server](http://www.seleniumhq.org/download/) and launch it:
+
+    ```
+    java -jar ~/selenium-server-standalone-x.xx.x.jar
+    ```
+
+    In case of using Selenium Server 3.0 with Firefox browser since v48 or Google Chrome since v53 you must download [GeckoDriver](https://github.com/mozilla/geckodriver/releases) or [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads) and launch Selenium with it:
+
+    ```
+    # for Firefox
+    java -jar -Dwebdriver.gecko.driver=~/geckodriver ~/selenium-server-standalone-3.xx.x.jar
+    
+    # for Google Chrome
+    java -jar -Dwebdriver.chrome.driver=~/chromedriver ~/selenium-server-standalone-3.xx.x.jar
+    ``` 
+    
+    As an alternative way you can use already configured Docker container with older versions of Selenium and Firefox:
+    
+    ```
+    docker run --net=host selenium/standalone-firefox:2.53.0
+    ```
+
+5. (Optional) Create `yii2_basic_tests` database and update it by applying migrations if you have them.
+
+   ```
+   tests/bin/yii migrate
+   ```
+
+   The database configuration can be found at `config/test_db.php`.
+
+
+6. Start web server:
+
+    ```
+    tests/bin/yii serve
+    ```
+
+7. Now you can run all available tests
+
+   ```
+   # run all available tests
+   vendor/bin/codecept run
+
+   # run acceptance tests
+   vendor/bin/codecept run acceptance
+
+   # run only unit and functional tests
+   vendor/bin/codecept run unit,functional
+   ```
+
+### Code coverage support
+
+By default, code coverage is disabled in `codeception.yml` configuration file, you should uncomment needed rows to be able
+to collect code coverage. You can run your tests and collect coverage with the following command:
+
+```
+#collect coverage for all tests
+vendor/bin/codecept run -- --coverage-html --coverage-xml
+
+#collect coverage only for unit tests
+vendor/bin/codecept run unit -- --coverage-html --coverage-xml
+
+#collect coverage for unit and functional tests
+vendor/bin/codecept run functional,unit -- --coverage-html --coverage-xml
+```
+
+You can see code coverage output under the `tests/_output` directory.
