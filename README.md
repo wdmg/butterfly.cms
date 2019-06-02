@@ -28,9 +28,10 @@ Innovative Content Management System
 * [Yii2 Votes](https://github.com/wdmg/wdmg/yii2-votes)
 
 # Installation
-To install the module, run the following command in the console:
+To install the app, run the following command in the console:
 
-`$ composer require "wdmg/butterfly.cms"`
+`$ composer create-project --prefer-dist wdmg/butterfly.cms example.com`
 
 # Status and version [in progress development]
+* v.1.0.2 - Update README.md
 * v.1.0.0 - First pre-release
