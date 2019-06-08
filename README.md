@@ -1,11 +1,17 @@
-[![Progress](https://img.shields.io/badge/required-Yii2_v2.0.13-blue.svg)](https://packagist.org/packages/yiisoft/yii2) [![Github all releases](https://img.shields.io/github/downloads/wdmg/butterfly.cms/total.svg)](https://GitHub.com/wdmg/butterfly.cms/releases/) [![GitHub version](https://badge.fury.io/gh/wdmg%2Fbutterfly.cms.svg)](https://github.com/wdmg/butterfly.cms) ![Progress](https://img.shields.io/badge/progress-in_development-red.svg) [![GitHub license](https://img.shields.io/github/license/wdmg/butterfly.cms.svg)](https://github.com/wdmg/butterfly.cms/blob/master/LICENSE)
+<p align="center">
+    <a href="https://butterflycms.com/" target="_blank">
+        <img src="./docs/images/logotype.png" width="320" alt="Butterfly.CMS" />
+    </a>
+</p>
 
-# Butterfly.CMS
-Innovative Content Management System
+Innovative Content Management System based on Yii2 framework. And it's all. A little patience...😉
+
+[![Progress](https://img.shields.io/badge/required-Yii2_v2.0.13-blue.svg)](https://packagist.org/packages/yiisoft/yii2) [![Github all releases](https://img.shields.io/github/downloads/wdmg/butterfly.cms/total.svg)](https://GitHub.com/wdmg/butterfly.cms/releases/) [![GitHub version](https://badge.fury.io/gh/wdmg%2Fbutterfly.cms.svg)](https://github.com/wdmg/butterfly.cms) ![Progress](https://img.shields.io/badge/progress-in_development-red.svg) [![GitHub license](https://img.shields.io/github/license/wdmg/butterfly.cms.svg)](https://github.com/wdmg/butterfly.cms/blob/master/LICENSE)
 
 # Requirements 
 * PHP 5.6 or higher
-* [Yii2](hhttps://github.com/yiisoft/yii2) v.2.0.19 and newest
+* [Yii2](hhttps://github.com/yiisoft/yii2) v.2.0.20 and newest
+* [Yii2 Base](https://github.com/wdmg/yii2-base)
 * [Yii2 Admin](https://github.com/wdmg/wdmg/yii2-admin)
 * [Yii2 Activity](https://github.com/wdmg/wdmg/yii2-activity)
 * [Yii2 API](https://github.com/wdmg/wdmg/yii2-api)
@@ -32,6 +38,12 @@ To install the app, run the following command in the console:
 
 `$ composer create-project --prefer-dist wdmg/butterfly.cms example.com`
 
+# Migrations
+After configure db connection, run the following command in the console for apply migrations:
+
+`$ php yii migrate`
+
 # Status and version [in progress development]
+* v.1.0.3 - Update README.md and dependencies
 * v.1.0.2 - Update README.md
 * v.1.0.0 - First pre-release
