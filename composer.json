@@ -55,6 +55,9 @@
             "enabled": false
         }
     },
+    "post-create-project-cmd": [
+        "php init"
+    ],
     "repositories": [
         {
             "type": "composer",

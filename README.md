@@ -39,6 +39,10 @@ To install the app, run the following command`s in the console:
     $ composer create-project --prefer-dist wdmg/butterfly.cms example.com
     $ cd example.com
     $ php init
+    
+...or use automatic mode:
+    
+    $ php init --env=development --overwrite=y --dbhost=localhost --dbtype=mysql --dbcharset=utf8 --dbname=example --dbuser=root --dbpassword=root
 
 # Migrations
 After set of environment and configure db connection, run the following commands in the console for apply migrations:

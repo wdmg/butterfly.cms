@@ -33,7 +33,7 @@
  */
 
 return [
-    'Development' => [
+    'development' => [
         'path' => 'dev',
         'setWritable' => [
             'runtime',
@@ -50,7 +50,7 @@ return [
             'config/db.php',
         ],
     ],
-    'Production' => [
+    'production' => [
         'path' => 'prod',
         'setWritable' => [
             'runtime',
