@@ -34,14 +34,16 @@ Innovative Content Management System based on Yii2 framework. And it's all. A li
 * [Yii2 Votes](https://github.com/wdmg/wdmg/yii2-votes)
 
 # Installation
-To install the app, run the following command in the console:
+To install the app, run the following command`s in the console:
 
-`$ composer create-project --prefer-dist wdmg/butterfly.cms example.com`
+    $ composer create-project --prefer-dist wdmg/butterfly.cms example.com
+    $ cd example.com
+    $ php init
 
 # Migrations
-After configure db connection, run the following command in the console for apply migrations:
+After set of environment and configure db connection, run the following commands in the console for apply migrations:
 
-`$ php yii migrate`
+    $ php yii migrate
 
 # Status and version [in progress development]
 * v.1.0.3 - Update README.md and dependencies

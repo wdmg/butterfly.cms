@@ -21,6 +21,9 @@
  *         'setCookieValidationKey' => [
  *             // list of config files that need to be inserted with automatically generated cookie validation keys
  *         ],
+ *         'setDbConnection' => [
+ *             // list of db config files that need to be inserted with database connection options
+ *         ],
  *         'createSymlink' => [
  *             // list of symlinks to be created. Keys are symlinks, and values are the targets.
  *         ],
@@ -28,6 +31,7 @@
  * ];
  * ```
  */
+
 return [
     'Development' => [
         'path' => 'dev',
@@ -42,6 +46,9 @@ return [
         'setCookieValidationKey' => [
             'config/web.php',
         ],
+        'setDbConnection' => [
+            'config/db.php',
+        ],
     ],
     'Production' => [
         'path' => 'prod',
@@ -54,6 +61,9 @@ return [
         ],
         'setCookieValidationKey' => [
             'config/web.php',
+        ],
+        'setDbConnection' => [
+            'config/db.php',
         ],
     ],
 ];
