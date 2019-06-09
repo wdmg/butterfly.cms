@@ -42,12 +42,12 @@ To install the app, run the following command`s in the console:
     
 ...or use automatic mode:
     
-    $ php init --env=development --overwrite=y --dbhost=localhost --dbtype=mysql --dbcharset=utf8 --dbname=example --dbuser=root --dbpassword=root
+    $ php init --env=development --overwrite=y --dbhost=localhost --dbtype=mysql --dbcharset=utf8 --dbname=example --dbuser=root --dbpassword=root --migrations=y
 
 # Migrations
 After set of environment and configure db connection, run the following commands in the console for apply migrations:
 
-    $ php yii migrate
+    $ php yii admin/init
 
 # Status and version [in progress development]
 * v.1.0.3 - Update README.md and dependencies

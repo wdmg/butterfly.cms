@@ -160,6 +160,20 @@ if (empty($params['dbhost'])) {
         $db['password'] = $params['dbpassword'];
 }
 
+$migrations = false;
+if (empty($params['migrations'])) {
+    echo "\033[1;33m" . "\nApply modules migrations after initialization? [yes|no]: " . "\033[0m";
+    $choice = trim(fgets(STDIN));
+    if (!strncasecmp($choice, 'n', 1)) {
+        $migrations = true;
+    }
+} else {
+    $choice = !empty($params['migrations']) ? $params['migrations'] : trim(fgets(STDIN));
+    if (!strncasecmp($choice, 'y', 1)) {
+        $migrations = true;
+    }
+}
+
 echo "\033[0;32m" . "Start initialization...\n\n" . "\033[0m";
 
 $files = getFileList("$rootPath/environments/{$env['path']}");
@@ -187,6 +201,10 @@ foreach ($callbacks as $callback) {
 }
 
 echo "\033[0;32m" . "\n... initialization completed.\n\n" . "\033[0m";
+
+if ($migrations) {
+    exec('php yii admin/init --choice=1');
+}
 
 function getFileList($rootPath, $basePath = '')
 {
