@@ -50,6 +50,5 @@ After set of environment and configure db connection, run the following commands
     $ php yii admin/init
 
 # Status and version [in progress development]
+* v.1.0.4 - Added run migration's and table's prefix for init
 * v.1.0.3 - Update README.md and dependencies
-* v.1.0.2 - Update README.md
-* v.1.0.0 - First pre-release
