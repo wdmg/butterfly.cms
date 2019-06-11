@@ -213,7 +213,7 @@ foreach ($callbacks as $callback) {
 echo "\033[0;32m" . "\n... initialization completed.\n\n" . "\033[0m";
 
 if ($migrations) {
-    exec('php yii admin/init --choice=1');
+    exec('php -r yii admin/init --choice=1');
 }
 
 function getFileList($rootPath, $basePath = '')
