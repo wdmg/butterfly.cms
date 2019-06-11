@@ -5,7 +5,7 @@
  * Butterfly.CMS Initialization Tool
  *
  * In order to run in non-interactive mode:
- * init --env=development --overwrite=y --dbhost=localhost --dbtype=mysql --dbcharset=utf8 --dbname=example --dbuser=root --dbpassword=root
+ * php init --env=development --overwrite=y --dbhost=localhost --dbtype=mysql --dbcharset=utf8 --dbname=example --dbprefix=btf_ --dbuser=root --dbpassword=root --migrations=y
  *
  * @version         1.0.1
  * @author          Alexsander Vyshnyvetskyy <alex.vyshnyvetskyy@gmail.com>
@@ -23,7 +23,7 @@ $params = getParams();
 $rootPath = str_replace('\\', '/', __DIR__);
 $envs = require("$rootPath/environments/index.php");
 $environments = array_keys($envs);
-$version = '1.0.1';
+$version = '1.0.2';
 $welcome =
     '╔════════════════════════════════════════════════╗'. "\n" .
     '║        ``                                      ║'. "\n" .
@@ -112,6 +112,13 @@ if (empty($params['dbhost'])) {
         else
             $db['dbname'] = 'example';
 
+        echo "  Database table`s prefix: ";
+        $choice = trim(fgets(STDIN));
+        if (!empty($choice))
+            $db['dbprefix'] = $choice;
+        else
+            $db['dbprefix'] = '';
+
         echo "  Database type ['mysql']: ";
         $choice = trim(fgets(STDIN));
         if (!empty($choice))
@@ -146,6 +153,9 @@ if (empty($params['dbhost'])) {
 
     if (!empty($params['dbname']))
         $db['dbname'] = $params['dbname'];
+
+    if (!empty($params['dbprefix']))
+        $db['dbprefix'] = $params['dbprefix'];
 
     if (!empty($params['dbtype']))
         $db['type'] = $params['dbtype'];
@@ -328,6 +338,7 @@ function setDbConnection($rootPath, $paths, $db)
         $content = preg_replace('/(("|\')username("|\')\s*=>\s*)("\w*"|\'\w*\')/', "\\1'".trim($db['username'])."'", $content);
         $content = preg_replace('/(("|\')password("|\')\s*=>\s*)("\w*"|\'\w*\')/', "\\1'".trim($db['password'])."'", $content);
         $content = preg_replace('/(("|\')charset("|\')\s*=>\s*)("\w*"|\'\w*\')/', "\\1'".trim($db['charset'])."'", $content);
+        $content = preg_replace('/(("|\')prefix("|\')\s*=>\s*)("\w*"|\'\w*\')/', "\\1'".trim($db['dbprefix'])."'", $content);
         file_put_contents($file, $content);
     }
 }
