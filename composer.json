@@ -5,7 +5,7 @@
     "homepage": "http://butterflycms.com",
     "type": "project",
     "license": "BSD-3-Clause",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "support": {
         "issues": "https://github.com/wdmg/butterfly.cms/issues",
         "source": "https://github.com/wdmg/butterfly.cms"
