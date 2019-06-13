@@ -2,7 +2,8 @@ Changelog
 =========
 
 ## 1.0.5 (2019-06-13)
- * Update README.md and fix `tablePrefix`
+ * Fix base app routing
+ * Fix `tablePrefix` in init script
  
 ## 1.0.4 (2019-06-11)
  * Added run migration's and table's prefix for init

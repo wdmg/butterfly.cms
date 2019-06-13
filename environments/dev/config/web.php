@@ -42,10 +42,14 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'enableStrictParsing' => false,
+            'enableStrictParsing' => true,
             'suffix' => '/',
             'rules' => [
-                '<action:\w+>' => 'site/<action>',
+                '' => 'site/index',
+                '<action:admin>' => 'admin/<action>',
+                '<action:\w+(?!admin)>' => 'site/<action>',
+                '/' => 'site/index',
+
             ],
         ],
         'authManager' => [

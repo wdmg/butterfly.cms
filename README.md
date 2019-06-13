@@ -49,7 +49,10 @@ After set of environment and configure db connection, run the following commands
 
     $ php yii admin/init
 
+After apply all migrations you may login to dashboard:
+http://example.com/admin/ with username `admin` and password `admin`.
+
 # Status and version [in progress development]
-* v.1.0.5 - Update README.md and fix `tablePrefix`
+* v.1.0.5 - Update README.md and fix base routing, `tablePrefix` in init script
 * v.1.0.4 - Added run migration's and table's prefix for init
 * v.1.0.3 - Update README.md and dependencies
