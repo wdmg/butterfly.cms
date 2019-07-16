@@ -23,7 +23,7 @@ $params = getParams();
 $rootPath = str_replace('\\', '/', __DIR__);
 $envs = require("$rootPath/environments/index.php");
 $environments = array_keys($envs);
-$version = '1.0.2';
+$version = '1.0.3';
 $welcome =
     '╔════════════════════════════════════════════════╗'. "\n" .
     '║        ``                                      ║'. "\n" .
@@ -140,12 +140,12 @@ if (empty($params['dbhost'])) {
         else
             $db['username'] = 'root';
 
-        echo "  Database password [root]: ";
+        echo "  Database password (default empty): ";
         $choice = trim(fgets(STDIN));
         if (!empty($choice))
             $db['password'] = $choice;
         else
-            $db['password'] = 'root';
+            $db['password'] = '';
 
     }
 } else {
@@ -174,7 +174,7 @@ $migrations = false;
 if (empty($params['migrations'])) {
     echo "\033[1;33m" . "\nApply modules migrations after initialization? [yes|no]: " . "\033[0m";
     $choice = trim(fgets(STDIN));
-    if (!strncasecmp($choice, 'n', 1)) {
+    if (!strncasecmp($choice, 'y', 1)) {
         $migrations = true;
     }
 } else {
@@ -213,7 +213,19 @@ foreach ($callbacks as $callback) {
 echo "\033[0;32m" . "\n... initialization completed.\n\n" . "\033[0m";
 
 if ($migrations) {
-    exec('php -r yii admin/init --choice=1');
+
+    echo "\033[0;32m" . "Start apply migrations...\n" . "\033[0m";
+
+    echo "   - executing: yii admin/init --choice=1\n";
+    system('php yii admin/init --choice=1 --interactive=0');
+
+    echo "   - executing: yii admin/users/init --choice=3\n";
+    system('php yii admin/users/init --choice=3');
+
+    echo "   - executing: yii admin/rbac/init --choice=2\n";
+    system('php yii admin/rbac/init --choice=2');
+
+    echo "\033[0;32m" . "\n... migrations completed.\n\n" . "\033[0m";
 }
 
 function getFileList($rootPath, $basePath = '')

@@ -4,7 +4,9 @@
     </a>
 </p>
 
-Innovative Content Management System based on Yii2 framework. And it's all. A little patience...😉
+Innovative Content Management System based on Yii2 framework. And it's all.
+
+P/s^ A little patience...😉
 
 [![Progress](https://img.shields.io/badge/required-Yii2_v2.0.13-blue.svg)](https://packagist.org/packages/yiisoft/yii2) [![Github all releases](https://img.shields.io/github/downloads/wdmg/butterfly.cms/total.svg)](https://GitHub.com/wdmg/butterfly.cms/releases/) [![GitHub version](https://badge.fury.io/gh/wdmg%2Fbutterfly.cms.svg)](https://github.com/wdmg/butterfly.cms) ![Progress](https://img.shields.io/badge/progress-in_development-red.svg) [![GitHub license](https://img.shields.io/github/license/wdmg/butterfly.cms.svg)](https://github.com/wdmg/butterfly.cms/blob/master/LICENSE)
 
@@ -22,6 +24,7 @@ Innovative Content Management System based on Yii2 framework. And it's all. A li
 * [Yii2 Likes](https://github.com/wdmg/yii2-likes)
 * [Yii2 Messages](https://github.com/wdmg/yii2-messages)
 * [Yii2 Options](https://github.com/wdmg/yii2-options)
+* [Yii2 Redirects](https://github.com/wdmg/yii2-redirects)
 * [Yii2 Rbac](https://github.com/wdmg/yii2-rbac)
 * [Yii2 Reposts](https://github.com/wdmg/yii2-reposts)
 * [Yii2 Reviews](https://github.com/wdmg/yii2-reviews)
@@ -48,11 +51,13 @@ To install the app, run the following command`s in the console:
 After set of environment and configure db connection, run the following commands in the console for apply migrations:
 
     $ php yii admin/init
+    $ php yii users/init --choice=3
+    $ php yii rbac/init --choice=2
 
 After apply all migrations you may login to dashboard:
 http://example.com/admin/ with username `admin` and password `admin`.
 
 # Status and version [in progress development]
+* v.1.0.6 - Update dependencies and fix init script
 * v.1.0.5 - Update README.md and fix base routing, `tablePrefix` in init script
 * v.1.0.4 - Added run migration's and table's prefix for init
-* v.1.0.3 - Update README.md and dependencies

@@ -1,6 +1,10 @@
 Changelog
 =========
 
+## 1.0.6 (2019-07-16)
+ * Update dependencies
+ * Fix init script
+
 ## 1.0.5 (2019-06-13)
  * Fix base app routing
  * Fix `tablePrefix` in init script
