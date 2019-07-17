@@ -1,7 +1,8 @@
 Changelog
 =========
 
-## 1.0.6 (2019-07-16)
+## 1.0.6 (2019-07-17)
+ * Fix env config
  * Update dependencies
  * Fix init script
 

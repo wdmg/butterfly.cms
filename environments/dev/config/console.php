@@ -35,6 +35,10 @@ $config = [
         'authManager' => [
             'class' => 'yii\rbac\DbManager',
             'cache' => 'cache',
+            'assignmentTable' => '{{%rbac_assignments}}',
+            'itemChildTable' => '{{%rbac_childs}}',
+            'itemTable' => '{{%rbac_roles}}',
+            'ruleTable' => '{{%rbac_rules}}',
         ],
     ],
     'modules' => [
