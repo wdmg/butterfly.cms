@@ -1,6 +1,10 @@
 Changelog
 =========
 
+## 1.0.7 (2019-08-06)
+ * Update dependencies
+ * Added text.php layout for mailer
+
 ## 1.0.6 (2019-07-17)
  * Fix env config
  * Update dependencies

@@ -58,6 +58,7 @@ After apply all migrations you may login to dashboard:
 http://example.com/admin/ with username `admin` and password `admin`.
 
 # Status and version [in progress development]
+* v.1.0.7 - Update dependencies
 * v.1.0.6 - Update dependencies and fix config, init script
 * v.1.0.5 - Update README.md and fix base routing, `tablePrefix` in init script
 * v.1.0.4 - Added run migration's and table's prefix for init
