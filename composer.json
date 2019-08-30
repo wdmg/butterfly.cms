@@ -17,7 +17,7 @@
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "yiisoft/yii2-httpclient": "^2.0",
-        "wdmg/yii2-admin": "^1.1.4",
+        "wdmg/yii2-admin": "^1.1.5",
         "wdmg/yii2-activity": "^1.1.7",
         "wdmg/yii2-api": "^1.2.13",
         "wdmg/yii2-bookmarks": "^0.0.8",
