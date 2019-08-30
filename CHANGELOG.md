@@ -1,6 +1,10 @@
 Changelog
 =========
 
+## 1.0.8 (2019-08-30)
+ * Added creation DB functionality to init console
+ * Update dependencies
+
 ## 1.0.7 (2019-08-06)
  * Update dependencies
  * Added text.php layout for mailer

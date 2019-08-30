@@ -5,9 +5,9 @@
  * Butterfly.CMS Initialization Tool
  *
  * In order to run in non-interactive mode:
- * php init --env=development --overwrite=y --dbhost=localhost --dbtype=mysql --dbcharset=utf8 --dbname=example --tbprefix=btf_ --dbuser=root --dbpassword=root --migrations=y
+ * php init --env=development --overwrite=y --dbhost=localhost --dbtype=mysql --dbcharset=utf8 --dbname=example --tbprefix=btf_ --dbuser=root --dbpassword=root --create_db=y --migrations=y
  *
- * @version         1.0.1
+ * @version         1.0.4
  * @author          Alexsander Vyshnyvetskyy <alex.vyshnyvetskyy@gmail.com>
  * @link            https://github.com/wdmg/butterfly.cms
  * @copyright       Copyright (c) 2019 W.D.M.Group, Ukraine
@@ -23,7 +23,7 @@ $params = getParams();
 $rootPath = str_replace('\\', '/', __DIR__);
 $envs = require("$rootPath/environments/index.php");
 $environments = array_keys($envs);
-$version = '1.0.3';
+$version = '1.0.4';
 $welcome =
     '╔════════════════════════════════════════════════╗'. "\n" .
     '║        ``                                      ║'. "\n" .
