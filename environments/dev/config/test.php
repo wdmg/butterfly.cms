@@ -6,7 +6,8 @@ $db = require __DIR__ . '/test_db.php';
  * Application configuration shared by all test types
  */
 return [
-    'id' => 'basic-tests',
+    'id' => 'butterfly-cms-tests',
+    'version' => '1.0.9',
     'basePath' => dirname(__DIR__),
     'aliases' => [
         '@bower' => '@vendor/bower-asset',

@@ -11,7 +11,8 @@ if(file_exists($db_local))
     $db = \yii\helpers\ArrayHelper::merge($db, require $db_local);
 
 $config = [
-    'id' => 'basic-console',
+    'id' => 'butterfly-cms-console',
+    'version' => '1.0.9',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'app\commands',

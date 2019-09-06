@@ -62,6 +62,7 @@ After apply all migrations you may login to dashboard:
 http://example.com/admin/ with username `admin` and password `admin`.
 
 # Status and version [in progress development]
+* v.1.0.9 - Update environments and dependencies
 * v.1.0.8 - Added creation DB functionality to init console
 * v.1.0.7 - Update dependencies
 * v.1.0.6 - Update dependencies and fix config, init script
