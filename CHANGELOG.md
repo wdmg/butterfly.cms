@@ -1,6 +1,12 @@
 Changelog
 =========
 
+## 1.0.10 (2019-10-10)
+ * Bugfix environments and update dependency
+ 
+## 1.0.9 (2019-09-07)
+ * Update environments and dependencies
+ 
 ## 1.0.8 (2019-08-30)
  * Added creation DB functionality to init console
  * Update dependencies

@@ -5,7 +5,7 @@ $db = require __DIR__ . '/db.php';
 
 $config = [
     'id' => 'butterfly-cms-console',
-    'version' => '1.0.9',
+    'version' => '1.0.10',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'app\commands',
@@ -27,6 +27,11 @@ $config = [
             ],
         ],
         'db' => $db,
+    ],
+    'modules' => [
+        'admin' => [
+            'class' => 'wdmg\admin\Module',
+        ],
     ],
     'params' => $params,
     /*

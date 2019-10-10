@@ -55,6 +55,7 @@ To install the app, run the following command`s in the console:
 After set of environment and configure db connection, run the following commands in the console for apply migrations:
 
     $ php yii admin/init
+    $ php yii options/init --choice=3
     $ php yii users/init --choice=3
     $ php yii rbac/init --choice=2
 
@@ -62,9 +63,6 @@ After apply all migrations you may login to dashboard:
 http://example.com/admin/ with username `admin` and password `admin`.
 
 # Status and version [in progress development]
+* v.1.0.10 - Bugfix environments and update dependency
 * v.1.0.9 - Update environments and dependencies
 * v.1.0.8 - Added creation DB functionality to init console
-* v.1.0.7 - Update dependencies
-* v.1.0.6 - Update dependencies and fix config, init script
-* v.1.0.5 - Update README.md and fix base routing, `tablePrefix` in init script
-* v.1.0.4 - Added run migration's and table's prefix for init
