@@ -17,28 +17,33 @@ P/s^ A little patience...😉
 * [Yii2 Admin](https://github.com/wdmg/yii2-admin)
 * [Yii2 Activity](https://github.com/wdmg/yii2-activity)
 * [Yii2 API](https://github.com/wdmg/yii2-api)
-* [Yii2 Bookmarks](https://github.com/wdmg/yii2-bookmarks)
-* [Yii2 Comments](https://github.com/wdmg/yii2-comments)
-* [Yii2 Forms](https://github.com/wdmg/yii2-forms)
+* [Yii2 Bookmarks](https://github.com/wdmg/yii2-bookmarks)*
+* [Yii2 Comments](https://github.com/wdmg/yii2-comments)*
+* [Yii2 Forms](https://github.com/wdmg/yii2-forms)*
 * [Yii2 Geo](https://github.com/wdmg/yii2-geo)
-* [Yii2 Likes](https://github.com/wdmg/yii2-likes)
-* [Yii2 Messages](https://github.com/wdmg/yii2-messages)
+* [Yii2 Likes](https://github.com/wdmg/yii2-likes)*
+* [Yii2 Messages](https://github.com/wdmg/yii2-messages)*
 * [Yii2 Mailer](https://github.com/wdmg/yii2-mailer)
+* [Yii2 Newsletters](https://github.com/wdmg/yii2-newsletters)*
+* [Yii2 Subscribes](https://github.com/wdmg/yii2-subscribes)*
 * [Yii2 News](https://github.com/wdmg/yii2-news)
 * [Yii2 Options](https://github.com/wdmg/yii2-options)
 * [Yii2 Redirects](https://github.com/wdmg/yii2-redirects)
-* [Yii2 Rbac](https://github.com/wdmg/yii2-rbac)
-* [Yii2 Reposts](https://github.com/wdmg/yii2-reposts)
-* [Yii2 Reviews](https://github.com/wdmg/yii2-reviews)
+* [Yii2 RBAc](https://github.com/wdmg/yii2-rbac)
+* [Yii2 Reposts](https://github.com/wdmg/yii2-reposts)*
+* [Yii2 Reviews](https://github.com/wdmg/yii2-reviews)*
 * [Yii2 Pages](https://github.com/wdmg/yii2-pages)
 * [Yii2 Services](https://github.com/wdmg/yii2-services)
 * [Yii2 Stats](https://github.com/wdmg/yii2-stats)
-* [Yii2 Tasks](https://github.com/wdmg/yii2-tasks)
-* [Yii2 Tickets](https://github.com/wdmg/yii2-tickets)
+* [Yii2 Tasks](https://github.com/wdmg/yii2-tasks)*
+* [Yii2 Tickets](https://github.com/wdmg/yii2-tickets)*
 * [Yii2 Terminal](https://github.com/wdmg/yii2-terminal)
+* [Yii2 Translations](https://github.com/wdmg/yii2-translations)
 * [Yii2 Users](https://github.com/wdmg/yii2-users)
-* [Yii2 Views](https://github.com/wdmg/yii2-views)
-* [Yii2 Votes](https://github.com/wdmg/yii2-votes)
+* [Yii2 Views](https://github.com/wdmg/yii2-views)*
+* [Yii2 Votes](https://github.com/wdmg/yii2-votes)*
+
+<small>* - actually in progress development</small>
 
 # Installation
 To install the app, run the following command`s in the console:
@@ -63,6 +68,6 @@ After apply all migrations you may login to dashboard:
 http://example.com/admin/ with username `admin` and password `admin`.
 
 # Status and version [in progress development]
+* v.1.0.11 - Update dependencies
 * v.1.0.10 - Bugfix environments and update dependency
 * v.1.0.9 - Update environments and dependencies
-* v.1.0.8 - Added creation DB functionality to init console

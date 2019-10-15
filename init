@@ -7,7 +7,7 @@
  * In order to run in non-interactive mode:
  * php init --env=development --overwrite=y --dbhost=localhost --dbtype=mysql --dbcharset=utf8 --dbname=example --tbprefix=btf_ --dbuser=root --dbpassword=root --create_db=y --migrations=y
  *
- * @version         1.0.4
+ * @version         1.0.5
  * @author          Alexsander Vyshnyvetskyy <alex.vyshnyvetskyy@gmail.com>
  * @link            https://github.com/wdmg/butterfly.cms
  * @copyright       Copyright (c) 2019 W.D.M.Group, Ukraine
@@ -23,7 +23,7 @@ $params = getParams();
 $rootPath = str_replace('\\', '/', __DIR__);
 $envs = require("$rootPath/environments/index.php");
 $environments = array_keys($envs);
-$version = '1.0.4';
+$version = '1.0.5';
 $welcome =
     '╔════════════════════════════════════════════════╗'. "\n" .
     '║        ``                                      ║'. "\n" .
@@ -261,6 +261,9 @@ if ($migrations) {
 
     echo "   - executing: yii admin/init --choice=1\n";
     @system('php yii admin/init --choice=1 --interactive=0');
+
+    echo "   - executing: yii admin/options/init --choice=3\n";
+    @system('php yii admin/options/init --choice=3');
 
     echo "   - executing: yii admin/users/init --choice=3\n";
     @system('php yii admin/users/init --choice=3');
