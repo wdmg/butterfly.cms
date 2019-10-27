@@ -68,6 +68,6 @@ After apply all migrations you may login to dashboard:
 http://example.com/admin/ with username `admin` and password `admin`.
 
 # Status and version [in progress development]
+* v.1.0.12 - Update dependencies
 * v.1.0.11 - Update dependencies
 * v.1.0.10 - Bugfix environments and update dependency
-* v.1.0.9 - Update environments and dependencies

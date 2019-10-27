@@ -5,7 +5,7 @@ $db = require __DIR__ . '/db.php';
 
 $config = [
     'id' => 'butterfly-cms',
-    'version' => '1.0.11',
+    'version' => '1.0.12',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'aliases' => [

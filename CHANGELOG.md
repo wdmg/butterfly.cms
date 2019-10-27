@@ -1,6 +1,9 @@
 Changelog
 =========
 
+## 1.0.12 (2019-10-28)
+ * Update dependencies
+ 
 ## 1.0.11 (2019-10-15)
  * Update README.md and dependencies
  
