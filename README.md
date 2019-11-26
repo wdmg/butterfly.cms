@@ -68,6 +68,5 @@ After apply all migrations you may login to dashboard:
 http://example.com/admin/ with username `admin` and password `admin`.
 
 # Status and version [in progress development]
+* v.1.0.13 - Added Newsletters, Subscribers and Guard modules. Update dependencies
 * v.1.0.12 - Update dependencies
-* v.1.0.11 - Update dependencies
-* v.1.0.10 - Bugfix environments and update dependency

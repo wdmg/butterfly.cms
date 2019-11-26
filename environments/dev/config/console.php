@@ -12,7 +12,7 @@ if(file_exists($db_local))
 
 $config = [
     'id' => 'butterfly-cms-console',
-    'version' => '1.0.12',
+    'version' => '1.0.13',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'app\commands',
