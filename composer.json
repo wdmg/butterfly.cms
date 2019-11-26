@@ -18,7 +18,7 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "yiisoft/yii2-httpclient": "^2.0",
         "wdmg/yii2-base": "^1.1.2",
-        "wdmg/yii2-admin": "^1.1.10",
+        "wdmg/yii2-admin": "^1.1.11",
         "wdmg/yii2-activity": "^1.1.7",
         "wdmg/yii2-api": "^1.3.1",
         "wdmg/yii2-bookmarks": "^0.0.8",
@@ -28,8 +28,8 @@
         "wdmg/yii2-news": "^1.0.3",
         "wdmg/yii2-likes": "^0.0.10",
         "wdmg/yii2-messages": "^0.0.8",
-        "wdmg/yii2-options": "^1.5.2",
-        "wdmg/yii2-mailer": "^1.1.3",
+        "wdmg/yii2-options": "^1.5.3",
+        "wdmg/yii2-mailer": "^1.2.1",
         "wdmg/yii2-terminal": "^1.0.2",
         "wdmg/yii2-translations": "^1.1.0",
         "wdmg/yii2-rbac": "^1.1.7",
@@ -37,6 +37,7 @@
         "wdmg/yii2-reviews": "^0.0.9",
         "wdmg/yii2-services": "^1.1.7",
         "wdmg/yii2-redirects": "^1.0.5",
+        "wdmg/yii2-guard": "^1.0.0",
         "wdmg/yii2-stats": "^1.1.9",
         "wdmg/yii2-pages": "^1.1.5",
         "wdmg/yii2-tasks": "^1.1.6",
@@ -44,7 +45,8 @@
         "wdmg/yii2-users": "^1.1.6",
         "wdmg/yii2-views": "^0.0.10",
         "wdmg/yii2-votes": "^0.0.8",
-        "yiisoft/yii2-imagine": "^2.0@dev"
+        "wdmg/yii2-newsletters": "^0.0.3",
+        "wdmg/yii2-subscribers": "^1.0.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",
