@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2d83ce2097a466fc319c95824d7631b",
+    "content-hash": "ac28671805bcc7776e45cc2aaeccbebf",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -364,16 +364,16 @@
         },
         {
             "name": "ezyang/htmlpurifier",
-            "version": "v4.11.0",
+            "version": "v4.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "83ab08bc1af7d808a9e0fbf024f1c24bfd73c0a7"
+                "reference": "a617e55bc62a87eec73bd456d146d134ad716f03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/83ab08bc1af7d808a9e0fbf024f1c24bfd73c0a7",
-                "reference": "83ab08bc1af7d808a9e0fbf024f1c24bfd73c0a7",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/a617e55bc62a87eec73bd456d146d134ad716f03",
+                "reference": "a617e55bc62a87eec73bd456d146d134ad716f03",
                 "shasum": ""
             },
             "require": {
@@ -407,7 +407,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2019-07-14T18:58:38+00:00"
+            "time": "2019-10-28T03:44:26+00:00"
         },
         {
             "name": "geoip2/geoip2",
@@ -1011,16 +1011,16 @@
         },
         {
             "name": "wdmg/yii2-admin",
-            "version": "1.1.9",
+            "version": "1.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wdmg/yii2-admin.git",
-                "reference": "fb05ca7877def81f6e3b683eb8e2757a3d40e4bc"
+                "reference": "bbae2736469f540f042b44c7ab269f6fedfb6782"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wdmg/yii2-admin/zipball/fb05ca7877def81f6e3b683eb8e2757a3d40e4bc",
-                "reference": "fb05ca7877def81f6e3b683eb8e2757a3d40e4bc",
+                "url": "https://api.github.com/repos/wdmg/yii2-admin/zipball/bbae2736469f540f042b44c7ab269f6fedfb6782",
+                "reference": "bbae2736469f540f042b44c7ab269f6fedfb6782",
                 "shasum": ""
             },
             "require": {
@@ -1063,7 +1063,7 @@
                 "yii2",
                 "yii2-admin"
             ],
-            "time": "2019-10-15T11:08:30+00:00"
+            "time": "2019-10-27T22:07:59+00:00"
         },
         {
             "name": "wdmg/yii2-api",
@@ -1163,16 +1163,16 @@
         },
         {
             "name": "wdmg/yii2-base",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wdmg/yii2-base.git",
-                "reference": "d7890941af5d66c814c480c1cd02eca4309dcb96"
+                "reference": "0c56170598efcbb717ed744b15f3430a2fa52ce3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wdmg/yii2-base/zipball/d7890941af5d66c814c480c1cd02eca4309dcb96",
-                "reference": "d7890941af5d66c814c480c1cd02eca4309dcb96",
+                "url": "https://api.github.com/repos/wdmg/yii2-base/zipball/0c56170598efcbb717ed744b15f3430a2fa52ce3",
+                "reference": "0c56170598efcbb717ed744b15f3430a2fa52ce3",
                 "shasum": ""
             },
             "require": {
@@ -1211,7 +1211,7 @@
                 "yii2",
                 "yii2-base"
             ],
-            "time": "2019-10-15T11:44:31+00:00"
+            "time": "2019-10-27T22:12:43+00:00"
         },
         {
             "name": "wdmg/yii2-bookmarks",
@@ -1823,16 +1823,16 @@
         },
         {
             "name": "wdmg/yii2-news",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wdmg/yii2-news.git",
-                "reference": "1892f086a446a22acc5a5ee0d9520bf83163203c"
+                "reference": "b7b82ccc16c06b542cc439a90d8389753d5d579d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wdmg/yii2-news/zipball/1892f086a446a22acc5a5ee0d9520bf83163203c",
-                "reference": "1892f086a446a22acc5a5ee0d9520bf83163203c",
+                "url": "https://api.github.com/repos/wdmg/yii2-news/zipball/b7b82ccc16c06b542cc439a90d8389753d5d579d",
+                "reference": "b7b82ccc16c06b542cc439a90d8389753d5d579d",
                 "shasum": ""
             },
             "require": {
@@ -1877,20 +1877,75 @@
                 "yii2",
                 "yii2-news"
             ],
-            "time": "2019-08-06T12:14:39+00:00"
+            "time": "2019-10-27T22:28:56+00:00"
         },
         {
-            "name": "wdmg/yii2-options",
-            "version": "1.5.1",
+            "name": "wdmg/yii2-newsletters",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wdmg/yii2-options.git",
-                "reference": "e038222899b6d47619246ed60935293ae53151cf"
+                "url": "https://github.com/wdmg/yii2-newsletters.git",
+                "reference": "5c2855006fa74e6070daca67421dda4063bf8696"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wdmg/yii2-options/zipball/e038222899b6d47619246ed60935293ae53151cf",
-                "reference": "e038222899b6d47619246ed60935293ae53151cf",
+                "url": "https://api.github.com/repos/wdmg/yii2-newsletters/zipball/5c2855006fa74e6070daca67421dda4063bf8696",
+                "reference": "5c2855006fa74e6070daca67421dda4063bf8696",
+                "shasum": ""
+            },
+            "require": {
+                "wdmg/yii2-base": "^1.0.1",
+                "wdmg/yii2-editor": "^1.0.6",
+                "wdmg/yii2-selectinput": "^1.0.5",
+                "yiisoft/yii2": "^2.0.20"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "options": {
+                    "routePrefix": "admin"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "wdmg\\newsletters\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexsander Vyshnyvetskyy",
+                    "email": "alex.vyshnyvetskyy@gmail.com"
+                },
+                {
+                    "name": "W.D.M.Group, Ukraine",
+                    "email": "wdmg.com.ua@gmail.com"
+                }
+            ],
+            "description": "Newsletters manager",
+            "homepage": "https://github.com/wdmg/yii2-newsletters",
+            "keywords": [
+                "newsletters manager",
+                "wdmg",
+                "yii2",
+                "yii2-newsletters"
+            ],
+            "time": "2019-10-28T16:57:19+00:00"
+        },
+        {
+            "name": "wdmg/yii2-options",
+            "version": "1.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wdmg/yii2-options.git",
+                "reference": "0d9f0a7ba0cb87758928fea27dc2a045e69c4a71"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wdmg/yii2-options/zipball/0d9f0a7ba0cb87758928fea27dc2a045e69c4a71",
+                "reference": "0d9f0a7ba0cb87758928fea27dc2a045e69c4a71",
                 "shasum": ""
             },
             "require": {
@@ -1933,20 +1988,20 @@
                 "yii2",
                 "yii2-options"
             ],
-            "time": "2019-10-10T00:31:26+00:00"
+            "time": "2019-10-27T22:20:54+00:00"
         },
         {
             "name": "wdmg/yii2-pages",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wdmg/yii2-pages.git",
-                "reference": "46db688217242d7ded96309b48f8bd3ce6cfeeeb"
+                "reference": "ec4a66f341d225131fe7043dcf041aafe05929c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wdmg/yii2-pages/zipball/46db688217242d7ded96309b48f8bd3ce6cfeeeb",
-                "reference": "46db688217242d7ded96309b48f8bd3ce6cfeeeb",
+                "url": "https://api.github.com/repos/wdmg/yii2-pages/zipball/ec4a66f341d225131fe7043dcf041aafe05929c6",
+                "reference": "ec4a66f341d225131fe7043dcf041aafe05929c6",
                 "shasum": ""
             },
             "require": {
@@ -1991,7 +2046,7 @@
                 "yii2",
                 "yii2-pages"
             ],
-            "time": "2019-10-15T12:04:14+00:00"
+            "time": "2019-10-27T22:27:10+00:00"
         },
         {
             "name": "wdmg/yii2-rbac",
@@ -2328,16 +2383,16 @@
         },
         {
             "name": "wdmg/yii2-stats",
-            "version": "1.1.8",
+            "version": "1.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wdmg/yii2-stats.git",
-                "reference": "5617c550e819d9622c069fbb0a1af7d43a04ad95"
+                "reference": "35b32eee134655799bc0389456ead84d9f452cee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wdmg/yii2-stats/zipball/5617c550e819d9622c069fbb0a1af7d43a04ad95",
-                "reference": "5617c550e819d9622c069fbb0a1af7d43a04ad95",
+                "url": "https://api.github.com/repos/wdmg/yii2-stats/zipball/35b32eee134655799bc0389456ead84d9f452cee",
+                "reference": "35b32eee134655799bc0389456ead84d9f452cee",
                 "shasum": ""
             },
             "require": {
@@ -2355,17 +2410,16 @@
                     "routePrefix": "admin",
                     "collectStats": true,
                     "storagePeriod": 0,
-                    "ignoreDev": true,
+                    "ignoreDev": false,
                     "ignoreAjax": true,
                     "useChart": true,
                     "ignoreRoute": [
                         "/admin",
-                        "/admin/"
+                        "/admin/",
+                        "/assets/",
+                        "/captcha/"
                     ],
-                    "ignoreListIp": [
-                        "::1",
-                        "127.0.0.1"
-                    ],
+                    "ignoreListIp": [],
                     "ignoreListUA": [],
                     "cookieName": "yii2_stats",
                     "cookieExpire": 3110400
@@ -2399,7 +2453,61 @@
                 "yii2",
                 "yii2-stats"
             ],
-            "time": "2019-08-07T22:26:56+00:00"
+            "time": "2019-10-27T22:16:57+00:00"
+        },
+        {
+            "name": "wdmg/yii2-subscribers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wdmg/yii2-subscribers.git",
+                "reference": "0d78fd3cb2ecaae4534a1114ce1af70059cb5d5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wdmg/yii2-subscribers/zipball/0d78fd3cb2ecaae4534a1114ce1af70059cb5d5d",
+                "reference": "0d78fd3cb2ecaae4534a1114ce1af70059cb5d5d",
+                "shasum": ""
+            },
+            "require": {
+                "wdmg/yii2-base": "^1.0.1",
+                "wdmg/yii2-selectinput": "^1.0.5",
+                "yiisoft/yii2": "^2.0.20"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "options": {
+                    "routePrefix": "admin"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "wdmg\\subscribers\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexsander Vyshnyvetskyy",
+                    "email": "alex.vyshnyvetskyy@gmail.com"
+                },
+                {
+                    "name": "W.D.M.Group, Ukraine",
+                    "email": "wdmg.com.ua@gmail.com"
+                }
+            ],
+            "description": "Subscribers manager",
+            "homepage": "https://github.com/wdmg/yii2-subscribers",
+            "keywords": [
+                "subscribers manager",
+                "wdmg",
+                "yii2",
+                "yii2-subscribers"
+            ],
+            "time": "2019-10-28T16:56:26+00:00"
         },
         {
             "name": "wdmg/yii2-tasks",
@@ -6152,7 +6260,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "yiisoft/yii2-imagine": 20
+        "yiisoft/yii2-imagine": 20,
+        "wdmg/yii2-newsletters": 20,
+        "wdmg/yii2-subscribers": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

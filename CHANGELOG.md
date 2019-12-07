@@ -1,6 +1,9 @@
 Changelog
 =========
 
+## 1.0.14 (2019-12-07)
+ * Update dependencies
+
 ## 1.0.13 (2019-11-26)
  * Added Newsletters, Subscribers and Guard modules
  * Update dependencies

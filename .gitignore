@@ -33,3 +33,7 @@ tests/_support/_generated
 
 #vagrant folder
 /.vagrant
+
+#web
+web/mails/*
+web/uploads/*
