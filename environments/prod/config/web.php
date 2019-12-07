@@ -40,6 +40,14 @@ $config = [
             ],
         ],
         'db' => $db,
+        'authManager' => [
+            'class' => 'yii\rbac\DbManager',
+            'cache' => 'cache',
+            'assignmentTable' => '{{%rbac_assignments}}',
+            'itemChildTable' => '{{%rbac_childs}}',
+            'itemTable' => '{{%rbac_roles}}',
+            'ruleTable' => '{{%rbac_rules}}',
+        ],
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
@@ -52,14 +60,6 @@ $config = [
                 '/' => 'site/index',
 
             ],
-        ],
-        'authManager' => [
-            'class' => 'yii\rbac\DbManager',
-            'cache' => 'cache',
-            'assignmentTable' => '{{%rbac_assignments}}',
-            'itemChildTable' => '{{%rbac_childs}}',
-            'itemTable' => '{{%rbac_roles}}',
-            'ruleTable' => '{{%rbac_rules}}',
         ],
         'i18n' => [
             'translations' => [
