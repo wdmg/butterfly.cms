@@ -48,7 +48,7 @@ $welcome =
     '║                  Butterfly.CMS                 ║'. "\n" .
     '║          Initialization Tool, v.'.$version.'          ║'. "\n" .
     '║          by Alexsander Vyshnyvetskyy           ║'. "\n" .
-    '║         (c) 2019 W.D.M.Group, Ukraine          ║'. "\n" .
+    '║       (c) 2019-2020 W.D.M.Group, Ukraine       ║'. "\n" .
     '║                                                ║'. "\n" .
     '╚════════════════════════════════════════════════╝'. "\n\n";
 

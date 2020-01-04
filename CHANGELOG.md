@@ -1,6 +1,10 @@
 Changelog
 =========
 
+## 1.0.15 (2020-01-04)
+ * Added Content module
+ * Update dependencies
+ 
 ## 1.0.14 (2019-12-07)
  * Update dependencies
 
