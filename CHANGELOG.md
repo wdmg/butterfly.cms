@@ -1,6 +1,10 @@
 Changelog
 =========
 
+## 1.0.16 (2020-02-23)
+ * Update dependencies
+ * Added yii2-turbo, yii2-amp, yii2-search, yii2-rss, yii2-sitemap, yii2-widgets
+ 
 ## 1.0.15 (2020-01-04)
  * Added Content module
  * Update dependencies

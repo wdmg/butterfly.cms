@@ -34,6 +34,12 @@ P/s^ A little patience...😉
 * [Yii2 Reviews](https://github.com/wdmg/yii2-reviews)*
 * [Yii2 Pages](https://github.com/wdmg/yii2-pages)
 * [Yii2 Services](https://github.com/wdmg/yii2-services)
+* [Yii2 AMP](https://github.com/wdmg/yii2-amp)*
+* [Yii2 Turbo](https://github.com/wdmg/yii2-turbo)*
+* [Yii2 Search](https://github.com/wdmg/yii2-search)*
+* [Yii2 RSS](https://github.com/wdmg/yii2-rss)*
+* [Yii2 Sitemap](https://github.com/wdmg/yii2-sitemap)*
+* [Yii2 Widgets](https://github.com/wdmg/yii2-widgets)*
 * [Yii2 Stats](https://github.com/wdmg/yii2-stats)
 * [Yii2 Tasks](https://github.com/wdmg/yii2-tasks)*
 * [Yii2 Tickets](https://github.com/wdmg/yii2-tickets)*
@@ -68,6 +74,7 @@ After apply all migrations you may login to dashboard:
 http://example.com/admin/ with username `admin` and password `admin`.
 
 # Status and version [in progress development]
+* v.1.0.16 - Update dependencies, added yii2-turbo, yii2-amp, yii2-search, yii2-rss, yii2-sitemap, yii2-widgets
 * v.1.0.15 - Added Content module. Update dependencies
 * v.1.0.14 - Update dependencies
 * v.1.0.13 - Added Newsletters, Subscribers and Guard modules. Update dependencies
