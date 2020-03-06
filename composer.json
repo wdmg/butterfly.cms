@@ -30,6 +30,7 @@
         "wdmg/yii2-stats": "^1.1.10",
         "wdmg/yii2-services": "^1.1.9",
         "wdmg/yii2-news": "^1.0.6",
+        "wdmg/yii2-blog": "^1.1.0",
         "wdmg/yii2-subscribers": "^1.0.3",
         "wdmg/yii2-newsletters": "^1.0.3",
         "wdmg/yii2-content": "^1.0.1",
