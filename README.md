@@ -8,21 +8,26 @@ Innovative Content Management System based on Yii2 framework. And it's all.
 
 P/s^ A little patience...😉
 
-[![Progress](https://img.shields.io/badge/required-Yii2_v2.0.13-blue.svg)](https://packagist.org/packages/yiisoft/yii2) [![Github all releases](https://img.shields.io/github/downloads/wdmg/butterfly.cms/total.svg)](https://GitHub.com/wdmg/butterfly.cms/releases/) [![GitHub version](https://badge.fury.io/gh/wdmg%2Fbutterfly.cms.svg)](https://github.com/wdmg/butterfly.cms) ![Progress](https://img.shields.io/badge/progress-in_development-red.svg) [![GitHub license](https://img.shields.io/github/license/wdmg/butterfly.cms.svg)](https://github.com/wdmg/butterfly.cms/blob/master/LICENSE)
+[![Progress](https://img.shields.io/badge/required-Yii2_v2.0.33-blue.svg)](https://packagist.org/packages/yiisoft/yii2)
+[![Github all releases](https://img.shields.io/github/downloads/wdmg/butterfly.cms/total.svg)](https://GitHub.com/wdmg/butterfly.cms/releases/)
+[![GitHub version](https://badge.fury.io/gh/wdmg%2Fbutterfly.cms.svg)](https://github.com/wdmg/butterfly.cms)
+![Progress](https://img.shields.io/badge/progress-in_development-red.svg)
+[![GitHub license](https://img.shields.io/github/license/wdmg/butterfly.cms.svg)](https://github.com/wdmg/butterfly.cms/blob/master/LICENSE)
 
 # Requirements 
 * PHP 5.6 or higher
+* Yii2 v.2.0.33 and newest
 * [Yii2 Base](https://github.com/wdmg/yii2-base)
 * [Yii2 Admin](https://github.com/wdmg/yii2-admin)
 * [Yii2 Activity](https://github.com/wdmg/yii2-activity)
 * [Yii2 Api](https://github.com/wdmg/yii2-api)
 * [Yii2 Options](https://github.com/wdmg/yii2-options)
-* [Yii2 Guard](https://github.com/wdmg/yii2-guard)*
+* [Yii2 Guard](https://github.com/wdmg/yii2-guard)
 * [Yii2 Mailer](https://github.com/wdmg/yii2-mailer)
 * [Yii2 Terminal](https://github.com/wdmg/yii2-terminal)
 * [Yii2 Redirects](https://github.com/wdmg/yii2-redirects)
 * [Yii2 Stats](https://github.com/wdmg/yii2-stats)
-* [Yii2 Forms](https://github.com/wdmg/yii2-forms)*
+* [Yii2 Forms](https://github.com/wdmg/yii2-forms)
 * [Yii2 Services](https://github.com/wdmg/yii2-services)
 * [Yii2 News](https://github.com/wdmg/yii2-news)
 * [Yii2 Blog](https://github.com/wdmg/yii2-blog)
@@ -30,7 +35,7 @@ P/s^ A little patience...😉
 * [Yii2 Newsletters](https://github.com/wdmg/yii2-newsletters)
 * [Yii2 Reviews](https://github.com/wdmg/yii2-reviews)*
 * [Yii2 Comments](https://github.com/wdmg/yii2-comments)*
-* [Yii2 Media](https://github.com/wdmg/yii2-media)*
+* [Yii2 Media](https://github.com/wdmg/yii2-media)
 * [Yii2 Content](https://github.com/wdmg/yii2-content)
 * [Yii2 Pages](https://github.com/wdmg/yii2-pages)
 * [Yii2 Tasks](https://github.com/wdmg/yii2-tasks)
@@ -76,6 +81,7 @@ After apply all migrations you may login to dashboard:
 http://example.com/admin/ with username `admin` and password `admin`.
 
 # Status and version [in progress development]
+* v.1.0.18 - Added yii2-media and yii2-forms modules. Update dependencies
 * v.1.0.17 - Added yii2-blog module. Update dependencies
 * v.1.0.16 - Update dependencies, added yii2-turbo, yii2-amp, yii2-search, yii2-rss, yii2-sitemap, yii2-widgets
 * v.1.0.15 - Added yii2-content module. Update dependencies

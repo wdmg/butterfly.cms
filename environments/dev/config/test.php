@@ -7,7 +7,7 @@ $db = require __DIR__ . '/test_db.php';
  */
 return [
     'id' => 'butterfly-cms-tests',
-    'version' => '1.0.17',
+    'version' => '1.0.18',
     'basePath' => dirname(__DIR__),
     'aliases' => [
         '@bower' => '@vendor/bower-asset',

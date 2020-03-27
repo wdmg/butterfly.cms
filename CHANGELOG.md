@@ -1,6 +1,9 @@
 Changelog
 =========
 
+## 1.0.18 (2020-03-27)
+ * Added yii2-media and yii2-forms modules. Update dependencies
+ 
 ## 1.0.17 (2020-03-07)
  * Added yii2-blog module. Update dependencies
  
