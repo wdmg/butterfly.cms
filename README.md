@@ -8,9 +8,9 @@ Innovative Content Management System based on Yii2 framework. And it's all.
 
 P/s^ A little patience...😉
 
-[![Progress](https://img.shields.io/badge/required-Yii2_v2.0.33-blue.svg)](https://packagist.org/packages/yiisoft/yii2)
-[![Github all releases](https://img.shields.io/github/downloads/wdmg/butterfly.cms/total.svg)](https://GitHub.com/wdmg/butterfly.cms/releases/)
-[![GitHub version](https://badge.fury.io/gh/wdmg%2Fbutterfly.cms.svg)](https://github.com/wdmg/butterfly.cms)
+[![Yii2](https://img.shields.io/badge/required-Yii2_v2.0.33-blue.svg)](https://packagist.org/packages/yiisoft/yii2)
+[![Downloads](https://img.shields.io/packagist/dt/wdmg/butterfly.cms.svg)](https://packagist.org/packages/wdmg/butterfly.cms)
+[![Packagist Version](https://img.shields.io/packagist/v/wdmg/butterfly.cms.svg)](https://packagist.org/packages/wdmg/butterfly.cms)
 ![Progress](https://img.shields.io/badge/progress-in_development-red.svg)
 [![GitHub license](https://img.shields.io/github/license/wdmg/butterfly.cms.svg)](https://github.com/wdmg/butterfly.cms/blob/master/LICENSE)
 
@@ -81,6 +81,7 @@ After apply all migrations you may login to dashboard:
 http://example.com/admin/ with username `admin` and password `admin`.
 
 # Status and version [in progress development]
+* v.1.1.0 - Added multi-language support (partially)
 * v.1.0.18 - Added yii2-media and yii2-forms modules. Update dependencies
 * v.1.0.17 - Added yii2-blog module. Update dependencies
 * v.1.0.16 - Update dependencies, added yii2-turbo, yii2-amp, yii2-search, yii2-rss, yii2-sitemap, yii2-widgets

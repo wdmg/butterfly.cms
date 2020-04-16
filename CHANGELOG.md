@@ -1,6 +1,9 @@
 Changelog
 =========
 
+## 1.1.0 (2020-04-17)
+ * Added multi-language support (Pages, News and Blog modules)
+ 
 ## 1.0.18 (2020-03-27)
  * Added yii2-media and yii2-forms modules. Update dependencies
  
