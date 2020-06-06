@@ -51,14 +51,12 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'enableStrictParsing' => true,
-            'suffix' => '/',
+            'enableStrictParsing' => false,
             'rules' => [
                 '' => 'site/index',
                 '<action:admin>' => 'admin/<action>',
                 '<action:\w+(?!admin)>' => 'site/<action>',
                 '/' => 'site/index',
-
             ],
         ],
         'i18n' => [

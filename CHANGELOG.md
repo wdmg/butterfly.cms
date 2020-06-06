@@ -1,6 +1,10 @@
 Changelog
 =========
-
+ 
+## 1.1.*
+ * Urlmanager rules environments config
+ * Added Robots.txt module
+ 
 ## 1.1.0 (2020-04-17)
  * Added multi-language support (Pages, News and Blog modules)
  
