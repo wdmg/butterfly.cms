@@ -34,7 +34,7 @@ P/s^ A little patience...😉
 * [Yii2 Subscribers](https://github.com/wdmg/yii2-subscribers)
 * [Yii2 Newsletters](https://github.com/wdmg/yii2-newsletters)
 * [Yii2 Reviews](https://github.com/wdmg/yii2-reviews)*
-* [Yii2 Comments](https://github.com/wdmg/yii2-comments)*
+* [Yii2 Comments](https://github.com/wdmg/yii2-comments)
 * [Yii2 Media](https://github.com/wdmg/yii2-media)
 * [Yii2 Content](https://github.com/wdmg/yii2-content)
 * [Yii2 Pages](https://github.com/wdmg/yii2-pages)
@@ -53,7 +53,7 @@ P/s^ A little patience...😉
 * [Yii2 Likes](https://github.com/wdmg/yii2-likes)*
 * [Yii2 Bookmarks](https://github.com/wdmg/yii2-bookmarks)*
 * [Yii2 Reposts](https://github.com/wdmg/yii2-reposts)*
-* [Yii2 Views](https://github.com/wdmg/yii2-views)*
+* [Yii2 Views](https://github.com/wdmg/yii2-views)
 * [Yii2 Votes](https://github.com/wdmg/yii2-votes)*
 
 <small>* - actually in progress development</small>
