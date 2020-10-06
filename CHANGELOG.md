@@ -2,6 +2,8 @@ Changelog
 =========
  
 ## 1.1.*
+ * Update dependencies
+ * Added Guard module
  * Urlmanager rules environments config
  * Added Robots.txt module
  
