@@ -6,8 +6,9 @@ GREEN='\033[0;32m'
 RED='\033[0;31m'
 NC='\033[0m'
 
+clear
+
 welcome () {
-    clear
 
 cat <<'MSG'
 
@@ -38,21 +39,41 @@ MSG
 
 welcome
 
-if ! command -v docker &> /dev/null; then
-    echo -e "${RED}Error!${NC} It looks like ${BLUE}Docker Machine${NC} is not installed. Please install it to continue and try again."
-    echo "For help getting started, check out the docs at https://docs.docker.com"
-    echo ""
-    exit 1
-fi
+check_in () {
+    if ! command -v docker &> /dev/null; then
+        echo -e "${RED}Error!${NC} It looks like ${BLUE}Docker Machine${NC} is not installed. Please install it to continue and try again."
+        echo "For help getting started, check out the docs at https://docs.docker.com"
+        echo ""
+        exit 1
+    fi
 
-if ! command -v docker-compose &> /dev/null; then
-    echo -e "${RED}Error!${NC} It looks like ${BLUE}Docker Composer${NC} is not installed. Please install it to continue and try again."
-    echo "For help getting started, check out the docs at https://docs.docker.com"
-    echo ""
-    exit 1
-fi
+    if ! command -v docker-machine &> /dev/null; then
+        echo -e "${RED}Error!${NC} It looks like ${BLUE}Docker Machine${NC} is not installed. Please install it to continue and try again."
+        echo "For help getting started, check out the docs at https://docs.docker.com/machine/"
+        echo ""
+        exit 1
+    fi
+
+    if ! command -v docker-compose &> /dev/null; then
+        echo -e "${RED}Error!${NC} It looks like ${BLUE}Docker Composer${NC} is not installed. Please install it to continue and try again."
+        echo "For help getting started, check out the docs at https://docs.docker.com/compose/"
+        echo ""
+        exit 1
+    fi
+
+    if ! docker info >/dev/null 2>&1; then
+        echo -e "${RED}Error!${NC} It looks like none of the docker machines are running."
+        echo "For help getting started, check out the docs at https://docs.docker.com/machine/get-started/"
+        echo ""
+        exit 1
+    fi
+}
+
+check_in
 
 select_env () {
+
+    clear
 
     echo ""
     echo "Select the environment you want to build:";
@@ -74,8 +95,7 @@ select_env () {
     elif [ "$environment" = "4" ]; then
         docker-compose -f ./templates/apache-postgres/docker-compose.yml build --no-cache --force-rm
     else
-        echo -e "${RED}You have entered an invalid selection!${NC}"
-        echo "Please try again!"
+        echo -e "${RED}You have entered an invalid selection!${NC} Please try again!"
         echo ""
         echo "Press any key to continue..."
         read -n 1
