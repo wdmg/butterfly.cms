@@ -62,7 +62,7 @@ check_in () {
     fi
 
     if ! docker info >/dev/null 2>&1; then
-        echo -e "${RED}Error!${NC} It looks like none of the docker machines are running."
+        echo -e "${RED}Error!${NC} It looks like none of the docker machines are running or environment is not configured."
         echo "For help getting started, check out the docs at https://docs.docker.com/machine/get-started/"
         echo ""
         exit 1
@@ -72,8 +72,6 @@ check_in () {
 check_in
 
 select_env () {
-
-    clear
 
     echo ""
     echo "Select the environment you want to build:";
