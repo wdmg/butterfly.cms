@@ -1,0 +1,36 @@
+version: '3'
+services:
+  db:
+    image: mysql
+    env_file:
+      - ./mysql.env
+    ports:
+      - "3306:3306"
+    volumes:
+      - ../db/mysql:/var/lib/mysql:delegated
+
+  php:
+    build:
+      context: ../php
+    env_file:
+      - ./php.env
+    environment:
+      PHP_IDE_CONFIG: serverName=docker
+    volumes:
+      - ../www/public:/var/www/public:delegated
+    depends_on:
+      - db
+
+  web:
+    build:
+      context: ../nginx
+    env_file:
+      - ./nginx.env
+    environment:
+      FASTCGI_PASS_HOST: php
+    volumes:
+      - ../www/public:/var/www/public:delegated
+    ports:
+      - "8080:80"
+    depends_on:
+      - php

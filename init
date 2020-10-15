@@ -85,13 +85,13 @@ select_env () {
     echo ""
 
     if [ "$environment" = "1" ]; then
-        docker-compose -f ./templates/nginx-mysql/docker-compose.yml build --no-cache --force-rm
+        docker-compose -f ./templates/nginx-mysql.yml build --no-cache --force-rm
     elif [ "$environment" = "2" ]; then
-        docker-compose -f ./templates/nginx-postgres/docker-compose.yml build --no-cache --force-rm
+        docker-compose -f ./templates/nginx-postgres.yml build --no-cache --force-rm
     elif [ "$environment" = "3" ]; then
-        docker-compose -f ./templates/apache-mysql/docker-compose.yml build --no-cache --force-rm
+        docker-compose -f ./templates/apache-mysql.yml build --no-cache --force-rm
     elif [ "$environment" = "4" ]; then
-        docker-compose -f ./templates/apache-postgres/docker-compose.yml build --no-cache --force-rm
+        docker-compose -f ./templates/apache-postgres.yml build --no-cache --force-rm
     else
         echo -e "${RED}You have entered an invalid selection!${NC} Please try again!"
         echo ""
