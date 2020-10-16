@@ -1,2 +1,6 @@
 *
+apache/*
+nginx/*
+php/*
+mysql/*
 !.gitignore

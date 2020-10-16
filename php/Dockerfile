@@ -1,13 +1,23 @@
-FROM php:7.4-fpm
+ARG PHP_IMAGE_VERSION=7.4
+FROM php:${PHP_IMAGE_VERSION}-fpm
 
-RUN apt-get update && apt-get install -y wget git unzip \
-    && pecl install xdebug \
-    && docker-php-ext-enable xdebug
+# Up-to-date packages manager
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install -y wget git unzip
 
-COPY ./xdebug.ini /usr/local/etc/php/conf.d/xdebug.ini
+# Install PHP XDebug extension
+ARG PHP_USE_XDEBUG=0
+RUN if [ $PHP_USE_XDEBUG = 1 ]; then \
+        pecl install xdebug && docker-php-ext-enable xdebug \
+    ;fi
 
+# Configure PHP
 ADD ./php.ini /usr/local/etc/php/php.ini
 
+# Configure XDubug
+COPY ./xdebug.ini /usr/local/etc/php/conf.d/xdebug.ini
+
+# Install system packages for PHP extensions
 RUN apt-get install -y \
         git \
         htop \
@@ -24,10 +34,7 @@ RUN apt-get install -y \
         zlib1g-dev \
         zip \
         ffmpeg \
-        libmemcached11 \
-        libmemcachedutil2 \
         build-essential \
-        libmemcached-dev \
         gnupg2 \
         libpq-dev \
         libpq5 \
@@ -49,7 +56,6 @@ RUN docker-php-ext-configure imap \
     --with-imap-ssl && docker-php-ext-install imap
 
 RUN docker-php-ext-configure zip && docker-php-ext-install zip
-
 RUN docker-php-ext-configure intl && docker-php-ext-install intl
 
 RUN docker-php-ext-install pdo_mysql
@@ -57,14 +63,33 @@ RUN docker-php-ext-install pdo_pgsql
 RUN docker-php-ext-install exif
 RUN docker-php-ext-install fileinfo
 
-
+# Install composer
+ENV COMPOSER_ALLOW_SUPERUSER=1
 RUN wget https://getcomposer.org/installer -O - -q \
     | php -- --install-dir=/bin --filename=composer --quiet
 
-RUN pecl install memcached && echo extension=memcached.so >> /usr/local/etc/php/conf.d/memcached.ini
+# Enable mod_rewrite for images with apache
+RUN if command -v a2enmod >/dev/null 2>&1; then \
+        a2enmod rewrite headers \
+    ;fi
 
-ENV COMPOSER_ALLOW_SUPERUSER 1
+# Install Yii framework bash autocompletion
+RUN curl -L https://raw.githubusercontent.com/yiisoft/yii2/master/contrib/completion/bash/yii \
+        -o /etc/bash_completion.d/yii
+
+# Install PHP memcached extension
+ARG PHP_USE_MEMCACHED=0
+RUN if [ $PHP_USE_MEMCACHED = 1 ]; then \
+        apt-get install -y libmemcached11 libmemcachedutil2 libmemcached-dev | \
+        pecl install memcached && echo extension=memcached.so >> /usr/local/etc/php/conf.d/memcached.ini \
+    ;fi
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+# Application environment
 WORKDIR /var/www
+
+# Install Butterfly.CMS and run entrypoint to init
+RUN composer create-project --prefer-dist wdmg/butterfly.cms ./public
+
+CMD ["php-fpm"]

@@ -67,15 +67,14 @@ check_in () {
         echo ""
         read  -n 1 -p "Would you like try to run Docker machine? [Y/n]: " try_to_run
         case $try_to_run in
-            [Yy]* ) echo "";
-                    docker-machine start &> /dev/null;
-                    docker-machine env &> /dev/null;
-                    eval $(docker-machine env) &> /dev/null;;
             [Nn]* ) echo "";
                     echo "Canceled... For help getting started, check out the docs at https://docs.docker.com/machine/get-started/";
                     echo "";
                     exit 1;;
-            * ) echo "Please answer yes or no.";;
+            * ) echo "";
+                docker-machine start &> /dev/null;
+                docker-machine env &> /dev/null;
+                eval $(docker-machine env) &> /dev/null;;
         esac
     fi
 }
@@ -183,7 +182,7 @@ build_env () {
         * ) echo "Please answer yes [Y] or no [N].";;
     esac
 
-    read  -n 1 -p "Setup environment after build [Y/n]: " setup_after
+    read  -n 1 -p "Do you want run environment after build [Y/n]: " setup_after
     echo ""
 
     if [[ "$environment" = "1" ]]; then
@@ -207,7 +206,6 @@ build_env () {
 
     case $setup_after in
         [Yy]* ) run_env;;
-        * ) echo "Please answer yes [Y] or no [N].";;
     esac
 }
 
@@ -217,6 +215,8 @@ select_task () {
     echo "  1) Build environment";
     echo "  2) Run environment";
     echo "  3) Stop environment";
+    echo "  4) View .env variables";
+    echo "  5) Edit .env variables";
     echo ""
 
     read  -n 1 -p "Your choice: " task
@@ -228,6 +228,10 @@ select_task () {
         run_env
     elif [[ "$task" = "3" ]]; then
         stop_env
+    elif [[ "$task" = "4" ]]; then
+        less ./.env
+    elif [[ "$task" = "5" ]]; then
+        nano ./.env
     else
         echo -e "${RED}You have entered an invalid selection!${NC} Please try again!"
         echo ""
