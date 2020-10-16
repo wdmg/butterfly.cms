@@ -1,0 +1,57 @@
+version: '3'
+services:
+  db:
+    build:
+      context: ./db/mysql
+    user: "1000:50"
+    environment:
+      MYSQL_DB_HOST: mysql
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DB_PORT: 3306
+      MYSQL_DB_USER: username
+      MYSQL_DB_PASSWORD: password
+      MYSQL_DB_NAME: example
+    networks:
+      - backend
+    ports:
+      - "3306:3306"
+    restart: always
+    volumes:
+      - ./db/mysql/data:/var/lib/mysql
+
+  php:
+    build:
+      context: ./php
+    environment:
+      PHP_IDE_CONFIG: serverName=docker
+    networks:
+      - frontend
+      - backend
+    volumes:
+      - ./www/public:/var/www/public:delegated
+    links:
+      - db
+    depends_on:
+      - db
+
+  web:
+    build:
+      context: ./web/nginx
+    environment:
+      FASTCGI_PASS_HOST: php
+    networks:
+      - frontend
+      - backend
+    ports:
+      - "8080:80"
+    volumes:
+      - ./www/public:/var/www/public:delegated
+    links:
+      - php
+    depends_on:
+      - php
+
+networks:
+  frontend:
+  backend:
+    driver: bridge
