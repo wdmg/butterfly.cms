@@ -33,7 +33,7 @@ services:
       DB_PASSWORD: ${MYSQL_DB_PASSWORD}
       PHP_IDE_CONFIG: serverName=butterfly.cms
     volumes:
-      - web-data
+      - web-data:/var/www/public
     networks:
       - frontend
       - backend
