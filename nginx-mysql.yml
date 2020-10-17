@@ -63,6 +63,7 @@ services:
     restart: always
     environment:
       PMA_HOST: db
+      PMA_ARBITRARY: 1
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     networks:
       - frontend

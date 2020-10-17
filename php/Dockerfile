@@ -87,9 +87,24 @@ RUN if [ $PHP_USE_MEMCACHED = 1 ]; then \
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Application environment
-WORKDIR /var/www
+WORKDIR /var/www/public
 
 # Install Butterfly.CMS and run entrypoint to init
-RUN composer create-project --prefer-dist wdmg/butterfly.cms ./public
+RUN composer create-project --prefer-dist wdmg/butterfly.cms ./
 
+# Run PHP server
 CMD ["php-fpm"]
+
+# Start configure Butterfly.CMS
+RUN php init \
+    --env=development \
+    --overwrite=y \
+    --dbhost=${DB_HOST} \
+    --dbtype=mysql \
+    --dbcharset=utf8 \
+    --dbname=${DB_NAME} \
+    --tbprefix=btf_ \
+    --dbuser=${DB_USER} \
+    --dbpassword=${DB_PASSWORD} \
+    --create_db=y \
+    --migrations=n
