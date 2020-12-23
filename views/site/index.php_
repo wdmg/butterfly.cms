@@ -4,6 +4,87 @@
 
 $this->title = 'My Yii Application';
 
+/*
+$converter = array(
+    'f' => 'а',	',' => 'б',	'd' => 'в',	'u' => 'г',	'l' => 'д',	't' => 'е',	'`' => 'ё',
+    ';' => 'ж',	'p' => 'з',	'b' => 'и',	'q' => 'й',	'r' => 'к',	'k' => 'л',	'v' => 'м',
+    'y' => 'н',	'j' => 'о',	'g' => 'п',	'h' => 'р',	'c' => 'с',	'n' => 'т',	'e' => 'у',
+    'a' => 'ф',	'[' => 'х',	'w' => 'ц',	'x' => 'ч',	'i' => 'ш',	'o' => 'щ',	'm' => 'ь',
+    's' => 'ы',	']' => 'ъ',	"'" => "э",	'.' => 'ю',	'z' => 'я',
+
+    'F' => 'А',	'<' => 'Б',	'D' => 'В',	'U' => 'Г',	'L' => 'Д',	'T' => 'Е',	'~' => 'Ё',
+    ':' => 'Ж',	'P' => 'З',	'B' => 'И',	'Q' => 'Й',	'R' => 'К',	'K' => 'Л',	'V' => 'М',
+    'Y' => 'Н',	'J' => 'О',	'G' => 'П',	'H' => 'Р',	'C' => 'С',	'N' => 'Т',	'E' => 'У',
+    'A' => 'Ф',	'{' => 'Х',	'W' => 'Ц',	'X' => 'Ч',	'I' => 'Ш',	'O' => 'Щ',	'M' => 'Ь',
+    'S' => 'Ы',	'}' => 'Ъ',	'"' => 'Э',	'>' => 'Ю',	'Z' => 'Я',
+
+    '@' => '"',	'#' => '№',	'$' => ';',	'^' => ':',	'&' => '?',	'/' => '.',	'?' => ',',
+);
+
+$output = '';
+foreach ($converter as $key => $conv) {
+    $output .= $conv;
+}
+var_dump($output);
+die();*/
+
+/*
+$intl = new Locale();
+$intl->setDefault('ru_RU');
+var_export($intl->setDefault('ru_RU'));
+die();
+*/
+
+setlocale(LC_ALL, 'ru_RU.UTF8');
+Locale::setDefault('ru_RU.UTF8');
+
+$intl = new IntlChar();
+$strings = str_split('QqWwEeRrTtYyUuIiOoPp{[}]AaSsDdFfGgHhJjKkLl:;"\'|\\ZzXxCcVvBbNnMm<,>.?/~`!@#$%^&*()_+');
+
+$keycodes = [];
+foreach ($strings as $str) {
+    $keycodes[] = \ord($str);
+    //$keycodes[] = $intl->ord($str);
+}
+var_export($keycodes);
+
+$output = '';
+foreach ($keycodes as $key) {
+    //$output .= chr($key);
+    $output .= $intl->chr($key);
+}
+
+var_export($output);
+
+
+
+
+
+
+
+
+
+
+
+$strings = str_split('ЙйЦцУуКкЕеНнГгШшЩщЗзХхЪъФфЫыВвАаПпРрОоЛлДдЖжЭэ/\ЯяЧчСсМмИиТтЬьБбЮю,.Ёё!"№;%:?*()_+');
+
+$keycodes = [];
+foreach ($strings as $str) {
+    $keycodes[] = \ord($str);
+    //$keycodes[] = $intl->ord($str);
+}
+var_export($keycodes);
+
+$output = '';
+foreach ($keycodes as $key) {
+    //$output .= chr($key);
+    $output .= $intl->chr($key);
+}
+
+var_export($output);
+die();
+
+
 ?>
 <div class="site-index">
 

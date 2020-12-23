@@ -10,6 +10,111 @@ use yii\captcha\Captcha;
 
 $this->title = 'Contact';
 $this->params['breadcrumbs'][] = $this->title;
+
+$array = [
+    [
+        [
+            'name' => "Bob",
+            'userd_id' => 16,
+            'count' => 256,
+            'timestamp' => 4563626262,
+        ],
+        [
+            'name' => "Alice",
+            'userd_id' => 17,
+            'count' => 357,
+            'timestamp' => 3456345383,
+        ],
+        [
+            'name' => "Alice",
+            'userd_id' => 17,
+            'count' => 256,
+            'timestamp' => 3461326324,
+        ],
+        [
+            'name' => "Alice",
+            'userd_id' => 17,
+            'count' => 357,
+            'timestamp' => 3456345383,
+        ],
+        [
+            'name' => "Alice",
+            'userd_id' => 17,
+            'count' => 256,
+            'timestamp' => 3461326324,
+        ],
+    ],[
+        [
+            'name' => "Bob",
+            'userd_id' => 16,
+            'count' => 256,
+            'timestamp' => 4563626262,
+        ],
+        [
+            'name' => "Alice",
+            'userd_id' => 17,
+            'count' => 357,
+            'timestamp' => 3456345383,
+        ],
+        [
+            'name' => "Alice",
+            'userd_id' => 17,
+            'count' => 256,
+            'timestamp' => 3461326324,
+        ],
+        [
+            'name' => "Alice",
+            'userd_id' => 17,
+            'count' => 357,
+            'timestamp' => 3456345383,
+        ],
+        [
+            'name' => "Alice",
+            'userd_id' => 17,
+            'count' => 256,
+            'timestamp' => 3461326324,
+        ],
+    ],[
+        [
+            'name' => "Bob",
+            'userd_id' => 16,
+            'count' => 256,
+            'timestamp' => 4563626262,
+        ],
+        [
+            'name' => "Alice",
+            'userd_id' => 17,
+            'count' => 357,
+            'timestamp' => 3456345383,
+        ],
+        [
+            'name' => "Alice",
+            'userd_id' => 17,
+            'count' => 256,
+            'timestamp' => 3461326324,
+        ],
+        [
+            'name' => "Alice",
+            'userd_id' => 17,
+            'count' => 357,
+            'timestamp' => 3456345383,
+        ],
+        [
+            'name' => "Alice",
+            'userd_id' => 17,
+            'count' => 256,
+            'timestamp' => 3461326324,
+        ],
+    ]
+];
+
+$array = \wdmg\helpers\ArrayHelper::unique($array, ['name', 'count']);
+echo "<pre>";
+var_export($array);
+echo "</pre>";
+die();
+
+
 ?>
 <div class="site-contact">
     <h1><?= Html::encode($this->title) ?></h1>

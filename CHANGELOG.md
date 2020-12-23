@@ -3,6 +3,7 @@ Changelog
  
 ## 1.1.*
  * Update dependencies
+ * Added Menu module
  * Update Guard module
  * Added Comments and Views modules
  * Urlmanager rules environments config
