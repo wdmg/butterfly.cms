@@ -52,7 +52,6 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'enableStrictParsing' => true,
-            //'suffix' => '/',
             'rules' => [
                 '' => 'site/index',
                 '<action:admin>' => 'admin/<action>',

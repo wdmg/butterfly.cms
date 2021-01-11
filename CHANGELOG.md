@@ -1,13 +1,13 @@
 Changelog
 =========
  
-## 1.1.*
- * Fixed envirounments
+## 1.1.1 (2021-01-11)
+ * Update base app, fixed environments
  * Update dependencies
  * Added Menu module
  * Update Guard module
  * Added Comments and Views modules
- * Urlmanager rules environments config
+ * UrlManager rules environments config
  * Added Robots.txt module
  
 ## 1.1.0 (2020-04-17)

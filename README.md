@@ -8,7 +8,7 @@ Innovative Content Management System based on Yii2 framework. And it's all.
 
 P/s^ A little patience...😉
 
-[![Yii2](https://img.shields.io/badge/required-Yii2_v2.0.33-blue.svg)](https://packagist.org/packages/yiisoft/yii2)
+[![Yii2](https://img.shields.io/badge/required-Yii2_v2.0.40-blue.svg)](https://packagist.org/packages/yiisoft/yii2)
 [![Downloads](https://img.shields.io/packagist/dt/wdmg/butterfly.cms.svg)](https://packagist.org/packages/wdmg/butterfly.cms)
 [![Packagist Version](https://img.shields.io/packagist/v/wdmg/butterfly.cms.svg)](https://packagist.org/packages/wdmg/butterfly.cms)
 ![Progress](https://img.shields.io/badge/progress-in_development-red.svg)
@@ -83,6 +83,7 @@ After apply all migrations you may login to dashboard:
 http://example.com/admin/ with username `admin` and password `admin`.
 
 # Status and version [in progress development]
+* v.1.1.1 - Added yii2-menu, yii2-robots, yii2-comments, yii2-guard. Update base app, fixed environments
 * v.1.1.0 - Added multi-language support (partially)
 * v.1.0.18 - Added yii2-media and yii2-forms modules. Update dependencies
 * v.1.0.17 - Added yii2-blog module. Update dependencies

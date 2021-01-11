@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d38787edd7d213f7486bc561f85d95de",
+    "content-hash": "211ff82c059bb4803ac0d9a03d70d474",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -148,8 +148,7 @@
                 "url": "https://api.github.com/repos/gosquared/flags/zipball/1d382a9ea87667ac59c493b8fd771f49ce837e6a",
                 "reference": "1d382a9ea87667ac59c493b8fd771f49ce837e6a"
             },
-            "type": "bower-asset",
-            "time": "2017-02-02T14:59:26+00:00"
+            "type": "bower-asset"
         },
         {
             "name": "bower-asset/font-awesome",
@@ -192,7 +191,7 @@
             "version": "3.5.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "4c0e4becb8263bb5b3e6dadc448d8e7305ef8215"
             },
             "dist": {
@@ -341,6 +340,10 @@
                 "markdown",
                 "markdown-extra"
             ],
+            "support": {
+                "issues": "https://github.com/cebe/markdown/issues",
+                "source": "https://github.com/cebe/markdown"
+            },
             "time": "2018-03-26T11:24:36+00:00"
         },
         {
@@ -396,6 +399,25 @@
                 "certificate",
                 "ssl",
                 "tls"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.org/composer",
+                "issues": "https://github.com/composer/ca-bundle/issues",
+                "source": "https://github.com/composer/ca-bundle/tree/1.2.8"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-08-23T12:54:47+00:00"
         },
@@ -459,6 +481,24 @@
                 "parser",
                 "php"
             ],
+            "support": {
+                "issues": "https://github.com/doctrine/lexer/issues",
+                "source": "https://github.com/doctrine/lexer/tree/1.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Flexer",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-25T17:44:05+00:00"
         },
         {
@@ -517,6 +557,16 @@
                 "validation",
                 "validator"
             ],
+            "support": {
+                "issues": "https://github.com/egulias/EmailValidator/issues",
+                "source": "https://github.com/egulias/EmailValidator/tree/2.1.25"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/egulias",
+                    "type": "github"
+                }
+            ],
             "time": "2020-12-29T14:50:06+00:00"
         },
         {
@@ -567,6 +617,10 @@
             "keywords": [
                 "html"
             ],
+            "support": {
+                "issues": "https://github.com/ezyang/htmlpurifier/issues",
+                "source": "https://github.com/ezyang/htmlpurifier/tree/master"
+            },
             "time": "2020-06-29T00:56:53+00:00"
         },
         {
@@ -620,6 +674,10 @@
                 "geolocation",
                 "maxmind"
             ],
+            "support": {
+                "issues": "https://github.com/maxmind/GeoIP2-php/issues",
+                "source": "https://github.com/maxmind/GeoIP2-php/tree/v2.11.0"
+            },
             "time": "2020-10-01T18:48:34+00:00"
         },
         {
@@ -691,6 +749,10 @@
                 "uri",
                 "url"
             ],
+            "support": {
+                "issues": "https://github.com/guzzle/psr7/issues",
+                "source": "https://github.com/guzzle/psr7/tree/1.7.0"
+            },
             "time": "2020-09-30T07:37:11+00:00"
         },
         {
@@ -749,6 +811,10 @@
                 "image manipulation",
                 "image processing"
             ],
+            "support": {
+                "issues": "https://github.com/avalanche123/Imagine/issues",
+                "source": "https://github.com/avalanche123/Imagine/tree/1.2.4"
+            },
             "time": "2020-11-03T22:35:03+00:00"
         },
         {
@@ -809,6 +875,10 @@
                 "geolocation",
                 "maxmind"
             ],
+            "support": {
+                "issues": "https://github.com/maxmind/MaxMind-DB-Reader-php/issues",
+                "source": "https://github.com/maxmind/MaxMind-DB-Reader-php/tree/v1.9.0"
+            },
             "time": "2021-01-07T21:15:29+00:00"
         },
         {
@@ -855,6 +925,10 @@
             ],
             "description": "Internal MaxMind Web Service API",
             "homepage": "https://github.com/maxmind/web-service-common-php",
+            "support": {
+                "issues": "https://github.com/maxmind/web-service-common-php/issues",
+                "source": "https://github.com/maxmind/web-service-common-php/tree/v0.8.1"
+            },
             "time": "2020-11-02T17:00:53+00:00"
         },
         {
@@ -905,6 +979,9 @@
                 "request",
                 "response"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/master"
+            },
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
@@ -945,6 +1022,10 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
+            "support": {
+                "issues": "https://github.com/ralouphie/getallheaders/issues",
+                "source": "https://github.com/ralouphie/getallheaders/tree/develop"
+            },
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
@@ -1005,6 +1086,20 @@
                 "email",
                 "mail",
                 "mailer"
+            ],
+            "support": {
+                "issues": "https://github.com/swiftmailer/swiftmailer/issues",
+                "source": "https://github.com/swiftmailer/swiftmailer/tree/v6.2.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/swiftmailer/swiftmailer",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-12-08T18:02:06+00:00"
         },
@@ -1068,6 +1163,23 @@
                 "polyfill",
                 "portable",
                 "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-iconv/tree/v1.22.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2021-01-07T16:49:33+00:00"
         },
@@ -1139,6 +1251,23 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.22.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2021-01-07T16:49:33+00:00"
         },
         {
@@ -1206,6 +1335,23 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.22.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2021-01-07T17:09:11+00:00"
         },
         {
@@ -1269,6 +1415,23 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.22.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2021-01-07T16:49:33+00:00"
         },
         {
@@ -1328,6 +1491,23 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php72/tree/v1.22.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2021-01-07T16:49:33+00:00"
         },
         {
@@ -1382,6 +1562,10 @@
                 "porter",
                 "stemmer"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/lingua-stem/issues",
+                "source": "https://github.com/wdmg/lingua-stem/tree/master"
+            },
             "time": "2020-05-06T23:22:26+00:00"
         },
         {
@@ -1440,6 +1624,9 @@
             "keywords": [
                 "phpmorphy"
             ],
+            "support": {
+                "source": "https://github.com/wdmg/phpmorphy/tree/1.3.2"
+            },
             "time": "2020-12-24T14:12:34+00:00"
         },
         {
@@ -1500,6 +1687,10 @@
                 "yii2",
                 "yii2-activity"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-activity/issues",
+                "source": "https://github.com/wdmg/yii2-activity"
+            },
             "time": "2020-06-14T20:56:48+00:00"
         },
         {
@@ -1560,6 +1751,10 @@
                 "yii2",
                 "yii2-admin"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-admin/issues",
+                "source": "https://github.com/wdmg/yii2-admin"
+            },
             "time": "2020-12-23T23:15:24+00:00"
         },
         {
@@ -1622,6 +1817,10 @@
                 "yii2",
                 "yii2-amp"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-amp/issues",
+                "source": "https://github.com/wdmg/yii2-amp"
+            },
             "time": "2020-06-28T15:20:41+00:00"
         },
         {
@@ -1734,6 +1933,10 @@
                 "yii2",
                 "yii2-api"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-api/issues",
+                "source": "https://github.com/wdmg/yii2-api"
+            },
             "time": "2020-12-24T13:00:12+00:00"
         },
         {
@@ -1786,6 +1989,10 @@
                 "yii2",
                 "yii2-base"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-base/issues",
+                "source": "https://github.com/wdmg/yii2-base"
+            },
             "time": "2020-10-06T00:52:54+00:00"
         },
         {
@@ -1848,6 +2055,10 @@
                 "yii2",
                 "yii2-blog"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-blog/issues",
+                "source": "https://github.com/wdmg/yii2-blog"
+            },
             "time": "2021-01-01T23:30:16+00:00"
         },
         {
@@ -1904,7 +2115,78 @@
                 "yii",
                 "yii2"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-chartjs/issues",
+                "source": "https://github.com/wdmg/yii2-chartjs"
+            },
             "time": "2020-03-25T20:14:55+00:00"
+        },
+        {
+            "name": "wdmg/yii2-comments",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wdmg/yii2-comments.git",
+                "reference": "379c33522f9f7d6ccd0b2cffa50e66ce91980e52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wdmg/yii2-comments/zipball/379c33522f9f7d6ccd0b2cffa50e66ce91980e52",
+                "reference": "379c33522f9f7d6ccd0b2cffa50e66ce91980e52",
+                "shasum": ""
+            },
+            "require": {
+                "wdmg/yii2-base": "^1.2.4",
+                "wdmg/yii2-helpers": "^1.3.3",
+                "wdmg/yii2-selectinput": "^1.0.9",
+                "yiisoft/yii2": "^2.0.35"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "options": {
+                    "routePrefix": "admin",
+                    "defaultController": "admin/comments/default",
+                    "baseRoute": "/comments",
+                    "defaultListView": "@vendor/wdmg/yii2-comments/widgets/views/_list",
+                    "defaultFormView": "@vendor/wdmg/yii2-comments/widgets/views/_form",
+                    "editCommentTimeout": 300,
+                    "deleteCommentTimeout": 3600,
+                    "newCommentsModeration": true,
+                    "approveFromRegistered": true
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "wdmg\\comments\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexsander Vyshnyvetskyy",
+                    "email": "alex.vyshnyvetskyy@gmail.com"
+                },
+                {
+                    "name": "W.D.M.Group, Ukraine",
+                    "email": "wdmg.com.ua@gmail.com"
+                }
+            ],
+            "description": "Tree comments system",
+            "homepage": "https://github.com/wdmg/yii2-comments",
+            "keywords": [
+                "comments system",
+                "wdmg",
+                "yii2",
+                "yii2-comments"
+            ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-comments/issues",
+                "source": "https://github.com/wdmg/yii2-comments"
+            },
+            "time": "2020-06-13T22:39:22+00:00"
         },
         {
             "name": "wdmg/yii2-content",
@@ -1960,6 +2242,10 @@
                 "yii2",
                 "yii2-content"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-content/issues",
+                "source": "https://github.com/wdmg/yii2-content"
+            },
             "time": "2021-01-02T00:07:12+00:00"
         },
         {
@@ -2017,6 +2303,10 @@
                 "yii",
                 "yii2"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-datepicker/issues",
+                "source": "https://github.com/wdmg/yii2-datepicker"
+            },
             "time": "2020-03-31T23:12:09+00:00"
         },
         {
@@ -2076,6 +2366,10 @@
                 "yii",
                 "yii2"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-editor/issues",
+                "source": "https://github.com/wdmg/yii2-editor"
+            },
             "time": "2020-04-14T18:38:29+00:00"
         },
         {
@@ -2132,6 +2426,10 @@
                 "yii2",
                 "yii2-forms"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-forms/issues",
+                "source": "https://github.com/wdmg/yii2-forms"
+            },
             "time": "2021-01-01T23:25:47+00:00"
         },
         {
@@ -2188,6 +2486,10 @@
                 "yii2",
                 "yii2-geo"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-geo/issues",
+                "source": "https://github.com/wdmg/yii2-geo"
+            },
             "time": "2020-03-27T00:13:08+00:00"
         },
         {
@@ -2311,6 +2613,10 @@
                 "yii2",
                 "yii2-guard"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-guard/issues",
+                "source": "https://github.com/wdmg/yii2-guard"
+            },
             "time": "2020-10-05T21:52:11+00:00"
         },
         {
@@ -2365,6 +2671,10 @@
                 "yii",
                 "yii2"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-helpers/issues",
+                "source": "https://github.com/wdmg/yii2-helpers"
+            },
             "time": "2021-01-02T00:35:28+00:00"
         },
         {
@@ -2450,6 +2760,10 @@
                 "yii2",
                 "yii2-mailer"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-mailer/issues",
+                "source": "https://github.com/wdmg/yii2-mailer"
+            },
             "time": "2020-06-14T21:29:12+00:00"
         },
         {
@@ -2526,7 +2840,74 @@
                 "yii2",
                 "yii2-media"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-media/issues",
+                "source": "https://github.com/wdmg/yii2-media"
+            },
             "time": "2021-01-02T00:04:40+00:00"
+        },
+        {
+            "name": "wdmg/yii2-menu",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wdmg/yii2-menu.git",
+                "reference": "18c37732784cf83a4b29fe7a9a2453900501fe8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wdmg/yii2-menu/zipball/18c37732784cf83a4b29fe7a9a2453900501fe8b",
+                "reference": "18c37732784cf83a4b29fe7a9a2453900501fe8b",
+                "shasum": ""
+            },
+            "require": {
+                "wdmg/yii2-base": "^1.3.0",
+                "wdmg/yii2-helpers": "^1.4.2",
+                "yiisoft/yii2": "^2.0.40"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "options": {
+                    "routePrefix": "admin",
+                    "supportModels": {
+                        "pages": "wdmg\\pages\\models\\Pages",
+                        "news": "wdmg\\news\\models\\News",
+                        "blog": "wdmg\\blog\\models\\Posts"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "wdmg\\menu\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexsander Vyshnyvetskyy",
+                    "email": "alex.vyshnyvetskyy@gmail.com"
+                },
+                {
+                    "name": "W.D.M.Group, Ukraine",
+                    "email": "wdmg.com.ua@gmail.com"
+                }
+            ],
+            "description": "Menu module",
+            "homepage": "https://github.com/wdmg/yii2-menu",
+            "keywords": [
+                "user menu",
+                "wdmg",
+                "yii2",
+                "yii2-menu"
+            ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-menu/issues",
+                "source": "https://github.com/wdmg/yii2-menu"
+            },
+            "time": "2021-01-02T01:09:08+00:00"
         },
         {
             "name": "wdmg/yii2-news",
@@ -2591,6 +2972,10 @@
                 "yii2",
                 "yii2-news"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-news/issues",
+                "source": "https://github.com/wdmg/yii2-news"
+            },
             "time": "2021-01-01T23:27:51+00:00"
         },
         {
@@ -2649,6 +3034,10 @@
                 "yii2",
                 "yii2-newsletters"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-newsletters/issues",
+                "source": "https://github.com/wdmg/yii2-newsletters"
+            },
             "time": "2021-01-01T23:47:02+00:00"
         },
         {
@@ -2706,6 +3095,10 @@
                 "yii2",
                 "yii2-options"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-options/issues",
+                "source": "https://github.com/wdmg/yii2-options"
+            },
             "time": "2020-10-21T01:11:50+00:00"
         },
         {
@@ -2770,6 +3163,10 @@
                 "yii2",
                 "yii2-pages"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-pages/issues",
+                "source": "https://github.com/wdmg/yii2-pages"
+            },
             "time": "2021-01-02T00:09:56+00:00"
         },
         {
@@ -2828,6 +3225,10 @@
                 "yii2",
                 "yii2-rbac"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-rbac/issues",
+                "source": "https://github.com/wdmg/yii2-rbac"
+            },
             "time": "2020-03-27T00:08:07+00:00"
         },
         {
@@ -2885,7 +3286,71 @@
                 "yii2",
                 "yii2-redirects"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-redirects/issues",
+                "source": "https://github.com/wdmg/yii2-redirects"
+            },
             "time": "2020-06-28T00:19:33+00:00"
+        },
+        {
+            "name": "wdmg/yii2-robots",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wdmg/yii2-robots.git",
+                "reference": "05f36142a08ff9014579cb75533b6c5b7a559d10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wdmg/yii2-robots/zipball/05f36142a08ff9014579cb75533b6c5b7a559d10",
+                "reference": "05f36142a08ff9014579cb75533b6c5b7a559d10",
+                "shasum": ""
+            },
+            "require": {
+                "wdmg/yii2-base": "^1.2.4",
+                "wdmg/yii2-selectinput": "^1.0.9",
+                "yiisoft/yii2": "^2.0.35"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "options": {
+                    "routePrefix": "admin",
+                    "robotsWebRoot": "@webroot/robots.txt"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "wdmg\\robots\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexsander Vyshnyvetskyy",
+                    "email": "alex.vyshnyvetskyy@gmail.com"
+                },
+                {
+                    "name": "W.D.M.Group, Ukraine",
+                    "email": "wdmg.com.ua@gmail.com"
+                }
+            ],
+            "description": "Module for automatically generating and edit the robots.txt file",
+            "homepage": "https://github.com/wdmg/yii2-robots",
+            "keywords": [
+                "robots",
+                "robots.txt",
+                "wdmg",
+                "yii2",
+                "yii2-robots"
+            ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-robots/issues",
+                "source": "https://github.com/wdmg/yii2-robots"
+            },
+            "time": "2020-06-14T21:10:03+00:00"
         },
         {
             "name": "wdmg/yii2-rss",
@@ -2948,6 +3413,10 @@
                 "yii2",
                 "yii2-rss"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-rss/issues",
+                "source": "https://github.com/wdmg/yii2-rss"
+            },
             "time": "2020-06-28T14:44:10+00:00"
         },
         {
@@ -3093,6 +3562,10 @@
                 "yii2",
                 "yii2-search"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-search/issues",
+                "source": "https://github.com/wdmg/yii2-search"
+            },
             "time": "2020-12-24T14:25:37+00:00"
         },
         {
@@ -3151,6 +3624,10 @@
                 "yii",
                 "yii2"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-selectinput/issues",
+                "source": "https://github.com/wdmg/yii2-selectinput"
+            },
             "time": "2020-04-27T08:18:39+00:00"
         },
         {
@@ -3205,6 +3682,10 @@
                 "yii2",
                 "yii2-services"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-services/issues",
+                "source": "https://github.com/wdmg/yii2-services"
+            },
             "time": "2020-06-28T00:23:58+00:00"
         },
         {
@@ -3269,6 +3750,10 @@
                 "yii2",
                 "yii2-sitemap"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-sitemap/issues",
+                "source": "https://github.com/wdmg/yii2-sitemap"
+            },
             "time": "2020-06-28T14:56:23+00:00"
         },
         {
@@ -3348,6 +3833,10 @@
                 "yii2",
                 "yii2-stats"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-stats/issues",
+                "source": "https://github.com/wdmg/yii2-stats"
+            },
             "time": "2021-01-09T02:29:13+00:00"
         },
         {
@@ -3404,6 +3893,10 @@
                 "yii2",
                 "yii2-subscribers"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-subscribers/issues",
+                "source": "https://github.com/wdmg/yii2-subscribers"
+            },
             "time": "2020-06-28T15:03:07+00:00"
         },
         {
@@ -3462,6 +3955,10 @@
                 "yii",
                 "yii2"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-tagsinput/issues",
+                "source": "https://github.com/wdmg/yii2-tagsinput"
+            },
             "time": "2020-03-31T23:19:03+00:00"
         },
         {
@@ -3519,6 +4016,10 @@
                 "yii2",
                 "yii2-tasks"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-tasks/issues",
+                "source": "https://github.com/wdmg/yii2-tasks"
+            },
             "time": "2020-07-01T01:04:36+00:00"
         },
         {
@@ -3602,6 +4103,10 @@
                 "yii2",
                 "yii2-terminal"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-terminal/issues",
+                "source": "https://github.com/wdmg/yii2-terminal"
+            },
             "time": "2020-10-05T21:23:19+00:00"
         },
         {
@@ -3657,6 +4162,10 @@
                 "yii2",
                 "yii2-tickets"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-tickets/issues",
+                "source": "https://github.com/wdmg/yii2-tickets"
+            },
             "time": "2020-07-01T01:05:49+00:00"
         },
         {
@@ -3745,6 +4254,10 @@
                 "yii2",
                 "yii2-translations"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-translations/issues",
+                "source": "https://github.com/wdmg/yii2-translations"
+            },
             "time": "2020-06-13T23:38:06+00:00"
         },
         {
@@ -3809,6 +4322,10 @@
                 "yii2",
                 "yii2-turbo"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-turbo/issues",
+                "source": "https://github.com/wdmg/yii2-turbo"
+            },
             "time": "2020-06-28T15:14:40+00:00"
         },
         {
@@ -3884,6 +4401,10 @@
                 "yii2",
                 "yii2-users"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-users/issues",
+                "source": "https://github.com/wdmg/yii2-users"
+            },
             "time": "2021-01-01T18:29:13+00:00"
         },
         {
@@ -3934,7 +4455,71 @@
                 "yii",
                 "yii2"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-validators/issues",
+                "source": "https://github.com/wdmg/yii2-validators"
+            },
             "time": "2020-04-27T22:58:22+00:00"
+        },
+        {
+            "name": "wdmg/yii2-views",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wdmg/yii2-views.git",
+                "reference": "7a6368b120d0570a4f01a36d50885666b7b0222a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wdmg/yii2-views/zipball/7a6368b120d0570a4f01a36d50885666b7b0222a",
+                "reference": "7a6368b120d0570a4f01a36d50885666b7b0222a",
+                "shasum": ""
+            },
+            "require": {
+                "wdmg/yii2-base": "^1.2.4",
+                "wdmg/yii2-helpers": "^1.3.2",
+                "wdmg/yii2-selectinput": "^1.0.9",
+                "yiisoft/yii2": "^2.0.35"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "options": {
+                    "routePrefix": "admin",
+                    "cacheExpire": 604800
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "wdmg\\views\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexsander Vyshnyvetskyy",
+                    "email": "alex.vyshnyvetskyy@gmail.com"
+                },
+                {
+                    "name": "W.D.M.Group, Ukraine",
+                    "email": "wdmg.com.ua@gmail.com"
+                }
+            ],
+            "description": "System of accounting user views",
+            "homepage": "https://github.com/wdmg/yii2-views",
+            "keywords": [
+                "views",
+                "wdmg",
+                "yii2",
+                "yii2-views"
+            ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-views/issues",
+                "source": "https://github.com/wdmg/yii2-views"
+            },
+            "time": "2020-07-01T01:07:21+00:00"
         },
         {
             "name": "wdmg/yii2-widgets",
@@ -3990,6 +4575,10 @@
                 "yii",
                 "yii2"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-widgets/issues",
+                "source": "https://github.com/wdmg/yii2-widgets"
+            },
             "time": "2020-05-12T13:56:54+00:00"
         },
         {
@@ -4090,6 +4679,27 @@
                 "framework",
                 "yii2"
             ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+                "source": "https://github.com/yiisoft/yii2",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/yiisoft/yii2",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-12-23T15:44:43+00:00"
         },
         {
@@ -4153,6 +4763,13 @@
                 "bootstrap",
                 "yii2"
             ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2-bootstrap/issues",
+                "source": "https://github.com/yiisoft/yii2-bootstrap",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
             "time": "2019-04-23T13:18:43+00:00"
         },
         {
@@ -4207,6 +4824,27 @@
                 "composer",
                 "extension installer",
                 "yii2"
+            ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2-composer/issues",
+                "source": "https://github.com/yiisoft/yii2-composer",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/yiisoft/yii2-composer",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-06-24T00:04:01+00:00"
         },
@@ -4268,6 +4906,27 @@
                 "http",
                 "httpclient",
                 "yii2"
+            ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2-httpclient/issues",
+                "source": "https://github.com/yiisoft/yii2-httpclient",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/yiisoft/yii2-httpclient",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-12-23T16:52:14+00:00"
         },
@@ -4331,6 +4990,27 @@
                 "imagine",
                 "yii2"
             ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2-imagine/issues",
+                "source": "https://github.com/yiisoft/yii2-imagine",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/yiisoft/yii2-imagine",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-12-23T17:16:36+00:00"
         },
         {
@@ -4381,6 +5061,13 @@
                 "swiftmailer",
                 "yii2"
             ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2-swiftmailer/issues",
+                "source": "https://github.com/yiisoft/yii2-swiftmailer",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
             "time": "2018-09-23T22:00:47+00:00"
         },
         {
@@ -4445,6 +5132,17 @@
                 "parser",
                 "php-imap"
             ],
+            "support": {
+                "docs": "https://mail-mime-parser.org/#usage-guide",
+                "issues": "https://github.com/zbateson/mail-mime-parser/issues",
+                "source": "https://github.com/zbateson/mail-mime-parser"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/zbateson",
+                    "type": "github"
+                }
+            ],
             "time": "2020-12-02T21:55:45+00:00"
         },
         {
@@ -4502,6 +5200,16 @@
                 "multibyte",
                 "string"
             ],
+            "support": {
+                "issues": "https://github.com/zbateson/mb-wrapper/issues",
+                "source": "https://github.com/zbateson/mb-wrapper/tree/1.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/zbateson",
+                    "type": "github"
+                }
+            ],
             "time": "2020-10-21T22:14:27+00:00"
         },
         {
@@ -4552,6 +5260,16 @@
                 "quoted-printable",
                 "stream",
                 "uuencode"
+            ],
+            "support": {
+                "issues": "https://github.com/zbateson/stream-decorators/issues",
+                "source": "https://github.com/zbateson/stream-decorators/tree/master"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/zbateson",
+                    "type": "github"
+                }
             ],
             "time": "2020-08-10T18:59:43+00:00"
         }
@@ -4614,6 +5332,10 @@
                 "gherkin",
                 "parser"
             ],
+            "support": {
+                "issues": "https://github.com/Behat/Gherkin/issues",
+                "source": "https://github.com/Behat/Gherkin/tree/master"
+            },
             "time": "2020-03-17T14:03:26+00:00"
         },
         {
@@ -4699,6 +5421,16 @@
                 "functional testing",
                 "unit testing"
             ],
+            "support": {
+                "issues": "https://github.com/Codeception/Codeception/issues",
+                "source": "https://github.com/Codeception/Codeception/tree/4.1.14"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/codeception",
+                    "type": "open_collective"
+                }
+            ],
             "time": "2020-12-28T19:16:28+00:00"
         },
         {
@@ -4749,6 +5481,10 @@
             "keywords": [
                 "codeception"
             ],
+            "support": {
+                "issues": "https://github.com/Codeception/lib-asserts/issues",
+                "source": "https://github.com/Codeception/lib-asserts/tree/1.13.2"
+            },
             "time": "2020-10-21T16:26:20+00:00"
         },
         {
@@ -4805,6 +5541,10 @@
             "keywords": [
                 "codeception"
             ],
+            "support": {
+                "issues": "https://github.com/Codeception/lib-innerbrowser/issues",
+                "source": "https://github.com/Codeception/lib-innerbrowser/tree/1.3.5"
+            },
             "time": "2021-01-02T18:59:34+00:00"
         },
         {
@@ -4858,6 +5598,10 @@
                 "asserts",
                 "codeception"
             ],
+            "support": {
+                "issues": "https://github.com/Codeception/module-asserts/issues",
+                "source": "https://github.com/Codeception/module-asserts/tree/1.3.1"
+            },
             "time": "2020-10-21T16:48:15+00:00"
         },
         {
@@ -4906,7 +5650,71 @@
                 "codeception",
                 "filesystem"
             ],
+            "support": {
+                "issues": "https://github.com/Codeception/module-filesystem/issues",
+                "source": "https://github.com/Codeception/module-filesystem/tree/1.0.3"
+            },
             "time": "2020-10-24T14:46:40+00:00"
+        },
+        {
+            "name": "codeception/module-phpbrowser",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Codeception/module-phpbrowser.git",
+                "reference": "770a6be4160a5c0c08d100dd51bff35f6056bbf1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Codeception/module-phpbrowser/zipball/770a6be4160a5c0c08d100dd51bff35f6056bbf1",
+                "reference": "770a6be4160a5c0c08d100dd51bff35f6056bbf1",
+                "shasum": ""
+            },
+            "require": {
+                "codeception/codeception": "^4.0",
+                "codeception/lib-innerbrowser": "^1.3",
+                "guzzlehttp/guzzle": "^6.3|^7.0",
+                "php": ">=5.6.0 <9.0"
+            },
+            "conflict": {
+                "codeception/codeception": "<4.0"
+            },
+            "require-dev": {
+                "codeception/module-rest": "^1.0"
+            },
+            "suggest": {
+                "codeception/phpbuiltinserver": "Start and stop PHP built-in web server for your tests"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Bodnarchuk"
+                },
+                {
+                    "name": "Gintautas Miselis"
+                }
+            ],
+            "description": "Codeception module for testing web application over HTTP",
+            "homepage": "http://codeception.com/",
+            "keywords": [
+                "codeception",
+                "functional-testing",
+                "http"
+            ],
+            "support": {
+                "issues": "https://github.com/Codeception/module-phpbrowser/issues",
+                "source": "https://github.com/Codeception/module-phpbrowser/tree/1.0.2"
+            },
+            "time": "2020-10-24T15:29:28+00:00"
         },
         {
             "name": "codeception/module-yii2",
@@ -4954,6 +5762,10 @@
                 "codeception",
                 "yii2"
             ],
+            "support": {
+                "issues": "https://github.com/Codeception/module-yii2/issues",
+                "source": "https://github.com/Codeception/module-yii2/tree/1.1.2"
+            },
             "time": "2020-12-21T15:21:56+00:00"
         },
         {
@@ -4998,6 +5810,10 @@
                 }
             ],
             "description": "PHPUnit classes used by Codeception",
+            "support": {
+                "issues": "https://github.com/Codeception/phpunit-wrapper/issues",
+                "source": "https://github.com/Codeception/phpunit-wrapper/tree/8.1.4"
+            },
             "time": "2020-12-28T14:00:08+00:00"
         },
         {
@@ -5038,6 +5854,10 @@
                 }
             ],
             "description": "BDD code blocks for PHPUnit and Codeception",
+            "support": {
+                "issues": "https://github.com/Codeception/Specify/issues",
+                "source": "https://github.com/Codeception/Specify/tree/master"
+            },
             "time": "2016-10-21T09:42:00+00:00"
         },
         {
@@ -5068,6 +5888,10 @@
                 "MIT"
             ],
             "description": "Flexible Stub wrapper for PHPUnit's Mock Builder",
+            "support": {
+                "issues": "https://github.com/Codeception/Stub/issues",
+                "source": "https://github.com/Codeception/Stub/tree/3.7.0"
+            },
             "time": "2020-07-03T15:54:43+00:00"
         },
         {
@@ -5109,6 +5933,10 @@
                 }
             ],
             "description": "BDD assertion library for PHPUnit",
+            "support": {
+                "issues": "https://github.com/Codeception/Verify/issues",
+                "source": "https://github.com/Codeception/Verify/tree/master"
+            },
             "time": "2019-07-30T18:21:46+00:00"
         },
         {
@@ -5160,6 +5988,24 @@
                 "constructor",
                 "instantiate"
             ],
+            "support": {
+                "issues": "https://github.com/doctrine/instantiator/issues",
+                "source": "https://github.com/doctrine/instantiator/tree/1.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finstantiator",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-11-10T18:47:58+00:00"
         },
         {
@@ -5208,7 +6054,168 @@
                 "faker",
                 "fixtures"
             ],
+            "support": {
+                "issues": "https://github.com/FakerPHP/Faker/issues",
+                "source": "https://github.com/FakerPHP/Faker/tree/v1.13.0"
+            },
             "time": "2020-12-18T16:50:48+00:00"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "7.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "0aa74dfb41ae110835923ef10a9d803a22d50e79"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/0aa74dfb41ae110835923ef10a9d803a22d50e79",
+                "reference": "0aa74dfb41ae110835923ef10a9d803a22d50e79",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/promises": "^1.4",
+                "guzzlehttp/psr7": "^1.7",
+                "php": "^7.2.5 || ^8.0",
+                "psr/http-client": "^1.0"
+            },
+            "provide": {
+                "psr/http-client-implementation": "1.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "php-http/client-integration-tests": "^3.0",
+                "phpunit/phpunit": "^8.5.5 || ^9.3.5",
+                "psr/log": "^1.1"
+            },
+            "suggest": {
+                "ext-curl": "Required for CURL handler support",
+                "ext-intl": "Required for Internationalized Domain Name (IDN) support",
+                "psr/log": "Required for using the Log middleware"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://sagikazarmark.hu"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "psr-18",
+                "psr-7",
+                "rest",
+                "web service"
+            ],
+            "support": {
+                "issues": "https://github.com/guzzle/guzzle/issues",
+                "source": "https://github.com/guzzle/guzzle/tree/7.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/alexeyshockov",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/gmponos",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-10-10T11:47:56+00:00"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "60d379c243457e073cff02bc323a2a86cb355631"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/60d379c243457e073cff02bc323a2a86cb355631",
+                "reference": "60d379c243457e073cff02bc323a2a86cb355631",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^4.4 || ^5.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "support": {
+                "issues": "https://github.com/guzzle/promises/issues",
+                "source": "https://github.com/guzzle/promises/tree/1.4.0"
+            },
+            "time": "2020-09-30T07:37:28+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -5255,6 +6262,16 @@
                 "duplicate",
                 "object",
                 "object graph"
+            ],
+            "support": {
+                "issues": "https://github.com/myclabs/DeepCopy/issues",
+                "source": "https://github.com/myclabs/DeepCopy/tree/1.10.2"
+            },
+            "funding": [
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/myclabs/deep-copy",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-11-13T09:40:50+00:00"
         },
@@ -5317,6 +6334,10 @@
                 "serialization",
                 "serialize"
             ],
+            "support": {
+                "issues": "https://github.com/opis/closure/issues",
+                "source": "https://github.com/opis/closure/tree/3.6.1"
+            },
             "time": "2020-11-07T02:01:34+00:00"
         },
         {
@@ -5373,6 +6394,10 @@
                 }
             ],
             "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
+            "support": {
+                "issues": "https://github.com/phar-io/manifest/issues",
+                "source": "https://github.com/phar-io/manifest/tree/master"
+            },
             "time": "2020-06-27T14:33:11+00:00"
         },
         {
@@ -5420,6 +6445,10 @@
                 }
             ],
             "description": "Library for handling version information and constraints",
+            "support": {
+                "issues": "https://github.com/phar-io/version/issues",
+                "source": "https://github.com/phar-io/version/tree/3.0.4"
+            },
             "time": "2020-12-13T23:18:30+00:00"
         },
         {
@@ -5469,6 +6498,10 @@
                 "reflection",
                 "static analysis"
             ],
+            "support": {
+                "issues": "https://github.com/phpDocumentor/ReflectionCommon/issues",
+                "source": "https://github.com/phpDocumentor/ReflectionCommon/tree/2.x"
+            },
             "time": "2020-06-27T09:03:43+00:00"
         },
         {
@@ -5521,6 +6554,10 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
+            "support": {
+                "issues": "https://github.com/phpDocumentor/ReflectionDocBlock/issues",
+                "source": "https://github.com/phpDocumentor/ReflectionDocBlock/tree/master"
+            },
             "time": "2020-09-03T19:13:55+00:00"
         },
         {
@@ -5566,6 +6603,10 @@
                 }
             ],
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
+            "support": {
+                "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
+                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.4.0"
+            },
             "time": "2020-09-17T18:55:26+00:00"
         },
         {
@@ -5604,6 +6645,9 @@
                 }
             ],
             "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays).",
+            "support": {
+                "source": "https://github.com/phpspec/php-diff/tree/v1.1.3"
+            },
             "time": "2020-09-18T13:47:07+00:00"
         },
         {
@@ -5667,6 +6711,10 @@
                 "spy",
                 "stub"
             ],
+            "support": {
+                "issues": "https://github.com/phpspec/prophecy/issues",
+                "source": "https://github.com/phpspec/prophecy/tree/1.12.2"
+            },
             "time": "2020-12-19T10:15:11+00:00"
         },
         {
@@ -5730,6 +6778,16 @@
                 "testing",
                 "xunit"
             ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/7.0.14"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
             "time": "2020-12-02T13:39:03+00:00"
         },
         {
@@ -5780,6 +6838,16 @@
                 "filesystem",
                 "iterator"
             ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
+                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/2.0.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
             "time": "2020-11-30T08:25:21+00:00"
         },
         {
@@ -5821,6 +6889,10 @@
             "keywords": [
                 "template"
             ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/php-text-template/issues",
+                "source": "https://github.com/sebastianbergmann/php-text-template/tree/1.2.1"
+            },
             "time": "2015-06-21T13:50:34+00:00"
         },
         {
@@ -5870,6 +6942,16 @@
             "keywords": [
                 "timer"
             ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/php-timer/issues",
+                "source": "https://github.com/sebastianbergmann/php-timer/tree/2.1.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
             "time": "2020-11-30T08:20:02+00:00"
         },
         {
@@ -5918,6 +7000,16 @@
             "homepage": "https://github.com/sebastianbergmann/php-token-stream/",
             "keywords": [
                 "tokenizer"
+            ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/php-token-stream/issues",
+                "source": "https://github.com/sebastianbergmann/php-token-stream/tree/3.1.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
             ],
             "abandoned": true,
             "time": "2020-11-30T08:38:46+00:00"
@@ -6003,6 +7095,20 @@
                 "testing",
                 "xunit"
             ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/phpunit/issues",
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/8.5.13"
+            },
+            "funding": [
+                {
+                    "url": "https://phpunit.de/donate.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
             "time": "2020-12-01T04:53:52+00:00"
         },
         {
@@ -6052,6 +7158,10 @@
                 "container-interop",
                 "psr"
             ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container/tree/master"
+            },
             "time": "2017-02-14T16:28:37+00:00"
         },
         {
@@ -6098,7 +7208,63 @@
                 "psr",
                 "psr-14"
             ],
+            "support": {
+                "issues": "https://github.com/php-fig/event-dispatcher/issues",
+                "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
+            },
             "time": "2019-01-08T18:20:26+00:00"
+        },
+        {
+            "name": "psr/http-client",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-client.git",
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-client/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP clients",
+            "homepage": "https://github.com/php-fig/http-client",
+            "keywords": [
+                "http",
+                "http-client",
+                "psr",
+                "psr-18"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-client/tree/master"
+            },
+            "time": "2020-06-29T06:28:15+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -6143,6 +7309,16 @@
             ],
             "description": "Looks up which function or method a line of code belongs to",
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/issues",
+                "source": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/tree/1.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
             "time": "2020-11-30T08:15:22+00:00"
         },
         {
@@ -6207,6 +7383,16 @@
                 "compare",
                 "equality"
             ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/comparator/issues",
+                "source": "https://github.com/sebastianbergmann/comparator/tree/3.0.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
             "time": "2020-11-30T08:04:30+00:00"
         },
         {
@@ -6263,6 +7449,16 @@
                 "unidiff",
                 "unified diff"
             ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/diff/issues",
+                "source": "https://github.com/sebastianbergmann/diff/tree/3.0.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
             "time": "2020-11-30T07:59:04+00:00"
         },
         {
@@ -6315,6 +7511,16 @@
                 "Xdebug",
                 "environment",
                 "hhvm"
+            ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/environment/issues",
+                "source": "https://github.com/sebastianbergmann/environment/tree/4.2.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
             ],
             "time": "2020-11-30T07:53:42+00:00"
         },
@@ -6383,6 +7589,16 @@
                 "export",
                 "exporter"
             ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/exporter/issues",
+                "source": "https://github.com/sebastianbergmann/exporter/tree/3.1.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
             "time": "2020-11-30T07:47:53+00:00"
         },
         {
@@ -6437,6 +7653,16 @@
             "keywords": [
                 "global state"
             ],
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/global-state/issues",
+                "source": "https://github.com/sebastianbergmann/global-state/tree/3.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
             "time": "2020-11-30T07:43:24+00:00"
         },
         {
@@ -6484,6 +7710,16 @@
             ],
             "description": "Traverses array structures and object graphs to enumerate all referenced objects",
             "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/object-enumerator/issues",
+                "source": "https://github.com/sebastianbergmann/object-enumerator/tree/3.0.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
             "time": "2020-11-30T07:40:27+00:00"
         },
         {
@@ -6529,6 +7765,16 @@
             ],
             "description": "Allows reflection of object attributes, including inherited and non-public ones",
             "homepage": "https://github.com/sebastianbergmann/object-reflector/",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/object-reflector/issues",
+                "source": "https://github.com/sebastianbergmann/object-reflector/tree/1.1.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
             "time": "2020-11-30T07:37:18+00:00"
         },
         {
@@ -6582,6 +7828,16 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/recursion-context/issues",
+                "source": "https://github.com/sebastianbergmann/recursion-context/tree/3.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
             "time": "2020-11-30T07:34:24+00:00"
         },
         {
@@ -6624,6 +7880,16 @@
             ],
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/resource-operations/issues",
+                "source": "https://github.com/sebastianbergmann/resource-operations/tree/2.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
             "time": "2020-11-30T07:30:19+00:00"
         },
         {
@@ -6670,6 +7936,16 @@
             ],
             "description": "Collection of value objects that represent the types of the PHP type system",
             "homepage": "https://github.com/sebastianbergmann/type",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/type/issues",
+                "source": "https://github.com/sebastianbergmann/type/tree/1.1.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
             "time": "2020-11-30T07:25:11+00:00"
         },
         {
@@ -6713,6 +7989,10 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/version/issues",
+                "source": "https://github.com/sebastianbergmann/version/tree/master"
+            },
             "time": "2016-10-03T07:35:21+00:00"
         },
         {
@@ -6770,6 +8050,9 @@
             ],
             "description": "Symfony BrowserKit Component",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/browser-kit/tree/4.2"
+            },
             "time": "2019-02-23T15:17:42+00:00"
         },
         {
@@ -6850,6 +8133,23 @@
                 "console",
                 "terminal"
             ],
+            "support": {
+                "source": "https://github.com/symfony/console/tree/v5.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-12-18T08:03:05+00:00"
         },
         {
@@ -6898,6 +8198,23 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/css-selector/tree/v5.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-12-08T17:02:38+00:00"
         },
         {
@@ -6948,6 +8265,23 @@
             ],
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/deprecation-contracts/tree/master"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-09-07T11:33:47+00:00"
         },
         {
@@ -7004,6 +8338,23 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/dom-crawler/tree/v4.4.18"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-12-18T07:41:31+00:00"
         },
         {
@@ -7072,6 +8423,23 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/event-dispatcher/tree/v5.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-12-18T08:03:05+00:00"
         },
         {
@@ -7134,6 +8502,23 @@
                 "interoperability",
                 "standards"
             ],
+            "support": {
+                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v2.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-09-07T11:33:47+00:00"
         },
         {
@@ -7178,6 +8563,23 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/finder/tree/v5.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-12-08T17:02:38+00:00"
         },
         {
@@ -7239,6 +8641,23 @@
                 "ctype",
                 "polyfill",
                 "portable"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.22.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2021-01-07T16:49:33+00:00"
         },
@@ -7304,6 +8723,23 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.22.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2021-01-07T16:49:33+00:00"
         },
         {
@@ -7365,6 +8801,23 @@
                 "polyfill",
                 "portable",
                 "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.22.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2021-01-07T16:49:33+00:00"
         },
@@ -7432,6 +8885,23 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.22.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2021-01-07T16:49:33+00:00"
         },
         {
@@ -7493,6 +8963,23 @@
                 "interfaces",
                 "interoperability",
                 "standards"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/service-contracts/tree/master"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-09-07T11:33:47+00:00"
         },
@@ -7560,6 +9047,23 @@
                 "utf-8",
                 "utf8"
             ],
+            "support": {
+                "source": "https://github.com/symfony/string/tree/v5.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-12-05T07:33:16+00:00"
         },
         {
@@ -7618,6 +9122,23 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/yaml/tree/v5.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-12-08T17:02:38+00:00"
         },
         {
@@ -7658,6 +9179,16 @@
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
+            "support": {
+                "issues": "https://github.com/theseer/tokenizer/issues",
+                "source": "https://github.com/theseer/tokenizer/tree/master"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/theseer",
+                    "type": "github"
+                }
+            ],
             "time": "2020-07-12T23:59:07+00:00"
         },
         {
@@ -7712,78 +9243,29 @@
                 "yii2",
                 "yii2-bookmarks"
             ],
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-bookmarks/issues",
+                "source": "https://github.com/wdmg/yii2-bookmarks"
+            },
             "time": "2020-03-25T20:11:31+00:00"
         },
         {
-            "name": "wdmg/yii2-comments",
-            "version": "0.0.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wdmg/yii2-comments.git",
-                "reference": "62708128b535ac3da95c041f70f3a8342d206389"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wdmg/yii2-comments/zipball/62708128b535ac3da95c041f70f3a8342d206389",
-                "reference": "62708128b535ac3da95c041f70f3a8342d206389",
-                "shasum": ""
-            },
-            "require": {
-                "wdmg/yii2-base": "^1.1.6",
-                "yiisoft/yii2": "^2.0.33"
-            },
-            "type": "yii2-extension",
-            "extra": {
-                "options": {
-                    "routePrefix": "admin"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "wdmg\\comments\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alexsander Vyshnyvetskyy",
-                    "email": "alex.vyshnyvetskyy@gmail.com"
-                },
-                {
-                    "name": "W.D.M.Group, Ukraine",
-                    "email": "wdmg.com.ua@gmail.com"
-                }
-            ],
-            "description": "Tree comments system",
-            "homepage": "https://github.com/wdmg/yii2-comments",
-            "keywords": [
-                "comments system",
-                "wdmg",
-                "yii2",
-                "yii2-comments"
-            ],
-            "time": "2020-03-25T20:20:20+00:00"
-        },
-        {
             "name": "wdmg/yii2-likes",
-            "version": "0.0.11",
+            "version": "0.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wdmg/yii2-likes.git",
-                "reference": "6bfbdd4881fe3faae45e9802967f30c32097ea67"
+                "reference": "3682eabe8326832c2f78391afd3184047fc33a34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wdmg/yii2-likes/zipball/6bfbdd4881fe3faae45e9802967f30c32097ea67",
-                "reference": "6bfbdd4881fe3faae45e9802967f30c32097ea67",
+                "url": "https://api.github.com/repos/wdmg/yii2-likes/zipball/3682eabe8326832c2f78391afd3184047fc33a34",
+                "reference": "3682eabe8326832c2f78391afd3184047fc33a34",
                 "shasum": ""
             },
             "require": {
-                "wdmg/yii2-base": "^1.0.1",
-                "yiisoft/yii2": "^2.0.20"
+                "wdmg/yii2-base": "^1.2.0",
+                "yiisoft/yii2": "^2.0.33"
             },
             "type": "yii2-extension",
             "extra": {
@@ -7818,20 +9300,24 @@
                 "yii2",
                 "yii2-likes"
             ],
-            "time": "2019-12-10T16:00:10+00:00"
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-likes/issues",
+                "source": "https://github.com/wdmg/yii2-likes"
+            },
+            "time": "2020-04-28T15:19:39+00:00"
         },
         {
             "name": "wdmg/yii2-messages",
-            "version": "0.0.9",
+            "version": "0.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wdmg/yii2-messages.git",
-                "reference": "f6fd83a84cebfb14604590727b5f081647c630a1"
+                "reference": "8b2ddc1639ea52995240996f34fb54fe8cf7d6c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wdmg/yii2-messages/zipball/f6fd83a84cebfb14604590727b5f081647c630a1",
-                "reference": "f6fd83a84cebfb14604590727b5f081647c630a1",
+                "url": "https://api.github.com/repos/wdmg/yii2-messages/zipball/8b2ddc1639ea52995240996f34fb54fe8cf7d6c9",
+                "reference": "8b2ddc1639ea52995240996f34fb54fe8cf7d6c9",
                 "shasum": ""
             },
             "require": {
@@ -7871,25 +9357,29 @@
                 "yii2",
                 "yii2-messages"
             ],
-            "time": "2020-04-14T14:26:06+00:00"
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-messages/issues",
+                "source": "https://github.com/wdmg/yii2-messages"
+            },
+            "time": "2020-04-27T23:29:34+00:00"
         },
         {
             "name": "wdmg/yii2-reposts",
-            "version": "0.0.9",
+            "version": "0.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wdmg/yii2-reposts.git",
-                "reference": "50ba3b143836e6cc833ff4f0fa7d04ebe2121203"
+                "reference": "8b99b101412868b291586b72beb0440d36db8014"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wdmg/yii2-reposts/zipball/50ba3b143836e6cc833ff4f0fa7d04ebe2121203",
-                "reference": "50ba3b143836e6cc833ff4f0fa7d04ebe2121203",
+                "url": "https://api.github.com/repos/wdmg/yii2-reposts/zipball/8b99b101412868b291586b72beb0440d36db8014",
+                "reference": "8b99b101412868b291586b72beb0440d36db8014",
                 "shasum": ""
             },
             "require": {
-                "wdmg/yii2-base": "^1.0.1",
-                "yiisoft/yii2": "^2.0.20"
+                "wdmg/yii2-base": "^1.2.0",
+                "yiisoft/yii2": "^2.0.33"
             },
             "type": "yii2-extension",
             "extra": {
@@ -7926,25 +9416,29 @@
                 "yii2",
                 "yii2-reposts"
             ],
-            "time": "2019-12-10T15:54:35+00:00"
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-reposts/issues",
+                "source": "https://github.com/wdmg/yii2-reposts"
+            },
+            "time": "2020-04-28T15:38:48+00:00"
         },
         {
             "name": "wdmg/yii2-reviews",
-            "version": "0.0.10",
+            "version": "0.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wdmg/yii2-reviews.git",
-                "reference": "f9af9879ef2b325fab7d09fc3888d05c7ddbcafa"
+                "reference": "b455cda63f1ae591dd5ff504ff010b70567a0874"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wdmg/yii2-reviews/zipball/f9af9879ef2b325fab7d09fc3888d05c7ddbcafa",
-                "reference": "f9af9879ef2b325fab7d09fc3888d05c7ddbcafa",
+                "url": "https://api.github.com/repos/wdmg/yii2-reviews/zipball/b455cda63f1ae591dd5ff504ff010b70567a0874",
+                "reference": "b455cda63f1ae591dd5ff504ff010b70567a0874",
                 "shasum": ""
             },
             "require": {
-                "wdmg/yii2-base": "^1.0.1",
-                "yiisoft/yii2": "^2.0.20"
+                "wdmg/yii2-base": "^1.2.0",
+                "yiisoft/yii2": "^2.0.33"
             },
             "type": "yii2-extension",
             "extra": {
@@ -7979,78 +9473,29 @@
                 "yii2",
                 "yii2-reviews"
             ],
-            "time": "2019-12-10T16:42:34+00:00"
-        },
-        {
-            "name": "wdmg/yii2-views",
-            "version": "0.0.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wdmg/yii2-views.git",
-                "reference": "98fd43fc981bb187dbc54ef67fdf5b6d4dca7d2b"
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-reviews/issues",
+                "source": "https://github.com/wdmg/yii2-reviews"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wdmg/yii2-views/zipball/98fd43fc981bb187dbc54ef67fdf5b6d4dca7d2b",
-                "reference": "98fd43fc981bb187dbc54ef67fdf5b6d4dca7d2b",
-                "shasum": ""
-            },
-            "require": {
-                "wdmg/yii2-base": "^1.0.1",
-                "yiisoft/yii2": "^2.0.20"
-            },
-            "type": "yii2-extension",
-            "extra": {
-                "options": {
-                    "routePrefix": "admin"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "wdmg\\views\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alexsander Vyshnyvetskyy",
-                    "email": "alex.vyshnyvetskyy@gmail.com"
-                },
-                {
-                    "name": "W.D.M.Group, Ukraine",
-                    "email": "wdmg.com.ua@gmail.com"
-                }
-            ],
-            "description": "System of accounting user views",
-            "homepage": "https://github.com/wdmg/yii2-views",
-            "keywords": [
-                "views",
-                "wdmg",
-                "yii2",
-                "yii2-views"
-            ],
-            "time": "2019-12-10T15:52:07+00:00"
+            "time": "2020-04-28T15:36:19+00:00"
         },
         {
             "name": "wdmg/yii2-votes",
-            "version": "0.0.9",
+            "version": "0.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wdmg/yii2-votes.git",
-                "reference": "830df5dc366f84a4e9ae220276f48c9096ec3cdf"
+                "reference": "425ad9bb6ff90e6bbbf8c90283ef3c308a8e09f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wdmg/yii2-votes/zipball/830df5dc366f84a4e9ae220276f48c9096ec3cdf",
-                "reference": "830df5dc366f84a4e9ae220276f48c9096ec3cdf",
+                "url": "https://api.github.com/repos/wdmg/yii2-votes/zipball/425ad9bb6ff90e6bbbf8c90283ef3c308a8e09f6",
+                "reference": "425ad9bb6ff90e6bbbf8c90283ef3c308a8e09f6",
                 "shasum": ""
             },
             "require": {
-                "wdmg/yii2-base": "^1.0.1",
-                "yiisoft/yii2": "^2.0.20"
+                "wdmg/yii2-base": "^1.2.0",
+                "yiisoft/yii2": "^2.0.33"
             },
             "type": "yii2-extension",
             "extra": {
@@ -8087,7 +9532,11 @@
                 "yii2",
                 "yii2-votes"
             ],
-            "time": "2019-12-10T15:46:38+00:00"
+            "support": {
+                "issues": "https://github.com/wdmg/yii2-votes/issues",
+                "source": "https://github.com/wdmg/yii2-votes"
+            },
+            "time": "2020-04-27T22:52:42+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -8136,6 +9585,10 @@
                 "check",
                 "validate"
             ],
+            "support": {
+                "issues": "https://github.com/webmozart/assert/issues",
+                "source": "https://github.com/webmozart/assert/tree/master"
+            },
             "time": "2020-07-08T17:02:28+00:00"
         },
         {
@@ -8205,6 +9658,27 @@
                 "debugger",
                 "yii2"
             ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2-debug/issues",
+                "source": "https://github.com/yiisoft/yii2-debug",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/yiisoft/yii2-debug",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-12-23T16:36:12+00:00"
         },
         {
@@ -8266,6 +9740,27 @@
                 "faker",
                 "yii2"
             ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2-faker/issues",
+                "source": "https://github.com/yiisoft/yii2-faker",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/yiisoft/yii2-faker",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-11-10T12:27:35+00:00"
         },
         {
@@ -8317,6 +9812,13 @@
                 "gii",
                 "yii2"
             ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2-gii/issues",
+                "source": "https://github.com/yiisoft/yii2-gii",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
             "time": "2020-01-17T13:33:30+00:00"
         }
     ],
@@ -8328,5 +9830,6 @@
     "platform": {
         "php": ">=5.6.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
