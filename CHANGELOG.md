@@ -2,6 +2,7 @@ Changelog
 =========
  
 ## 1.1.*
+ * Fixed envirounments
  * Update dependencies
  * Added Menu module
  * Update Guard module

@@ -16,16 +16,18 @@ P/s^ A little patience...😉
 
 # Requirements 
 * PHP 5.6 or higher
-* Yii2 v.2.0.33 and newest
+* Yii2 v.2.0.40 and newest
 * [Yii2 Base](https://github.com/wdmg/yii2-base)
 * [Yii2 Admin](https://github.com/wdmg/yii2-admin)
 * [Yii2 Activity](https://github.com/wdmg/yii2-activity)
 * [Yii2 Api](https://github.com/wdmg/yii2-api)
+* [Yii2 Menu](https://github.com/wdmg/yii2-menu)
 * [Yii2 Options](https://github.com/wdmg/yii2-options)
 * [Yii2 Guard](https://github.com/wdmg/yii2-guard)
 * [Yii2 Mailer](https://github.com/wdmg/yii2-mailer)
 * [Yii2 Terminal](https://github.com/wdmg/yii2-terminal)
 * [Yii2 Redirects](https://github.com/wdmg/yii2-redirects)
+* [Yii2 Robots.txt](https://github.com/wdmg/yii2-robots)
 * [Yii2 Stats](https://github.com/wdmg/yii2-stats)
 * [Yii2 Forms](https://github.com/wdmg/yii2-forms)
 * [Yii2 Services](https://github.com/wdmg/yii2-services)
