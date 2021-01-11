@@ -2,6 +2,7 @@ Changelog
 =========
  
 ## 1.1.1 (2021-01-11)
+ * Unfork from from yiisoft/yii2-app-basic
  * Update base app, fixed environments
  * Update dependencies
  * Added Menu module
