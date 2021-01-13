@@ -5,7 +5,7 @@ $db = require __DIR__ . '/test_db.php';
 /**
  * Application configuration shared by all test types
  */
-return [
+$config = [
     'id' => 'butterfly-cms-tests',
     'version' => '1.1.0',
     'basePath' => dirname(__DIR__),
@@ -38,6 +38,25 @@ return [
             ],
             */
         ],
+        'i18n' => [
+            'translations' => [
+                '*' => [
+                    'class' => 'yii\i18n\PhpMessageSource',
+                    'basePath' => '@app/messages',
+                    'sourceLanguage' => 'en-US',
+                ],
+            ],
+        ],
+    ],
+    'modules' => [
+        'admin' => [
+            'class' => 'wdmg\admin\Module',
+            'routePrefix' => 'admin'
+        ],
     ],
     'params' => $params,
 ];
+
+$config['bootstrap'][] = 'wdmg\admin\Bootstrap';
+
+return $config;
