@@ -5,7 +5,7 @@ $db = require __DIR__ . '/db.php';
 
 $config = [
     'id' => 'butterfly-cms-console',
-    'version' => '1.1.0',
+    'version' => '1.1.2',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'app\commands',
@@ -34,6 +34,13 @@ $config = [
             'itemChildTable' => '{{%rbac_childs}}',
             'itemTable' => '{{%rbac_roles}}',
             'ruleTable' => '{{%rbac_rules}}',
+        ],
+        'urlManager' => [
+            'hostInfo' => 'example.com',
+            'baseUrl' => 'http://example.com/',
+            'scriptUrl' => 'http://example.com/index.php',
+            'enablePrettyUrl' => true,
+            'showScriptName' => false
         ],
     ],
     'modules' => [

@@ -75,17 +75,18 @@ To install the app, run the following command`s in the console:
 After set of environment and configure db connection, run the following commands in the console for apply migrations:
 
     $ php yii admin/init
-    $ php yii options/init --choice=3
-    $ php yii users/init --choice=3
-    $ php yii rbac/init --choice=2
+    $ php yii admin/options/init --choice=3
+    $ php yii admin/users/init --choice=3
+    $ php yii admin/rbac/init --choice=2
 
 After apply all migrations you may login to dashboard:
 http://example.com/admin/ with username `admin` and password `admin`.
 
 # Status and version [in progress development]
-* v.1.1.1 - Added yii2-menu, yii2-robots, yii2-comments, yii2-guard. Update base app, fixed environments
-* v.1.1.0 - Added multi-language support (partially)
-* v.1.0.18 - Added yii2-media and yii2-forms modules. Update dependencies
-* v.1.0.17 - Added yii2-blog module. Update dependencies
-* v.1.0.16 - Update dependencies, added yii2-turbo, yii2-amp, yii2-search, yii2-rss, yii2-sitemap, yii2-widgets
-* v.1.0.15 - Added yii2-content module. Update dependencies
+* v.1.1.2 - Update README.md, dependencies, fixed environments.
+* v.1.1.1 - Added yii2-menu, yii2-robots, yii2-comments, yii2-guard. Update base app, fixed environments.
+* v.1.1.0 - Added multi-language support (partially).
+* v.1.0.18 - Added yii2-media and yii2-forms modules. Update dependencies.
+* v.1.0.17 - Added yii2-blog module. Update dependencies.
+* v.1.0.16 - Update dependencies, added yii2-turbo, yii2-amp, yii2-search, yii2-rss, yii2-sitemap, yii2-widgets.
+* v.1.0.15 - Added yii2-content module. Update dependencies.

@@ -7,7 +7,7 @@ $db = require __DIR__ . '/test_db.php';
  */
 $config = [
     'id' => 'butterfly-cms-tests',
-    'version' => '1.1.0',
+    'version' => '1.1.2',
     'basePath' => dirname(__DIR__),
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
@@ -23,10 +23,22 @@ $config = [
             'basePath' => __DIR__ . '/../web/assets',
         ],
         'urlManager' => [
+            'enablePrettyUrl' => true,
             'showScriptName' => true,
+            'rules' => [
+                '' => 'site/index',
+                '<action:admin>' => 'admin/<action>',
+                '<action:\w+(?!admin)>' => 'site/<action>',
+                '/' => 'site/index',
+
+            ],
+        ],
+        'cache' => [
+            'class' => 'yii\caching\FileCache',
         ],
         'user' => [
-            'identityClass' => 'app\models\User',
+            'identityClass' => 'wdmg\users\models\Users',
+            'enableAutoLogin' => true,
         ],
         'request' => [
             'cookieValidationKey' => 'test',
