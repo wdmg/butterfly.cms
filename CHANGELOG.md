@@ -1,6 +1,9 @@
 Changelog
 =========
  
+## 1.1.2 (2021-02-05)
+ * Update README.md, dependencies, fixed environments
+ 
 ## 1.1.1 (2021-01-11)
  * Unfork from from yiisoft/yii2-app-basic
  * Update base app, fixed environments
