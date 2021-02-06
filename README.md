@@ -82,7 +82,7 @@ After set of environment and configure db connection, run the following commands
 After apply all migrations you may login to dashboard:
 http://example.com/admin/ with username `admin` and password `admin`.
 
-# Get feedback
+# Discussion
 For questions, complaints and suggestions follow to [Butterfly.CMS community](https://spectrum.chat/butterfly-cms?tab=posts)
 
 # Status and version [in progress development]
