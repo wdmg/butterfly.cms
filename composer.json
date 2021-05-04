@@ -19,7 +19,7 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
         "yiisoft/yii2-httpclient": "~2.0",
         "wdmg/yii2-base": "^1.3.2",
-        "wdmg/yii2-admin": "^1.2.4",
+        "wdmg/yii2-admin": "^1.3.0",
         "wdmg/yii2-activity": "^1.1.13",
         "wdmg/yii2-api": "^1.3.12",
         "wdmg/yii2-options": "^1.6.0",
