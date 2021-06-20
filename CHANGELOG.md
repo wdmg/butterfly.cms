@@ -1,6 +1,9 @@
 Changelog
 =========
  
+## 1.1.3 (2021-06-20)
+ * Update dependencies
+
 ## 1.1.2 (2021-02-05)
  * Update README.md, dependencies, fixed environments
  
