@@ -86,6 +86,7 @@ http://example.com/admin/ with username `admin` and password `admin`.
 For questions, complaints and suggestions follow to [Butterfly.CMS community](https://spectrum.chat/butterfly-cms?tab=posts)
 
 # Status and version [in progress development]
+* v.1.1.3 - Update dependencies.
 * v.1.1.2 - Update README.md, dependencies, fixed environments.
 * v.1.1.1 - Added yii2-menu, yii2-robots, yii2-comments, yii2-guard. Update base app, fixed environments.
 * v.1.1.0 - Added multi-language support (partially).
