@@ -60,6 +60,20 @@ P/s^ A little patience...😉
 
 <small>* - actually in progress development</small>
 
+# Docker
+
+Build containers:
+
+    $ docker build -t example docker/
+
+Run containers:
+
+    $ docker-compose -f docker/docker-compose.yml up -d
+
+Stop services:
+
+    $ docker-compose -f docker/docker-compose.yml -p example stop
+
 # Installation
 To install the app, run the following command`s in the console:
 

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+printf "\n"
+printf "Docker Helper"
+printf "\n"
+printf "\n"
+exec cd . && docker-compose --project-name example build
+exec cd . && docker-compose --project-name example up
+exec cd . && docker run -d sphinx indexer --all -c /opt/sphinx/conf/sphinx.conf --rotate
+exec cd . && docker run -d sphinx indexer --all -c /opt/sphinx/conf/sphinx_delta.conf --rotate

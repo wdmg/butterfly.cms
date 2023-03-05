@@ -1,0 +1,83 @@
+version: "3"
+services:
+  www:
+    build: .
+    container_name: host
+    restart: on-failure
+    ports:
+      - "80:80"
+      - "443:443"
+      - "9003:9003"
+    hostname: example.dev
+    working_dir: /var/www
+    volumes:
+      - ./apache2/sites-enabled:/etc/apache2/sites-enabled
+      - ./logs:/var/log/mysql
+      - ./logs:/var/log/apache2
+      - ../:/var/www/html/
+      - ./config/db.local.php:/var/www/html/config/db.local.php
+      - ./config/params.local.php:/var/www/html/config/params.local.php
+    links:
+      - db
+    networks:
+      - default
+  db:
+    image: mysql
+    container_name: db
+    restart: on-failure
+    ports:
+      - "3306:3306"
+    networks:
+      - default
+    command: --sql-mode="NO_ENGINE_SUBSTITUTION" --init-connect='SET NAMES UTF8;' --character-set-server=utf8 --default-authentication-plugin=mysql_native_password
+    hostname:
+        db
+    volumes:
+      - ./logs:/var/log/mysql
+      - ./dump:/docker-entrypoint-initdb.d
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=example
+      - MYSQL_PASSWORD=root
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    restart: on-failure
+    ports:
+      - "8085:80"
+    depends_on:
+      - db
+    links:
+      - db:db
+    volumes:
+      - /sessions
+    networks:
+      - default
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+      UPLOAD_LIMIT: 300M
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
+      #PMA_ARBITRARY: 1
+      #PMA_ABSOLUTE_URI: http://localhost:8085/
+  sphinx:
+    image: macbre/sphinxsearch:latest
+    container_name: sphinx
+    restart: on-failure
+    depends_on:
+      - db
+    ports:
+      - "9312:9312"
+      - "9306:9306"
+    networks:
+      - default
+    #command: indexer --all -c /opt/sphinx/conf/sphinx.conf --rotate
+    hostname: sphinx
+    volumes:
+      - ./sphinx/index:/opt/sphinx/index  # directory where sphinx will store index data
+      - ./logs:/opt/sphinx/log  # directory where sphinx will store logs
+      - ./sphinx/conf/sphinx.conf:/opt/sphinx/conf/sphinx.conf
+volumes:
+  persistent:
