@@ -15,6 +15,9 @@ Thumbs.db
 # composer vendor dir
 /vendor
 
+# docker logs dir
+/docker/logs
+
 # composer itself is not needed
 composer.phar
 
