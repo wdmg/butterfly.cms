@@ -2,28 +2,26 @@ version: "3"
 services:
   www:
     build: .
-    container_name: host
+    container_name: example_host
     restart: on-failure
     ports:
       - "80:80"
       - "443:443"
       - "9003:9003"
-    hostname: example.dev
+    hostname: example.com
     working_dir: /var/www
     volumes:
       - ./apache2/sites-enabled:/etc/apache2/sites-enabled
       - ./logs:/var/log/mysql
       - ./logs:/var/log/apache2
       - ../:/var/www/html/
-      - ./config/db.local.php:/var/www/html/config/db.local.php
-      - ./config/params.local.php:/var/www/html/config/params.local.php
     links:
       - db
     networks:
       - default
   db:
     image: mysql
-    container_name: db
+    container_name: example_db
     restart: on-failure
     ports:
       - "3306:3306"
@@ -41,7 +39,7 @@ services:
       - MYSQL_PASSWORD=root
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
-    container_name: phpmyadmin
+    container_name: example_phpmyadmin
     restart: on-failure
     ports:
       - "8085:80"
@@ -63,8 +61,8 @@ services:
       #PMA_ARBITRARY: 1
       #PMA_ABSOLUTE_URI: http://localhost:8085/
   sphinx:
-    image: macbre/sphinxsearch:latest
-    container_name: sphinx
+    image: sphinxdoc/sphinx
+    container_name: example_sphinx
     restart: on-failure
     depends_on:
       - db
