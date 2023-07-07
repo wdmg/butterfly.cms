@@ -1,8 +1,17 @@
 Changelog
 =========
+
+## 1.3.0 (2023-07-07)
+* Update dependencies, copyrights
+
+## 1.2.1 (2023-06-21)
+* Update dependencies
+
+## 1.2.0 (2023-03-25)
+* Add Docker and update dependencies
  
 ## 1.1.4 (2023-03-24)
- Update dependencies and version
+* Update dependencies and version
  
 ## 1.1.3 (2021-06-20)
  * Update dependencies

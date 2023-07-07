@@ -1,5 +1,6 @@
 # phpstorm project files
 .idea
+/vendor/wdmg/*/.idea
 
 # netbeans project files
 nbproject

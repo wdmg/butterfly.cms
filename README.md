@@ -16,7 +16,7 @@ P/s^ A little patience...😉
 
 # Requirements 
 * PHP 5.6 or higher
-* Yii2 v.2.0.40 and newest
+* Yii2 v.2.0.47 and newest
 * [Yii2 Base](https://github.com/wdmg/yii2-base)
 * [Yii2 Admin](https://github.com/wdmg/yii2-admin)
 * [Yii2 Activity](https://github.com/wdmg/yii2-activity)
@@ -60,20 +60,6 @@ P/s^ A little patience...😉
 
 <small>* - actually in progress development</small>
 
-# Docker
-
-Build containers:
-
-    $ docker build -t example docker/
-
-Run containers:
-
-    $ docker-compose -f docker/docker-compose.yml up -d
-
-Stop services:
-
-    $ docker-compose -f docker/docker-compose.yml -p example stop
-
 # Installation
 To install the app, run the following command`s in the console:
 
@@ -96,15 +82,28 @@ After set of environment and configure db connection, run the following commands
 After apply all migrations you may login to dashboard:
 http://example.com/admin/ with username `admin` and password `admin`.
 
+# Docker
+
+Run the script `docker/docker-init.sh` or use manual instruction:
+
+####Build containers:
+
+        $ docker-compose -f docker/docker-compose.yml -p example build
+
+####Run containers:
+
+        $ docker-compose -f docker/docker-compose.yml -p example up -d www db phpmyadmin
+
+####Stop services:
+
+        $ docker-compose -f docker/docker-compose.yml -p example stop
+
+
+
 # Discussion
 For questions, complaints and suggestions follow to [Butterfly.CMS community](https://spectrum.chat/butterfly-cms?tab=posts)
 
-# Status and version [in progress development]
-* v.1.1.3 - Update dependencies.
-* v.1.1.2 - Update README.md, dependencies, fixed environments.
-* v.1.1.1 - Added yii2-menu, yii2-robots, yii2-comments, yii2-guard. Update base app, fixed environments.
-* v.1.1.0 - Added multi-language support (partially).
-* v.1.0.18 - Added yii2-media and yii2-forms modules. Update dependencies.
-* v.1.0.17 - Added yii2-blog module. Update dependencies.
-* v.1.0.16 - Update dependencies, added yii2-turbo, yii2-amp, yii2-search, yii2-rss, yii2-sitemap, yii2-widgets.
-* v.1.0.15 - Added yii2-content module. Update dependencies.
+# Status and version [ready to use]
+* v.1.3.0 - Update dependencies, copyrights.
+* v.1.2.1 - Update dependencies.
+* v.1.2.0 - Add Docker and update dependencies.
