@@ -104,6 +104,7 @@ Run the script `docker/docker-init.sh` or use manual instruction:
 For questions, complaints and suggestions follow to [Butterfly.CMS community](https://spectrum.chat/butterfly-cms?tab=posts)
 
 # Status and version [ready to use]
+* v.1.3.1 - Update dependencies
 * v.1.3.0 - Update dependencies, copyrights.
 * v.1.2.1 - Update dependencies.
 * v.1.2.0 - Add Docker and update dependencies.
