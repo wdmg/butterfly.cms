@@ -79,6 +79,11 @@ After set of environment and configure db connection, run the following commands
     $ php yii admin/users/init --choice=3
     $ php yii admin/rbac/init --choice=2
 
+# Demo
+You can also initialize the test site with demo data using the command:
+
+    $ php yii hello/demo
+
 After apply all migrations you may login to dashboard:
 http://example.com/admin/ with username `admin` and password `admin`.
 
