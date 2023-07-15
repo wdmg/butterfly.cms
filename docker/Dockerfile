@@ -1,8 +1,8 @@
 #!/usr/bin/env -S docker build . --tag=example:v1 --network=host --file
 
-FROM php:5.6-apache
+FROM php:7.2-apache
 
-RUN docker-php-ext-install mysqli mysql pdo pdo_mysql && docker-php-ext-enable mysqli mysql pdo pdo_mysql
+RUN docker-php-ext-install mysqli pdo pdo_mysql && docker-php-ext-enable mysqli pdo pdo_mysql
 
 RUN a2enmod rewrite
 RUN a2enmod headers
@@ -10,17 +10,20 @@ RUN a2enmod ssl
 
 RUN apt-get update && apt-get upgrade -y
 
-RUN apt-get install -y git mc zlib1g-dev libmcrypt-dev libpng-dev nano vim --no-install-recommends \
-    && docker-php-ext-install mcrypt zip
+RUN apt-get install -y git mc zlib1g-dev libpng-dev nano vim --no-install-recommends \
+    && docker-php-ext-install zip
+
+RUN apt-get install -y libmcrypt-dev
+RUN pecl install mcrypt-1.0.4 && docker-php-ext-enable mcrypt
 
 RUN docker-php-ext-install opcache && docker-php-ext-enable opcache
 RUN docker-php-ext-install gd
 
 RUN pecl channel-update pecl.php.net
-RUN pecl install xdebug-2.5.5 && docker-php-ext-enable xdebug
+RUN pecl install xdebug-3.1.6 && docker-php-ext-enable xdebug
 
 RUN apt-get update && apt-get install -y libmemcached11 libmemcachedutil2 build-essential libmemcached-dev libz-dev
-RUN pecl install memcached-2.2.0
+RUN pecl install memcached-3.0.0
 RUN echo extension=memcached.so >> /usr/local/etc/php/conf.d/memcached.ini
 
 RUN apt-get -y update \
