@@ -71,7 +71,7 @@
         "codeception/module-asserts": "^1.0.0",
         "codeception/module-phpbrowser": "^1.0",
         "codeception/module-webdriver": "^1.1",
-        "wdmg/yii2-reviews": "^0.0.11",
+        "wdmg/yii2-reviews": "^0.1.0",
         "wdmg/yii2-messages": "^0.0.10",
         "wdmg/yii2-likes": "^0.0.12",
         "wdmg/yii2-reposts": "^0.0.10",
